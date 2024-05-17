@@ -4,7 +4,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ### **If you wish to translate this mod, do not re-upload it. Instead, please leave a comment!**
 
-*I've easily spent over 100 hours making and updating this mod. Please leave your support with an endorsement or comment!*
+*I've easily spent over 100 hours making and updating this mod. Please leave your support on the modpages!*
 
 ---
 
