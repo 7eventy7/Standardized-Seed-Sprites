@@ -13,7 +13,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ![d-mod pages](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/1bb19eef-47c7-4f2e-b010-20ac666d2004)
 
-### Check out the mod pages where you can also download and view information all about this project!
+### Check out where you can also download and view information all about this project!
 > [Nexus Mods](https://www.nexusmods.com/stardewvalley/mods/21305)
 
 > [CurseForge](https://www.curseforge.com/stardewvalley/mods/standardized-seed-sprites)
@@ -22,13 +22,22 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ![d-gallery](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/11a43a02-c07a-46bb-adcb-0722bbf0a35c)
 
-### Check out references for all the avaliable config options, and other comparisons betweeen the different styles!
+### References for all the avaliable config options, and other comparisons betweeen the different styles!
 
 > [Image Gallery](https://github.com/7eventy7/Standardized-Seed-Sprites/blob/main/GALLERY.md)
 
 ---
 
-![d-configuration](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/763bfbd6-2146-408c-ac85-31e845026b6b)
+![d-changelogs](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/376577a9-6ef1-4f78-b978-9ed6c644ad6d)
+
+### Check out what's been changed from every single version ever released!
+
+> [Changelog](https://github.com/7eventy7/Standardized-Seed-Sprites/blob/main/CHANGELOG.md)
+
+---
+
+![d-configuration](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/66cfa596-b3f9-4c3f-945b-36c4107ca268)
+
 ### 6 seed packet variant options:
 - **Sensible**: Sleeves / Satchels / Stashes
 - **Seasonal**: Sleeves / Satchels / Stashes
@@ -114,6 +123,12 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 1. Delete the current version inside **"Stardew Valley/Mods"**
 2. Download the latest version and unzip it into **"Stardew Valley/Mods"**
 3. Run the game using **"SMAPI"**
+
+---
+
+![d-translations](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/4663ceda-68bf-4fe4-81fb-0d0d9ddf802f)
+
+## COMING SOON!
 
 ---
 
