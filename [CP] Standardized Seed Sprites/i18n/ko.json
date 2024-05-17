@@ -1,0 +1,181 @@
+{
+//CONFIG DEFINITIONS
+    // SEED PACKET VARIANT
+        "config.Seed Packet Variant.name": "씨앗 봉투 종류",
+        "config.Seed Packet Variant.description": "모든 씨앗에 대한 봉투의 종류 선택\n참고 사항은 모드 페이지의 이미지를 참조하세요",
+        "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
+        "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
+        "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
+        "config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
+        "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
+        "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
+
+    // SAPLING SACK COLOR
+        "config.Sapling Sack Color.name": "묘목 포장지 색상",
+        "config.Sapling Sack Color.description": "모든 묘목에 대한 포장지의 색상 선택\n참고 사항은 모드 페이지의 이미지를 참조하세요",
+        "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
+        "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
+        "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+
+    // GENERAL MOD TOGGLE
+        "config.= General Mod Toggle.name": "= 일반 모드 설정",
+        "config.= General Mod Toggle.description": "모드 전체의 리택스처 적용 설정",
+        "config.= General Mod Toggle.values.Enabled": "적용함",
+        "config.= General Mod Toggle.values.Disabled": "적용 안 함",
+
+    // SEED SPRITES TOGGLE
+        "config.Seed Sprites Toggle.name": "씨앗",
+        "config.Seed Sprites Toggle.description": "씨앗 리택스처 적용 설정",
+        "config.Seed Sprites Toggle.values.Enabled": "적용함",
+        "config.Seed Sprites Toggle.values.Disabled": "적용 안 함",
+
+    // SAPLING SPRITES TOGGLE
+        "config.Sapling Sprites Toggle.name": "묘목",
+        "config.Sapling Sprites Toggle.description": "묘목 리택스처 적용 설정",
+        "config.Sapling Sprites Toggle.values.Enabled": "적용함",
+        "config.Sapling Sprites Toggle.values.Disabled": "적용 안 함",
+
+    // BUSH SPRITES TOGGLE
+        "config.Bush Sprites Toggle.name": "관목",
+        "config.Bush Sprites Toggle.description": "관목 리택스처 적용 설정",
+        "config.Bush Sprites Toggle.values.Enabled": "적용함",
+        "config.Bush Sprites Toggle.values.Disabled": "적용 안 함",
+
+    // TRELLIS SPRITES TOGGLE
+        "config.Trellis Sprites Toggle.name": "격자 식물",
+        "config.Trellis Sprites Toggle.description": "격자 식물 리택스처 적용 설정",
+        "config.Trellis Sprites Toggle.values.Enabled": "적용함",
+        "config.Trellis Sprites Toggle.values.Disabled": "적용 안 함",
+
+    // TEA SAPLING SPRITES TOGGLE
+        "config.Tea Sapling Sprites Toggle.name": "차 나무",
+        "config.Tea Sapling Sprites Toggle.description": "차 나무 리택스처 적용 설정",
+        "config.Tea Sapling Sprites Toggle.values.Enabled": "적용함",
+        "config.Tea Sapling Sprites Toggle.values.Disabled": "적용 안 함",
+
+    // MIXED SEED SPRITES TOGGLE
+        "config.Mixed Seed Sprites Toggle.name": "씨앗 모음",
+        "config.Mixed Seed Sprites Toggle.description": "씨앗 모음 리택스처 적용 설정",
+        "config.Mixed Seed Sprites Toggle.values.Enabled": "적용함",
+        "config.Mixed Seed Sprites Toggle.values.Disabled": "적용 안 함",
+
+    // SECTION A - VANILLA
+        "config.$ Toggle All Sprites - Section A.name": "$ 기본 게임 관련 작물",
+        "config.$ Toggle All Sprites - Section A.description": "기본 게임 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section A.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section A.values.Disabled": "적용 안 함",
+
+    // SECTION B - STARDEW VALLEY EXPANDED
+        "config.$ Toggle All Sprites - Section B.name": "$ 대확장 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section B.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section B.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section B.values.Disabled": "적용 안 함",
+
+    // SECTION C - EAST SCARP
+        "config.$ Toggle All Sprites - Section C.name": "$ 이스트 스카프 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section C.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section C.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section C.values.Disabled": "적용 안 함",
+
+    // SECTION D - VISIT MOUNT VAPIUS
+        "config.$ Toggle All Sprites - Section D.name": "$ Visit Mount Vapius 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section D.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section D.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section D.values.Disabled": "적용 안 함",
+
+    // SECTION E - SERENE MEADOW
+        "config.$ Toggle All Sprites - Section E.name": "$ Serene Meadow 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section E.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section E.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section E.values.Disabled": "적용 안 함",
+
+    // SECTION F - GROWABLE FORAGE
+        "config.$ Toggle All Sprites - Section F.name": "$ Growable Forage 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section F.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section F.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section F.values.Disabled": "적용 안 함",
+
+    // SECTION G - CORNUCOPIA CROPS
+        "config.$ Toggle All Sprites - Section G.name": "$ Cornucopia Crops 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section G.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section G.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section G.values.Disabled": "적용 안 함",
+
+    // SECTION H - CORNUCOPIA HERBS
+        "config.$ Toggle All Sprites - Section H.name": "$ Cornucopia Herbs 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section H.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section H.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section H.values.Disabled": "적용 안 함",
+
+    // SECTION I - CORNUCOPIA FLOWERS
+        "config.$ Toggle All Sprites - Section I.name": "$ Cornucopia Flowers 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section I.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section I.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section I.values.Disabled": "적용 안 함",
+
+    // SECTION J - ILUCIE WINTER CROPS
+        "config.$ Toggle All Sprites - Section J.name": "$ Ilucie winter crops 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section J.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section J.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section J.values.Disabled": "적용 안 함",
+
+    // SECTION K - FLOWER GARDEN 2
+        "config.$ Toggle All Sprites - Section K.name": "$ Flower garden 2 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section K.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section K.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section K.values.Disabled": "적용 안 함",
+
+    // SECTION L - GRAPES OF FERNGILL
+        "config.$ Toggle All Sprites - Section L.name": "$ Grapes of Ferngill 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section L.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section L.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section L.values.Disabled": "적용 안 함",
+
+    // SECTION M - ATELIER GOODS FORAGER
+        "config.$ Toggle All Sprites - Section M.name": "$ Atelier Goods Forager 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section M.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section M.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section M.values.Disabled": "적용 안 함",
+
+    // SECTION N - GARDEN VARIETY MIXED SEEDS
+        "config.$ Toggle All Sprites - Section N.name": "$ Garden Variety Mixed Seeds 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section N.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section N.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section N.values.Disabled": "적용 안 함",
+
+    // SECTION O - FORAGE OF FERNGILL
+        "config.$ Toggle All Sprites - Section O.name": "$ Forage of Ferngill 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section O.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section O.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section O.values.Disabled": "적용 안 함",
+
+    // SECTION P - GRAINS OVERHULL
+        "config.$ Toggle All Sprites - Section P.name": "$ Grains Overhull 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section P.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section P.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section P.values.Disabled": "적용 안 함",
+
+    // SECTION Q - CLOUDBERRIES AS FORAGE
+        "config.$ Toggle All Sprites - Section Q.name": "$ Cloudberries As Forage 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section Q.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section Q.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section Q.values.Disabled": "적용 안 함",
+
+    // SECTION R - UNCLE IRON TEA
+        "config.$ Toggle All Sprites - Section R.name": "$ Uncle Iroh Tea 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section R.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section R.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section R.values.Disabled": "적용 안 함",
+
+    // SECTION S - POLYAMORY SWEET
+        "config.$ Toggle All Sprites - Section S.name": "$ Polyamory Sweet 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section S.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section S.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section S.values.Disabled": "적용 안 함",
+
+    // SECTION T - ORE CROPS
+        "config.$ Toggle All Sprites - Section T.name": "$ Ore Crops 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section T.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section T.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "적용 안 함"
+}
