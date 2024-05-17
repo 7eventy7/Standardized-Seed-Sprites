@@ -1,6 +1,7 @@
-![TITLE](https://i.imgur.com/x7YC1RF.png)
+![Title-Page](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/dcacedea-36a2-4f16-961b-42fc27f02232)
 
-![INFORMATION](https://i.imgur.com/kcEFiWW.png)
+![d-information](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/9ee42555-8ae8-46af-9c4b-27662a3cd7f5)
+
 
 This Stardew Valley mod retextures seeds, starters, and saplings from over fifteen different mods into uniform sleeves, satchels, stashes, and sacks. It's time to enhance your farming experience with a completely visually unified inventory! Choose from sensible designs featuring well-established color palettes, or seasonal variations that reflect the hues of the current season. All variants also include intuitive icons for trellis and bush seeds, indicating which plants cannot be walked through. The mod also includes three color options for the sacks that saplings are held in. Use the cream color option if you want sapling sacks that match with sensible stashes. Every single component is heavily customizable, including various configurable categories that can be toggled off and on at will. The extensive support and functionality of this mod have been made possible through the generous collaboration and willingness of other mod authors to share their assets. Please view the images for packet variants, sapling sack colors, and other comparative references.
 
@@ -10,22 +11,39 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ---
 
-![CONFIGURATION](https://i.imgur.com/TE1wdXd.png)
+![d-mod pages](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/1bb19eef-47c7-4f2e-b010-20ac666d2004)
 
+### Check out the mod pages where you can also download and view information all about this project!
+> [Nexus Mods](https://www.nexusmods.com/stardewvalley/mods/21305)
+
+> [CurseForge](https://www.curseforge.com/stardewvalley/mods/standardized-seed-sprites)
+
+---
+
+![d-gallery](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/11a43a02-c07a-46bb-adcb-0722bbf0a35c)
+
+### Check out references for all the avaliable config options, and other comparisons betweeen the different styles!
+
+> [Image Gallery](https://github.com/7eventy7/Standardized-Seed-Sprites/blob/main/GALLERY.md)
+
+---
+
+![d-configuration](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/763bfbd6-2146-408c-ac85-31e845026b6b)
 ### 6 seed packet variant options:
 - **Sensible**: Sleeves / Satchels / Stashes
 - **Seasonal**: Sleeves / Satchels / Stashes
 
-*Default: "Sensible Sleeves"*
+> *Default: "Sensible Sleeves"*
 
 ### 3 sapling sack color options:
 - Cloud / Cream / Chest
 
-*Default: "Cream"*
+> *Default: "Cream"*
 
 ---
 
-![COMPATABILITY](https://i.imgur.com/RTIAA3v.png)
+![d-compatability](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/4764966c-89b2-4376-96f2-8e31ba78072a)
+
 
 ### **Stardew Valley v1.6.0+ on Linux, Mac, and Windows**
 - Extensively configurable toggles for Generic Mod Config Menu
@@ -72,7 +90,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ---
 
-![DESIGN ETHOS](https://i.imgur.com/kftmqQx.png)
+![d-design ethos](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/3d5af1d1-8f25-481f-bf90-af21eab9a42d)
 
 - Maintain vanilla style and feel
 - Improve viability of crop iconography
@@ -83,7 +101,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ---
 
-![INSTALLATION](https://i.imgur.com/wioS9lx.png)
+![d-installation](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/5c0ac61c-4fc0-4ed3-ad06-c4d49170e53a)
 
 1. Install the latest version of **"SMAPI"** & **"Content Patcher"**
 2. Download this mod and unzip it into **"Stardew Valley/Mods"**
@@ -91,7 +109,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ---
 
-![UPDATING](https://i.imgur.com/laPkYA0.png)
+![d-updating](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/179d0ff3-e7b2-4ae3-8c9e-24e6916057ad)
 
 1. Delete the current version inside **"Stardew Valley/Mods"**
 2. Download the latest version and unzip it into **"Stardew Valley/Mods"**
@@ -99,13 +117,13 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ---
 
-![ADDITIONAL](https://i.imgur.com/HEsoBg0.png)
+![d-additional](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/f27f3f5c-323b-47af-ab5f-e82ed3ac1e61)
 
 ### Other Mods That Pair Well:
 - [Passable Crops](https://www.nexusmods.com/stardewvalley/mods/15223)
 
 
 
-**Please submit any issues, feedback, suggestions, or mods you would like to see support added for.**
-
-*It helps me improve the mod immensely!*
+> Please submit any issues, feedback, suggestions, or mods you would like to see support added for.
+>
+> It helps me improve the mod immensely!
