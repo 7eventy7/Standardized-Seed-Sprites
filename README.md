@@ -22,7 +22,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ![d-changelog](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/b2ca18c6-9e68-4b38-a39a-935e5cb61e3b)
 
-### Check out what has been changed from every single version ever released!
+### Check out what has been added or changed from every single version ever released!
 
 > [Changelog](https://github.com/7eventy7/Standardized-Seed-Sprites/blob/main/CHANGELOG.md)
 
