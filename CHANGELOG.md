@@ -1,6 +1,8 @@
 # CHANGELOG
 
-## Version 2.0.0
+Check out what has been changed from every single version ever released!
+
+## [Version 2.0.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v2.0.0)
 ### Added
 - Support for "Polyamory Sweet"
 - Support for "Ore Crops"
@@ -30,7 +32,7 @@
 - "Rye Seed" sprites
 - "Garden Variety Fruit Seed" sprites
 
-## Version 1.9.0
+## [Version 1.9.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.9.0)
 ### Added
 - Support for "Uncle Iroh Tea"
 - "Tea Sapling Sprites Toggle"
@@ -41,7 +43,7 @@
 - Saplings moved to "Module 5"
 - Saplings no longer dependent on "Packet Variant"
 
-## Version 1.8.0
+## [Version 1.8.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.8.0)
 ### Added
 - Support for "Atelier Goods Forager"
 - Support for "Garden Variety Mixed Seeds"
@@ -61,7 +63,7 @@
 - "content.json" commenting layout
 - "Sunflower Seed" sprite
 
-## Version 1.7.0
+## [Version 1.7.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.7.0)
 ### Added
 - Support for "Quaint Living - Flower Garden 2"
 - Support for "Lumisteria Serene Meadow"
@@ -75,12 +77,12 @@
 - "East Scarp Spritesheet" fixed
 - "Rose Fall Starter 'ToArea'" fixed
 
-## Version 1.6.0
+## [Version 1.6.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.6.0)
 ### Added
 - Support for "Visit Mount Vapius"
 - Mod Config Menu "Toggles" for each section
 
-## Version 1.5.0
+## [Version 1.5.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.5.0)
 ### Added
 - Support for "Growable Forage & Crop Bushes"
 - Support for "Cornucopia Crops"
@@ -99,12 +101,12 @@
 - "Moonflower Seed" sprite
 - "Serruria Seed" sprite
 
-## Version 1.4.0
+## [Version 1.4.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.4.0)
 ### Added
 - Support for "East Scarp"
 - Exclusion for "Vanilla Tweaks.Farming"
 
-## Version 1.3.0
+## [Version 1.3.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.3.0)
 ### Added
 - Spritesheets for each module
 
@@ -113,14 +115,14 @@
 - Internal code simplicity
 - File structure organization
 
-## Version 1.2.0
+## [Version 1.2.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.2.0)
 ### Added
 - Exclusion for "Better Crops And Foraging"
 
 ### Changed
 - General art pass
 
-## Version 1.1.0
+## [Version 1.1.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.1.0)
 ### Added
 - Support for "Mod Config Menu"
 
@@ -129,5 +131,5 @@
 - "Mixed Seed" Sprite
 - "Mixed Flower Seed" Sprite
 
-## Version 1.0.0
+## [Version 1.0.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v1.0.0)
 ### Initial mod release
