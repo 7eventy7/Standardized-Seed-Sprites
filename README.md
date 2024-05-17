@@ -1,3 +1,5 @@
+<div align="center">
+
 ![INFORMATION](https://i.imgur.com/kcEFiWW.png)
 
 This mod retextures seeds, starters, and saplings from over fifteen different mods into uniform sleeves, satchels, stashes, and sacks. It's time to enhance your farming experience with a completely visually unified inventory! Choose from sensible designs featuring well-established color palettes, or seasonal variations that reflect the hues of the current season. All variants also include intuitive icons for trellis and bush seeds, indicating which plants cannot be walked through. The mod also includes three color options for the sacks that saplings are held in. Use the cream color option if you want sapling sacks that match with sensible stashes. Every single component is heavily customizable, including various configurable categories that can be toggled off and on at will. The extensive support and functionality of this mod have been made possible through the generous collaboration and willingness of other mod authors to share their assets. Please view the images for packet variants, sapling sack colors, and other comparative references.
@@ -5,7 +7,8 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 **If you wish to translate this mod, do not re-upload it. Instead, please leave a comment!**
 
 *I've easily spent over 100 hours making and updating this mod. Please leave your support with an endorsement or comment!*
-#
+
+---
 
 ![CONFIGURATION](https://i.imgur.com/TE1wdXd.png)
 
@@ -20,7 +23,9 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 
 *Default: "Cream"*
 
-# ![COMPATABILITY](https://i.imgur.com/RTIAA3v.png)
+---
+
+![COMPATABILITY](https://i.imgur.com/RTIAA3v.png)
 
 ## Stardew Valley v1.6.0+ on Linux, Mac, and Windows
 - Extensively configurable toggles for Generic Mod Config Menu
@@ -65,7 +70,9 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 - **R** - [Uncle Iroh Tea](https://www.nexusmods.com/stardewvalley/mods/22376) (1)
 - **T** - [Ore Crops](https://www.nexusmods.com/stardewvalley/mods/22219) (1)
 
-# ![DESIGN ETHOS](https://i.imgur.com/kftmqQx.png)
+---
+
+![DESIGN ETHOS](https://i.imgur.com/kftmqQx.png)
 
 - Maintain vanilla style and feel
 - Improve viability of crop iconography
@@ -74,21 +81,29 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 - Color options for sapling sacks
 - Wild tree seeds are unchanged
 
-# ![INSTALLATION](https://i.imgur.com/wioS9lx.png)
+---
+
+![INSTALLATION](https://i.imgur.com/wioS9lx.png)
 
 1. Install the latest version of **"SMAPI"** & **"Content Patcher"**
 2. Download this mod and unzip it into **"Stardew Valley/Mods"**
 3. Run the game using **"SMAPI"**
 
-# ![UPDATING](https://i.imgur.com/laPkYA0.png)
+---
+
+![UPDATING](https://i.imgur.com/laPkYA0.png)
 
 1. Delete the current version inside **"Stardew Valley/Mods"**
 2. Download the latest version and unzip it into **"Stardew Valley/Mods"**
 3. Run the game using **"SMAPI"**
 
-# ![ADDITIONAL](https://i.imgur.com/HEsoBg0.png)
+---
+
+![ADDITIONAL](https://i.imgur.com/HEsoBg0.png)
 
 ## Other Mods That Pair Well:
 - [Passable Crops](https://www.nexusmods.com/stardewvalley/mods/15223)
 
 **Please submit any issues, feedback, suggestions, or mods you would like to see support added for. It helps me improve the mod immensely!**
+
+</div>
