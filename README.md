@@ -102,4 +102,5 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 ### Other Mods That Pair Well:
 - [Passable Crops](https://www.nexusmods.com/stardewvalley/mods/15223)
 
-**Please submit any issues, feedback, suggestions, or mods you would like to see support added for. It helps me improve the mod immensely!**
+**Please submit any issues, feedback, suggestions, or mods you would like to see support added for.**
+*It helps me improve the mod immensely!*
