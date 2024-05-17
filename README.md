@@ -39,8 +39,8 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 ![d-configuration](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/66cfa596-b3f9-4c3f-945b-36c4107ca268)
 
 ### 6 seed packet variant options:
-- **Sensible**: Sleeves / Satchels / Stashes
-- **Seasonal**: Sleeves / Satchels / Stashes
+- **(Sensible)** Sleeves / Satchels / Stashes
+- **(Seasonal)** Sleeves / Satchels / Stashes
 
 > *Default: "Sensible Sleeves"*
 
