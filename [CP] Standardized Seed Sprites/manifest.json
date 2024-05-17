@@ -1,0 +1,21 @@
+{
+    "Name": "Standardized Seed Sprites",
+    "Author": "7eventy7",
+    "Version": "2.0.1",
+    "Description": "Uniform sprites for all seeds, starters, and saplings",
+    "UniqueID": "7eventy7.StandardizedSeedSprites",
+    "UpdateKeys": [ "Nexus:21305" ],
+    "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+    {
+      "UniqueID": "cometkins.BetterCropsAndForaging",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Taiyo.VanillaTweaks.Farming",
+      "IsRequired": false
+    }
+  ]
+}
