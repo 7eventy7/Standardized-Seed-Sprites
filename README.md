@@ -1,3 +1,5 @@
+![TITLE](https://i.imgur.com/x7YC1RF.png)
+
 ![INFORMATION](https://i.imgur.com/kcEFiWW.png)
 
 This Stardew Valley mod retextures seeds, starters, and saplings from over fifteen different mods into uniform sleeves, satchels, stashes, and sacks. It's time to enhance your farming experience with a completely visually unified inventory! Choose from sensible designs featuring well-established color palettes, or seasonal variations that reflect the hues of the current season. All variants also include intuitive icons for trellis and bush seeds, indicating which plants cannot be walked through. The mod also includes three color options for the sacks that saplings are held in. Use the cream color option if you want sapling sacks that match with sensible stashes. Every single component is heavily customizable, including various configurable categories that can be toggled off and on at will. The extensive support and functionality of this mod have been made possible through the generous collaboration and willingness of other mod authors to share their assets. Please view the images for packet variants, sapling sack colors, and other comparative references.
