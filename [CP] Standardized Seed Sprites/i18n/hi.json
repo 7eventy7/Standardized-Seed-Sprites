@@ -1,0 +1,181 @@
+{
+//CONFIG DEFINITIONS
+    // SEED PACKET VARIANT
+        "config.Seed Packet Variant.name": "बीज पैकेट संस्करण",
+        "config.Seed Packet Variant.description": "सभी बीजों के स्प्राइट के लिए संस्करण का चयन करें।\nअपने संदर्भ के लिए मॉड पेज पर सभी छवियां देखें।",
+        "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
+        "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
+        "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
+        "config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
+        "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
+        "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
+
+    // SAPLING SACK COLOR
+        "config.Sapling Sack Color.name": "पौधे की बोरी का रंग",
+        "config.Sapling Sack Color.description": "सभी पौधों के स्प्राइट के लिए बोरी का रंग चुनें.\nअपने संदर्भ के लिए मॉड पेज पर सभी छवियां देखें।",
+        "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
+        "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
+        "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+
+    // GENERAL MOD TOGGLE
+        "config.= General Mod Toggle.name": "= सामान्य मोड टॉगल",
+        "config.= General Mod Toggle.description": "संपूर्ण मॉड को सक्रिय/निष्क्रिय करें।",
+        "config.= General Mod Toggle.values.Enabled": "चालू करो",
+        "config.= General Mod Toggle.values.Disabled": "बंद करें",
+
+    // SEED SPRITES TOGGLE
+        "config.Seed Sprites Toggle.name": "बीज स्प्राइट बदलने के लिए",
+        "config.Seed Sprites Toggle.description": "बीज स्प्राइट की लोडिंग स्थिति बदलने के लिए।",
+        "config.Seed Sprites Toggle.values.Enabled": "चालू करो",
+        "config.Seed Sprites Toggle.values.Disabled": "बंद करें",
+    
+    // SAPLING SPRITES TOGGLE
+        "config.Sapling Sprites Toggle.name": "पौधे के स्प्राइट को बदलने के लिए",
+        "config.Sapling Sprites Toggle.description": "प्लांट स्प्राइट की लोडिंग स्थिति को बदलने के लिए।",
+        "config.Sapling Sprites Toggle.values.Enabled": "चालू करो",
+        "config.Sapling Sprites Toggle.values.Disabled": "बंद करें",
+
+    // BUSH SPRITES TOGGLE
+        "config.Bush Sprites Toggle.name": "बुश स्प्राइट्स को बदलने के लिए",
+        "config.Bush Sprites Toggle.description": "कस्टम बुश स्प्राइट की लोडिंग स्थिति बदलने के लिए।",
+        "config.Bush Sprites Toggle.values.Enabled": "चालू करो",
+        "config.Bush Sprites Toggle.values.Disabled": "बंद करें",
+
+    // TRELLIS SPRITES TOGGLE
+        "config.Trellis Sprites Toggle.name": "ट्रेलिस स्प्राइट्स को बदलने के लिए",
+        "config.Trellis Sprites Toggle.description": "कस्टम बुश स्प्राइट की लोडिंग स्थिति बदलने के लिए।",
+        "config.Trellis Sprites Toggle.values.Enabled": "चालू करो",
+        "config.Trellis Sprites Toggle.values.Disabled": "बंद करें",
+
+    // TEA SAPLING SPRITES TOGGLE
+        "config.Tea Sapling Sprites Toggle.name": "चाय के पौधे के स्प्राइट को बदलने के लिए",
+        "config.Tea Sapling Sprites Toggle.description": "चाय के पौधे स्प्राइट की लोडिंग स्थिति को बदलने के लिए।",
+        "config.Tea Sapling Sprites Toggle.values.Enabled": "चालू करो",
+        "config.Tea Sapling Sprites Toggle.values.Disabled": "बंद करें",
+
+    // MIXED SEED SPRITES TOGGLE
+        "config.Mixed Seed Sprites Toggle.name": "मिश्रित बीज स्प्राइट को बदलने के लिए",
+        "config.Mixed Seed Sprites Toggle.description": "मिश्रित बीज स्प्राइट की लोडिंग स्थिति को बदलने के लिए।",
+        "config.Mixed Seed Sprites Toggle.values.Enabled": "चालू करो",
+        "config.Mixed Seed Sprites Toggle.values.Disabled": "बंद करें",
+
+    // SECTION A - VANILLA
+        "config.$ Toggle All Sprites - Section A.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग ऐ",
+        "config.$ Toggle All Sprites - Section A.description": "सामान्य गेम में सभी स्प्राइट की लोडिंग स्थिति को बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section A.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section A.values.Disabled": "बंद करें",
+
+    // SECTION B - STARDEW VALLEY EXPANDED
+        "config.$ Toggle All Sprites - Section B.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग बी",
+        "config.$ Toggle All Sprites - Section B.description": "'स्टारड्यू वैली एक्सपेन्डेड' से सभी स्प्राइट्स की लोडिंग स्थिति को बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section B.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section B.values.Disabled": "बंद करें",
+
+    // SECTION C - EAST SCARP
+        "config.$ Toggle All Sprites - Section C.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग सी",
+        "config.$ Toggle All Sprites - Section C.description": "'ईस्ट स्कार्प' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section C.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section C.values.Disabled": "बंद करें",
+
+    // SECTION D - VISIT MOUNT VAPIUS
+        "config.$ Toggle All Sprites - Section D.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग डी",
+        "config.$ Toggle All Sprites - Section D.description": "'विज़िट माउंट वेपियस' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section D.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section D.values.Disabled": "बंद करें",
+
+    // SECTION E - SERENE MEADOW
+        "config.$ Toggle All Sprites - Section E.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग ई",
+        "config.$ Toggle All Sprites - Section E.description": "'सेरीन मीडो' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section E.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section E.values.Disabled": "बंद करें",
+
+    // SECTION F - GROWABLE FORAGE
+        "config.$ Toggle All Sprites - Section F.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग एफ",
+        "config.$ Toggle All Sprites - Section F.description": "'ग्रोएबल फोरेज' से सभी स्प्राइट्स की लोडिंग स्थिति को बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section F.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section F.values.Disabled": "बंद करें",
+
+    // SECTION G - CORNUCOPIA CROPS
+        "config.$ Toggle All Sprites - Section G.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग जी",
+        "config.$ Toggle All Sprites - Section G.description": "'कॉर्नुकोपिया क्रॉप्स' से सभी स्प्राइट्स की लोडिंग स्थिति को बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section G.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section G.values.Disabled": "बंद करें",
+
+    // SECTION H - CORNUCOPIA HERBS
+        "config.$ Toggle All Sprites - Section H.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग एच",
+        "config.$ Toggle All Sprites - Section H.description": "'कॉर्नुकोपिया हर्ब्स' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section H.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section H.values.Disabled": "बंद करें",
+
+    // SECTION I - CORNUCOPIA FLOWERS
+        "config.$ Toggle All Sprites - Section I.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग आई",
+        "config.$ Toggle All Sprites - Section I.description": "'कॉर्नुकोपिया फ्लावर्स' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section I.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section I.values.Disabled": "बंद करें",
+
+    // SECTION J - ILUCIE WINTER CROPS
+        "config.$ Toggle All Sprites - Section J.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग जे",
+        "config.$ Toggle All Sprites - Section J.description": "'इलुसी विंटर क्रॉप्स' से सभी स्प्राइट्स की लोडिंग स्थिति को बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section J.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section J.values.Disabled": "बंद करें",
+
+    // SECTION K - FLOWER GARDEN 2
+        "config.$ Toggle All Sprites - Section K.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग के",
+        "config.$ Toggle All Sprites - Section K.description": "'फ्लावर गार्डन 2' से सभी स्प्राइट की लोडिंग स्थिति को बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section K.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section K.values.Disabled": "बंद करें",
+
+    // SECTION L - GRAPES OF FERNGILL
+        "config.$ Toggle All Sprites - Section L.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग एल",
+        "config.$ Toggle All Sprites - Section L.description": "'ग्रेप्स ऑफ़ फर्नगिल' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section L.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section L.values.Disabled": "बंद करें",
+
+    // SECTION M - ATELIER GOODS FORAGER
+        "config.$ Toggle All Sprites - Section M.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग एम",
+        "config.$ Toggle All Sprites - Section M.description": "'एटेलियर गुड्स फॉरएजर' से सभी स्प्राइट्स की लोडिंग स्थिति को बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section M.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section M.values.Disabled": "बंद करें",
+
+    // SECTION N - GARDEN VARIETY MIXED SEEDS
+        "config.$ Toggle All Sprites - Section N.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग एन",
+        "config.$ Toggle All Sprites - Section N.description": "'गार्डन वैरायटी मिक्स्ड सीडज़' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section N.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section N.values.Disabled": "बंद करें",
+
+    // SECTION O - FORAGE OF FERNGILL
+        "config.$ Toggle All Sprites - Section O.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग ओ",
+        "config.$ Toggle All Sprites - Section O.description": "'फॉरेज ऑफ फर्नगिल' से सभी स्प्राइट्स की लोडिंग स्थिति को बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section O.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section O.values.Disabled": "बंद करें",
+
+    // SECTION P - GRAINS OVERHULL
+        "config.$ Toggle All Sprites - Section P.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग पी",
+        "config.$ Toggle All Sprites - Section P.description": "'ग्रेन्स ओवरहॉल' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section P.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section P.values.Disabled": "बंद करें",
+
+    // SECTION Q - CLOUDBERRIES AS FORAGE
+        "config.$ Toggle All Sprites - Section Q.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग क्यू",
+        "config.$ Toggle All Sprites - Section Q.description": "'क्लाउडबेरीज़ एह्ज़ फ़ॉरेज' से सभी स्प्राइट की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section Q.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section Q.values.Disabled": "बंद करें",
+
+    // SECTION R - UNCLE IROH TEA
+        "config.$ Toggle All Sprites - Section R.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग आर",
+        "config.$ Toggle All Sprites - Section R.description": "'अंकल इरोह टी' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section R.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section R.values.Disabled": "बंद करें",
+
+    // SECTION S - POLYAMORY SWEET
+        "config.$ Toggle All Sprites - Section S.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग एस",
+        "config.$ Toggle All Sprites - Section S.description": "'पॉलीमोरी स्वीट' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section S.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section S.values.Disabled": "बंद करें",
+
+    // SECTION T - ORE CROPS
+        "config.$ Toggle All Sprites - Section T.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग टी",
+        "config.$ Toggle All Sprites - Section T.description": "'ओअर क्रॉप्स' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section T.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "बंद करें"
+}
