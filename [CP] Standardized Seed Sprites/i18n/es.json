@@ -1,0 +1,181 @@
+{
+//CONFIG DEFINITIONS
+    // SEED PACKET VARIANT
+        "config.Seed Packet Variant.name": "Variante del Paquete de Semillas",
+        "config.Seed Packet Variant.description": "Establece la variante del paquete para todos los sprites de semillas.\nObserve las imágenes en la página del mod para obtener referencias.",
+        "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
+        "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
+        "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
+        "config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
+        "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
+        "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
+
+    // SAPLING SACK COLOR
+        "config.Sapling Sack Color.name": "Color del Saco de Retoño de Árboles",
+        "config.Sapling Sack Color.description": "Establece el color del saco para todos los sprites de retoños de árboles.\nObserve las imágenes en la página del mod para obtener referencias.",
+        "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
+        "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
+        "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+
+    // GENERAL MOD TOGGLE
+        "config.= General Mod Toggle.name": "= Activación General del Mod",
+        "config.= General Mod Toggle.description": "Activa/desactiva el uso del mod en su totalidad.",
+        "config.= General Mod Toggle.values.Enabled": "Activado",
+        "config.= General Mod Toggle.values.Disabled": "Desactivado",
+
+    // SEED SPRITES TOGGLE
+        "config.Seed Sprites Toggle.name": "Cambiar los Sprites de las Semillas",
+        "config.Seed Sprites Toggle.description": "Activa/desactiva los cambios visuales en los sprites de las semillas.",
+        "config.Seed Sprites Toggle.values.Enabled": "Activado",
+        "config.Seed Sprites Toggle.values.Disabled": "Desactivado",
+    
+    // SAPLING SPRITES TOGGLE
+        "config.Sapling Sprites Toggle.name": "Cambiar los Sprites de los Retoños de Árboles",
+        "config.Sapling Sprites Toggle.description": "Activa/desactiva los cambios visuales en los sprites de los retoños de árboles.",
+        "config.Sapling Sprites Toggle.values.Enabled": "Activado",
+        "config.Sapling Sprites Toggle.values.Disabled": "Desactivado",
+
+    // BUSH SPRITES TOGGLE
+        "config.Bush Sprites Toggle.name": "Cambiar los Sprites de los Arbustos",
+        "config.Bush Sprites Toggle.description": "Activa/desactiva los cambios visuales en los sprites de los arbustos.",
+        "config.Bush Sprites Toggle.values.Enabled": "Activado",
+        "config.Bush Sprites Toggle.values.Disabled": "Desactivado",
+
+    // TRELLIS SPRITES TOGGLE
+        "config.Trellis Sprites Toggle.name": "Cambiar los Sprites de los Enrejados",
+        "config.Trellis Sprites Toggle.description": "Activa/desactiva los cambios visuales en los sprites de los enrejados.",
+        "config.Trellis Sprites Toggle.values.Enabled": "Activado",
+        "config.Trellis Sprites Toggle.values.Disabled": "Desactivado",
+
+    // TEA SAPLING SPRITES TOGGLE
+        "config.Tea Sapling Sprites Toggle.name": "Cambiar los Sprites del Retoño de la Planta de Té",
+        "config.Tea Sapling Sprites Toggle.description": "Activa/desactiva los cambios visuales en los sprites del retoño de la planta de té.",
+        "config.Tea Sapling Sprites Toggle.values.Enabled": "Activado",
+        "config.Tea Sapling Sprites Toggle.values.Disabled": "Desactivado",
+
+    // MIXED SEED SPRITES TOGGLE
+        "config.Mixed Seed Sprites Toggle.name": "Cambiar los Sprites de las Semillas Variadas",
+        "config.Mixed Seed Sprites Toggle.description": "Activa/desactiva los cambios visuales en los sprites de las semillas variadas.",
+        "config.Mixed Seed Sprites Toggle.values.Enabled": "Activado",
+        "config.Mixed Seed Sprites Toggle.values.Disabled": "Desactivado",
+
+    // SECTION A - VANILLA
+        "config.$ Toggle All Sprites - Section A.name": "$ Activar Todos los Sprites - Grupo A : Juego Base",
+        "config.$ Toggle All Sprites - Section A.description": "Activa/desactiva los cambios visuales en los sprites del Juego Base.",
+        "config.$ Toggle All Sprites - Section A.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section A.values.Disabled": "Desactivado",
+
+    // SECTION B - STARDEW VALLEY EXPANDED
+        "config.$ Toggle All Sprites - Section B.name": "$ Activar Todos los Sprites - Grupo B : Stardew Valley Expanded",
+        "config.$ Toggle All Sprites - Section B.description": "Activa/desactiva los cambios visuales en los sprites de Stardew Valley Expanded.",
+        "config.$ Toggle All Sprites - Section B.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section B.values.Disabled": "Desactivado",
+
+    // SECTION C - EAST SCARP
+        "config.$ Toggle All Sprites - Section C.name": "$ Activar Todos los Sprites - Grupo C : East Scarp",
+        "config.$ Toggle All Sprites - Section C.description": "Activa/desactiva los cambios visuales en los sprites de East Scarp.",
+        "config.$ Toggle All Sprites - Section C.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section C.values.Disabled": "Desactivado",
+
+    // SECTION D - VISIT MOUNT VAPIUS
+        "config.$ Toggle All Sprites - Section D.name": "$ Activar Todos los Sprites - Grupo D : Visit Mount Vapius",
+        "config.$ Toggle All Sprites - Section D.description": "Activa/desactiva los cambios visuales en los sprites de Visit Mount Vapius.",
+        "config.$ Toggle All Sprites - Section D.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section D.values.Disabled": "Desactivado",
+
+    // SECTION E - SERENE MEADOW
+        "config.$ Toggle All Sprites - Section E.name": "$ Activar Todos los Sprites - Grupo E : Serene Meadow",
+        "config.$ Toggle All Sprites - Section E.description": "Activa/desactiva los cambios visuales en los sprites de Serene Meadow.",
+        "config.$ Toggle All Sprites - Section E.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section E.values.Disabled": "Desactivado",
+
+    // SECTION F - GROWABLE FORAGE
+        "config.$ Toggle All Sprites - Section F.name": "$ Activar Todos los Sprites - Grupo F : Growable Forage",
+        "config.$ Toggle All Sprites - Section F.description": "Activa/desactiva los cambios visuales en los sprites de Growable Forage.",
+        "config.$ Toggle All Sprites - Section F.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section F.values.Disabled": "Desactivado",
+
+    // SECTION G - CORNUCOPIA CROPS
+        "config.$ Toggle All Sprites - Section G.name": "$ Activar Todos los Sprites - Grupo G : Cornucopia Crops",
+        "config.$ Toggle All Sprites - Section G.description": "Activa/desactiva los cambios visuales en los sprites de Cornucopia Crops.",
+        "config.$ Toggle All Sprites - Section G.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section G.values.Disabled": "Desactivado",
+
+    // SECTION H - CORNUCOPIA HERBS
+        "config.$ Toggle All Sprites - Section H.name": "$ Activar Todos los Sprites - Grupo H : Cornucopia Herbs",
+        "config.$ Toggle All Sprites - Section H.description": "Activa/desactiva los cambios visuales en los sprites de Cornucopia Herbs.",
+        "config.$ Toggle All Sprites - Section H.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section H.values.Disabled": "Desactivado",
+
+    // SECTION I - CORNUCOPIA FLOWERS
+        "config.$ Toggle All Sprites - Section I.name": "$ Activar Todos los Sprites - Grupo I : Cornucopia Flowers",
+        "config.$ Toggle All Sprites - Section I.description": "Activa/desactiva los cambios visuales en los sprites de Cornucopia Flowers.",
+        "config.$ Toggle All Sprites - Section I.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section I.values.Disabled": "Desactivado",
+
+    // SECTION J - ILUCIE WINTER CROPS
+        "config.$ Toggle All Sprites - Section J.name": "$ Activar Todos los Sprites - Grupo J : Ilucie Winter Crops",
+        "config.$ Toggle All Sprites - Section J.description": "Activa/desactiva los cambios visuales en los sprites de Ilucie Winter Crops.",
+        "config.$ Toggle All Sprites - Section J.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section J.values.Disabled": "Desactivado",
+
+    // SECTION K - FLOWER GARDEN 2
+        "config.$ Toggle All Sprites - Section K.name": "$ Activar Todos los Sprites - Grupo K : Flower Garden 2",
+        "config.$ Toggle All Sprites - Section K.description": "Activa/desactiva los cambios visuales en los sprites de Flower Garden 2.",
+        "config.$ Toggle All Sprites - Section K.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section K.values.Disabled": "Desactivado",
+
+    // SECTION L - GRAPES OF FERNGILL
+        "config.$ Toggle All Sprites - Section L.name": "$ Activar Todos los Sprites - Grupo L : Grapes of Ferngill",
+        "config.$ Toggle All Sprites - Section L.description": "Activa/desactiva los cambios visuales en los sprites de Grapes of Ferngill.",
+        "config.$ Toggle All Sprites - Section L.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section L.values.Disabled": "Desactivado",
+
+    // SECTION M - ATELIER GOODS FORAGER
+        "config.$ Toggle All Sprites - Section M.name": "$ Activar Todos los Sprites - Grupo M : Atelier Goods Forager",
+        "config.$ Toggle All Sprites - Section M.description": "Activa/desactiva los cambios visuales en los sprites de Atelier Goods Forager.",
+        "config.$ Toggle All Sprites - Section M.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section M.values.Disabled": "Desactivado",
+
+    // SECTION N - GARDEN VARIETY MIXED SEEDS
+        "config.$ Toggle All Sprites - Section N.name": "$ Activar Todos los Sprites - Grupo N : Garden Variety Mixed Seeds",
+        "config.$ Toggle All Sprites - Section N.description": "Activa/desactiva los cambios visuales en los sprites de Garden Variety Mixed Seeds.",
+        "config.$ Toggle All Sprites - Section N.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section N.values.Disabled": "Desactivado",
+
+    // SECTION O - FORAGE OF FERNGILL
+        "config.$ Toggle All Sprites - Section O.name": "$ Activar Todos los Sprites - Grupo O : Forage of Ferngill",
+        "config.$ Toggle All Sprites - Section O.description": "Activa/desactiva los cambios visuales en los sprites de Forage of Ferngill.",
+        "config.$ Toggle All Sprites - Section O.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section O.values.Disabled": "Desactivado",
+
+    // SECTION P - GRAINS OVERHULL
+        "config.$ Toggle All Sprites - Section P.name": "$ Activar Todos los Sprites - Grupo P : Grains Overhull",
+        "config.$ Toggle All Sprites - Section P.description": "Activa/desactiva los cambios visuales en los sprites de Grains Overhull.",
+        "config.$ Toggle All Sprites - Section P.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section P.values.Disabled": "Desactivado",
+
+    // SECTION Q - CLOUDBERRIES AS FORAGE
+        "config.$ Toggle All Sprites - Section Q.name": "$ Activar Todos los Sprites - Grupo Q : Cloudberries as Forage",
+        "config.$ Toggle All Sprites - Section Q.description": "Activa/desactiva los cambios visuales en los sprites de Cloudberries as Forage.",
+        "config.$ Toggle All Sprites - Section Q.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section Q.values.Disabled": "Desactivado",
+
+    // SECTION R - UNCLE IROH TEA
+        "config.$ Toggle All Sprites - Section R.name": "$ Activar Todos los Sprites - Grupo R : Uncle Iroh Tea",
+        "config.$ Toggle All Sprites - Section R.description": "Activa/desactiva los cambios visuales en los sprites de Uncle Iroh Tea.",
+        "config.$ Toggle All Sprites - Section R.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section R.values.Disabled": "Desactivado",
+
+    // SECTION S - POLYAMORY SWEET
+        "config.$ Toggle All Sprites - Section S.name": "$ Activar Todos los Sprites - Grupo S : Polyamory Sweet",
+        "config.$ Toggle All Sprites - Section S.description": "Activa/desactiva los cambios visuales en los sprites de Polyamory Sweet.",
+        "config.$ Toggle All Sprites - Section S.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section S.values.Disabled": "Desactivado",
+
+    // SECTION T - ORE CROPS
+        "config.$ Toggle All Sprites - Section T.name": "$ Activar Todos los Sprites - Grupo T : Ore Crops",
+        "config.$ Toggle All Sprites - Section T.description": "Activa/desactiva los cambios visuales en los sprites de Ore Crops.",
+        "config.$ Toggle All Sprites - Section T.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "Desactivado"
+}
