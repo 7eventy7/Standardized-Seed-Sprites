@@ -108,4 +108,7 @@ All the wonderful individuals that helped contribute to this mod in some way!
 > **Turkish / Türkçe**  
 ➤ 
 
+> **Swedish / Svenska**  
+➤ elieeleye
+
 ---

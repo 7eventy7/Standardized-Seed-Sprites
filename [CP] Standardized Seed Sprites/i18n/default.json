@@ -43,7 +43,7 @@
 
     // TRELLIS SPRITES TOGGLE
         "config.Trellis Sprites Toggle.name": "Trellis Sprites Toggle",
-        "config.Trellis Sprites Toggle.description": "Toggle the loading status of custom bush sprites.",
+        "config.Trellis Sprites Toggle.description": "Toggle the loading status of trellis sprites.",
         "config.Trellis Sprites Toggle.values.Enabled": "Enabled",
         "config.Trellis Sprites Toggle.values.Disabled": "Disabled",
 
