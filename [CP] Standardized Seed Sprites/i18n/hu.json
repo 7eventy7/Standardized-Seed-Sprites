@@ -1,0 +1,181 @@
+{
+//CONFIG DEFINITIONS
+    // SEED PACKET VARIANT
+        "config.Seed Packet Variant.name": "Vetőmag csomag változat",
+        "config.Seed Packet Variant.description": "Állítsd be a csomagváltozatot az összes vetőmag ikonhoz.\nReferenciákért tekintsd meg a mod oldalán található képeket.",
+        "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
+        "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
+        "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
+        "config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
+        "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
+        "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
+
+    // SAPLING SACK COLOR
+        "config.Sapling Sack Color.name": "Csemete zsák szín",
+        "config.Sapling Sack Color.description": "Állítsd be a zsák színét az összes csemete ikon számára.\nReferenciákért tekintsd meg a mod oldalán található képeket.",
+        "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
+        "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
+        "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+
+    // GENERAL MOD TOGGLE
+        "config.= General Mod Toggle.name": "= Általános mod be/kikapcsolása",
+        "config.= General Mod Toggle.description": "Kapcsold ki vagy be a teljes modot.",
+        "config.= General Mod Toggle.values.Enabled": "Bekapcsolva",
+        "config.= General Mod Toggle.values.Disabled": "Kikapcsolva",
+
+    // SEED SPRITES TOGGLE
+        "config.Seed Sprites Toggle.name": "Vetőmag ikonok be/kikapcsolása",
+        "config.Seed Sprites Toggle.description": "Kapcsold ki vagy be a vetőmagok ikonjait.",
+        "config.Seed Sprites Toggle.values.Enabled": "Bekapcsolva",
+        "config.Seed Sprites Toggle.values.Disabled": "Kikapcsolva",
+    
+    // SAPLING SPRITES TOGGLE
+        "config.Sapling Sprites Toggle.name": "Csemete ikonok be/kikapcsolása",
+        "config.Sapling Sprites Toggle.description": "Kapcsold ki vagy be a csemeték ikonjait",
+        "config.Sapling Sprites Toggle.values.Enabled": "Bekapcsolva",
+        "config.Sapling Sprites Toggle.values.Disabled": "Kikapcsolva",
+
+    // BUSH SPRITES TOGGLE
+        "config.Bush Sprites Toggle.name": "Cserje ikonok be/kikapcsolása",
+        "config.Bush Sprites Toggle.description": "Kapcsold ki vagy be a cserjék ikonjait.",
+        "config.Bush Sprites Toggle.values.Enabled": "Bekapcsolva",
+        "config.Bush Sprites Toggle.values.Disabled": "Kikapcsolva",
+
+    // TRELLIS SPRITES TOGGLE
+        "config.Trellis Sprites Toggle.name": "Lugas ikonok be/kikapcsolása",
+        "config.Trellis Sprites Toggle.description": "Kapcsold ki vagy be az egyedi lugas ikonokat.",
+        "config.Trellis Sprites Toggle.values.Enabled": "Bekapcsolva",
+        "config.Trellis Sprites Toggle.values.Disabled": "Kikapcsolva",
+
+    // TEA SAPLING SPRITES TOGGLE
+        "config.Tea Sapling Sprites Toggle.name": "Tea csemete ikonok be/kikapcsolása",
+        "config.Tea Sapling Sprites Toggle.description": "Kapcsold ki vagy be a tea csemeték ikonjait.",
+        "config.Tea Sapling Sprites Toggle.values.Enabled": "Bekapcsolva",
+        "config.Tea Sapling Sprites Toggle.values.Disabled": "Kikapcsolva",
+
+    // MIXED SEED SPRITES TOGGLE
+        "config.Mixed Seed Sprites Toggle.name": "Vegyes vetőmag ikonok be/kikapcsolása",
+        "config.Mixed Seed Sprites Toggle.description": "Kapcsold be vagy ki a vegyes vetőmagok ikonjait.",
+        "config.Mixed Seed Sprites Toggle.values.Enabled": "Bekapcsolva",
+        "config.Mixed Seed Sprites Toggle.values.Disabled": "Kikapcsolva",
+
+    // SECTION A - VANILLA
+        "config.$ Toggle All Sprites - Section A.name": "$ Összes ikon be/kikapcsolása - A szekció",
+        "config.$ Toggle All Sprites - Section A.description": "Kapcsold ki vagy be az összes Vanilla-ból származó ikont.",
+        "config.$ Toggle All Sprites - Section A.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section A.values.Disabled": "Kikapcsolva",
+
+    // SECTION B - STARDEW VALLEY EXPANDED
+        "config.$ Toggle All Sprites - Section B.name": "$ Összes ikon be/kikapcsolása - B szekció",
+        "config.$ Toggle All Sprites - Section B.description": "Kapcsold ki vagy be az összes bővített Stardew Valley-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section B.values.Enabled": "Kikapcsolva",
+        "config.$ Toggle All Sprites - Section B.values.Disabled": "Bekapcsolva",
+
+    // SECTION C - EAST SCARP
+        "config.$ Toggle All Sprites - Section C.name": "$ Összes ikon be/kikapcsolása - C szekció",
+        "config.$ Toggle All Sprites - Section C.description": "Kapcsold ki vagy be az összes East Scarp-ból származó ikont.",
+        "config.$ Toggle All Sprites - Section C.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section C.values.Disabled": "Kikapcsolva",
+
+    // SECTION D - VISIT MOUNT VAPIUS
+        "config.$ Toggle All Sprites - Section D.name": "$ Összes ikon be/kikapcsolása - D szekció",
+        "config.$ Toggle All Sprites - Section D.description": "Kapcsold ki vagy be az összes Visit Mount Vapius-ból származó ikont.",
+        "config.$ Toggle All Sprites - Section D.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section D.values.Disabled": "Kikapcsolva",
+
+    // SECTION E - SERENE MEADOW
+        "config.$ Toggle All Sprites - Section E.name": "$ Összes ikon be/kikapcsolása - E szekció",
+        "config.$ Toggle All Sprites - Section E.description": "Kapcsold ki vagy be az összes Serene Meadow-ból származó ikont.",
+        "config.$ Toggle All Sprites - Section E.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section E.values.Disabled": "Kikapcsolva",
+
+    // SECTION F - GROWABLE FORAGE
+        "config.$ Toggle All Sprites - Section F.name": "$ Összes ikon be/kikapcsolása - F szekció",
+        "config.$ Toggle All Sprites - Section F.description": "Kapcsold ki vagy be az összes Growable Forage-ból származó ikont.",
+        "config.$ Toggle All Sprites - Section F.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section F.values.Disabled": "Kikapcsolva",
+
+    // SECTION G - CORNUCOPIA CROPS
+        "config.$ Toggle All Sprites - Section G.name": "$ Összes ikon be/kikapcsolása - G szekció",
+        "config.$ Toggle All Sprites - Section G.description": "Kapcsold ki vagy be az összes Cornucopia Crops-ból származó ikont.",
+        "config.$ Toggle All Sprites - Section G.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section G.values.Disabled": "Kikapcsolva",
+
+    // SECTION H - CORNUCOPIA HERBS
+        "config.$ Toggle All Sprites - Section H.name": "$ Összes ikon be/kikapcsolása - H szekció",
+        "config.$ Toggle All Sprites - Section H.description": "Kapcsold ki vagy be az összes Cornucopia Herbs-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section H.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section H.values.Disabled": "Kikapcsolva",
+
+    // SECTION I - CORNUCOPIA FLOWERS
+        "config.$ Toggle All Sprites - Section I.name": "$ Összes ikon be/kikapcsolása - I szekció",
+        "config.$ Toggle All Sprites - Section I.description": "Kapcsold ki vagy be az összes Cornucopia Flowers-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section I.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section I.values.Disabled": "Kikapcsolva",
+
+    // SECTION J - ILUCIE WINTER CROPS
+        "config.$ Toggle All Sprites - Section J.name": "$ Összes ikon be/kikapcsolása - J szekció",
+        "config.$ Toggle All Sprites - Section J.description": "Kapcsold ki vagy be az összes Ilucie Winter Crops-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section J.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section J.values.Disabled": "Kikapcsolva",
+
+    // SECTION K - FLOWER GARDEN 2
+        "config.$ Toggle All Sprites - Section K.name": "$ Összes ikon be/kikapcsolása - K szekció",
+        "config.$ Toggle All Sprites - Section K.description": "Kapcsold ki vagy be az összes Flower Garden 2-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section K.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section K.values.Disabled": "Kikapcsolva",
+
+    // SECTION L - GRAPES OF FERNGILL
+        "config.$ Toggle All Sprites - Section L.name": "$ Összes ikon be/kikapcsolása - L szekció",
+        "config.$ Toggle All Sprites - Section L.description": "Kapcsold ki vagy be az összes Grapes of Ferngill-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section L.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section L.values.Disabled": "Kikapcsolva",
+
+    // SECTION M - ATELIER GOODS FORAGER
+        "config.$ Toggle All Sprites - Section M.name": "$ Összes ikon be/kikapcsolása - M szekció",
+        "config.$ Toggle All Sprites - Section M.description": "Kapcsold ki vagy be az összes Atelier Goods Forager-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section M.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section M.values.Disabled": "Kikapcsolva",
+
+    // SECTION N - GARDEN VARIETY MIXED SEEDS
+        "config.$ Toggle All Sprites - Section N.name": "$ Összes ikon be/kikapcsolása - N szekció",
+        "config.$ Toggle All Sprites - Section N.description": "Kapcsold ki vagy be az összes Garden Variety Mixed Seeds-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section N.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section N.values.Disabled": "Kikapcsolva",
+
+    // SECTION O - FORAGE OF FERNGILL
+        "config.$ Toggle All Sprites - Section O.name": "$ Összes ikon be/kikapcsolása - O szekció",
+        "config.$ Toggle All Sprites - Section O.description": "Kapcsold ki vagy be az összes Forage of Ferngill-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section O.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section O.values.Disabled": "Kikapcsolva",
+
+    // SECTION P - GRAINS OVERHULL
+        "config.$ Toggle All Sprites - Section P.name": "$ Összes ikon be/kikapcsolása - P szekció",
+        "config.$ Toggle All Sprites - Section P.description": "Kapcsold ki vagy be az összes Grains Overhull-ból származó ikont.",
+        "config.$ Toggle All Sprites - Section P.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section P.values.Disabled": "Kikapcsolva",
+
+    // SECTION Q - CLOUDBERRIES AS FORAGE
+        "config.$ Toggle All Sprites - Section Q.name": "$ Összes ikon be/kikapcsolása - Q szekció",
+        "config.$ Toggle All Sprites - Section Q.description": "Kapcsold ki vagy be az összes Cloudberries as Forage-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section Q.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section Q.values.Disabled": "Kikapcsolva",
+
+    // SECTION R - UNCLE IROH TEA
+        "config.$ Toggle All Sprites - Section R.name": "$ Összes ikon be/kikapcsolása - R szekció",
+        "config.$ Toggle All Sprites - Section R.description": "Kapcsold ki vagy be az összes Uncle Iroh Tea-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section R.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section R.values.Disabled": "Kikapcsolva",
+
+    // SECTION S - POLYAMORY SWEET
+        "config.$ Toggle All Sprites - Section S.name": "$ Összes ikon be/kikapcsolása - S szekció",
+        "config.$ Toggle All Sprites - Section S.description": "Kapcsold ki vagy be az összes Polyamory Sweet-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section S.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section S.values.Disabled": "Kikapcsolva",
+
+    // SECTION T - ORE CROPS
+        "config.$ Toggle All Sprites - Section T.name": "$ Összes ikon be/kikapcsolása - T szekció",
+        "config.$ Toggle All Sprites - Section T.description": "Kapcsold ki vagy be az összes Ore Crops-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section T.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "Kikapcsolva"
+}
