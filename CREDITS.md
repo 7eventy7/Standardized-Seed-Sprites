@@ -11,22 +11,25 @@ All the wonderful individuals that helped contribute to this mod in some way!
 > **Stardew Valley Expanded**  
 ➤ Flash Shifter
 
-> **Cornucopia**  
+> **Cornucopia - More Crops**  
 ➤ MizuJakkaru
 
-> **Growable Forage**  
+> **Cornucopia - More Flowers**  
+➤ MizuJakkaru
+
+> **Growable Forage and Crop Bushes**  
 ➤ 6480
 
-> **Flower Garden 2**  
+> **Quaint Living - Flower Garden 2**  
 ➤ PlatinumCats
 
 > **Winter Crops**  
 ➤ IlucieYt
 
-> **Ore Crops**  
+> **Ore Crops and Geode Tree**  
 ➤ Donnie24
 
-> **Polyamory Sweet**  
+> **PolyamorySweet**  
 ➤ ApryllForever
 
 > **Grapes of Ferngill**  
@@ -42,15 +45,15 @@ All the wonderful individuals that helped contribute to this mod in some way!
 ➤ Lumisteria
 
 > **Garden Variety Mixed Seeds**  
-➤ Lumisteria
+➤ wildflourmods
 
 > **Atelier Goods Forager**  
-➤ Lumisteria
+➤ wildflourmods
 
 > **Grains Overhull**  
 ➤ slimerrain
 
-> **Uncle Iroh Tea**  
+> **Uncle Iroh Approved Tea**  
 ➤ slimerrain
 
 ---
