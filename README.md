@@ -5,8 +5,9 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 **If you wish to translate this mod, do not re-upload it. Instead, please leave a comment!**
 
 *I've easily spent over 100 hours making and updating this mod. Please leave your support with an endorsement or comment!*
+#
 
-# ![CONFIGURATION](https://i.imgur.com/TE1wdXd.png)
+![CONFIGURATION](https://i.imgur.com/TE1wdXd.png)
 
 ## 6 seed packet variant options:
 - **Sensible**: Sleeves / Satchels / Stashes
