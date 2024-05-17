@@ -4,7 +4,7 @@ All the wonderful individuals that helped contribute to this mod in some way!
 
 ---
 
-## ASSET ATTRIBUTION
+### ASSET ATTRIBUTION
 > **Vanilla**  
 ➤ Concerned Ape
 
@@ -55,7 +55,7 @@ All the wonderful individuals that helped contribute to this mod in some way!
 
 ---
 
-## LANGUAGE TRANSLATORS
+### LANGUAGE TRANSLATORS
 
 > **French / Français**  
 ➤ Caranud
