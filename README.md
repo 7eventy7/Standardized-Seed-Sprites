@@ -6,8 +6,6 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 
 *I've easily spent over 100 hours making and updating this mod. Please leave your support with an endorsement or comment!*
 
----
-
 # ![CONFIGURATION](https://i.imgur.com/TE1wdXd.png)
 
 ## 6 seed packet variant options:
@@ -20,8 +18,6 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 - Cloud / Cream / Chest
 
 *Default: "Cream"*
-
----
 
 # ![COMPATABILITY](https://i.imgur.com/RTIAA3v.png)
 
@@ -68,8 +64,6 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 - **R** - [Uncle Iroh Tea](https://www.nexusmods.com/stardewvalley/mods/22376) (1)
 - **T** - [Ore Crops](https://www.nexusmods.com/stardewvalley/mods/22219) (1)
 
----
-
 # ![DESIGN ETHOS](https://i.imgur.com/kftmqQx.png)
 
 - Maintain vanilla style and feel
@@ -79,23 +73,17 @@ This mod retextures seeds, starters, and saplings from over fifteen different mo
 - Color options for sapling sacks
 - Wild tree seeds are unchanged
 
----
-
 # ![INSTALLATION](https://i.imgur.com/wioS9lx.png)
 
 1. Install the latest version of **"SMAPI"** & **"Content Patcher"**
 2. Download this mod and unzip it into **"Stardew Valley/Mods"**
 3. Run the game using **"SMAPI"**
 
----
-
 # ![UPDATING](https://i.imgur.com/laPkYA0.png)
 
 1. Delete the current version inside **"Stardew Valley/Mods"**
 2. Download the latest version and unzip it into **"Stardew Valley/Mods"**
 3. Run the game using **"SMAPI"**
-
----
 
 # ![ADDITIONAL](https://i.imgur.com/HEsoBg0.png)
 
