@@ -106,7 +106,7 @@ All the wonderful individuals that helped contribute to this mod in some way!
 ➤ wisnunug
 
 > **Turkish / Türkçe**  
-➤ 
+➤ kiss_of_kill
 
 > **Swedish / Svenska**  
 ➤ elieeleye
