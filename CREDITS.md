@@ -91,7 +91,7 @@ All the wonderful individuals that helped contribute to this mod in some way!
 ➤ 
 
 > **Italian / Italiano**  
-➤ 
+➤ zyx_xbl
 
 > **Croatian / Hrvatski**  
 ➤ 
@@ -100,7 +100,7 @@ All the wonderful individuals that helped contribute to this mod in some way!
 ➤ 
 
 > **Portuguese / Português**  
-➤ 
+➤ Gofriak
 
 > **Indonesian / Indonesia**  
 ➤ wisnunug
