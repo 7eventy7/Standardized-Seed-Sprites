@@ -177,5 +177,17 @@
         "config.$ Toggle All Sprites - Section T.name": "$ 切换所有种子图标-T部分",
         "config.$ Toggle All Sprites - Section T.description": "切换所有Ore Crops种子图标的装载状态。",
         "config.$ Toggle All Sprites - Section T.values.Enabled": "启用",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "禁用"
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "禁用",
+
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ 切换所有种子图标-U部分",
+        "config.$ Toggle All Sprites - Section U.description": "切换所有Tahla Crops种子图标的装载状态。",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "启用",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "禁用",
+    
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ 切换所有种子图标-V部分",
+        "config.$ Toggle All Sprites - Section V.description": "切换所有Mildkewy Food Starter种子图标的装载状态。",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "启用",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "禁用"
 }

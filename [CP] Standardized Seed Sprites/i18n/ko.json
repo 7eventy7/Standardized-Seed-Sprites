@@ -177,5 +177,17 @@
         "config.$ Toggle All Sprites - Section T.name": "$ Ore Crops 모드 관련 작물",
         "config.$ Toggle All Sprites - Section T.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
         "config.$ Toggle All Sprites - Section T.values.Enabled": "적용함",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "적용 안 함"
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "적용 안 함",
+
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ Tahla Crops 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section U.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "적용 안 함",
+
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ Mildkewy Food Starter 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section V.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "적용 안 함"
 }

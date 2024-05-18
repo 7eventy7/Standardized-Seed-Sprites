@@ -177,5 +177,17 @@
         "config.$ Toggle All Sprites - Section T.name": "$ Thay đổi mọi hoạ tiết - phần T",
         "config.$ Toggle All Sprites - Section T.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Ore Crops.",
         "config.$ Toggle All Sprites - Section T.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "Tắt"
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "Tắt",
+    
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ Thay đổi mọi hoạ tiết - phần U",
+        "config.$ Toggle All Sprites - Section U.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Tahla Crops.",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "Bật",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "Tắt",
+    
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ Thay đổi mọi hoạ tiết - phần V",
+        "config.$ Toggle All Sprites - Section V.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Mildkewy Food Starter.",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "Bật",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Tắt"
 }

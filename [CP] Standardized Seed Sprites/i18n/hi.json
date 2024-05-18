@@ -177,5 +177,17 @@
         "config.$ Toggle All Sprites - Section T.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग टी",
         "config.$ Toggle All Sprites - Section T.description": "'ओअर क्रॉप्स' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
         "config.$ Toggle All Sprites - Section T.values.Enabled": "चालू करो",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "बंद करें"
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "बंद करें",
+
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग यू",
+        "config.$ Toggle All Sprites - Section U.description": "'टाहला क्रॉप्स' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "बंद करें",
+    
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग वी",
+        "config.$ Toggle All Sprites - Section V.description": "'मिल्डकेवी फूड स्टार्टर' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "बंद करें"
 }

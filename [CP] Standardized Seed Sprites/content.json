@@ -10,7 +10,7 @@
         "Sapling Sack Color":
         {
             "AllowValues": "(1) Cloud, (2) Cream, (3) Chest",
-            "Default": "(3) Chest"
+            "Default": "(2) Cream"
         },
         "= General Mod Toggle":
         {
@@ -2864,6 +2864,98 @@
             "AllowValues": "true, false",
             "Default": "true",
             "Section": "T - Ore Crops"
+        },
+    // TAHLA CROPS - SECTION U0
+        "$ Toggle All Sprites - Section U": 
+        {
+            "AllowValues": "Enabled, Disabled",
+            "Default": "Enabled",
+            "Section": "U - Tahla Crops"
+        },
+        "(U) Cherry Tomato Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "U - Tahla Crops"
+        },
+        "(U) Cucumber Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "U - Tahla Crops"
+        },
+        "(U) Moss Rose Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "U - Tahla Crops"
+        },
+        "(U) Red Coleus Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "U - Tahla Crops"
+        },
+        "(U) Snow Pea Starter": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "U - Tahla Crops"
+        },
+        "(U) Spaghetti Squash Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "U - Tahla Crops"
+        },
+        "(U) Succulent Lupine Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "U - Tahla Crops"
+        },
+        "(U) Kumquat Sapling": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "U - Tahla Crops"
+        },
+    // MILDKEWY FOOD STARTER - SECTION V0
+        "$ Toggle All Sprites - Section V": 
+        {
+            "AllowValues": "Enabled, Disabled",
+            "Default": "Enabled",
+            "Section": "V - Mildkewy Food Starter"
+        },
+        "(V) Beef Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "V - Mildkewy Food Starter"
+        },
+        "(V) Chicken Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "V - Mildkewy Food Starter"
+        },
+        "(V) Pork Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "V - Mildkewy Food Starter"
+        },
+        "(V) Cocoa Sapling": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "V - Mildkewy Food Starter"
+        },
+        "(V) Lemon Sapling": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "V - Mildkewy Food Starter"
         }
     },
     "Changes": [
@@ -6343,6 +6435,88 @@
             "Priority": "Late",
             "When": { "(T) Radioactive Crop Seed": "true", "$ Toggle All Sprites - Section T": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
+    // TAHLA CROPS - SECTION U1
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cherry Tomato Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cucumber Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Moss Rose Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Red Coleus Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Snow Pea Starter": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Spaghetti Squash Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Succulent Lupine Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V1
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/BeefSeed",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Beef Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/ChickenSeed",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Chicken Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/PorkSeed",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
 // SEEDS - SLEEVES SEASONAL - MODULE 2
     // VANILLA - SECTION A2
         {
@@ -9818,6 +9992,88 @@
             "ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
             "Priority": "Late",
             "When": { "(T) Radioactive Crop Seed": "true", "$ Toggle All Sprites - Section T": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // TAHLA CROPS - SECTION U2
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cherry Tomato Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cucumber Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Moss Rose Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Red Coleus Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Snow Pea Starter": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Spaghetti Squash Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_seeds",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Succulent Lupine Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V2
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/BeefSeed",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Beef Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/ChickenSeed",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Chicken Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/PorkSeed",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
 // SEEDS - SATCHELS SENSIBLE - MODULE 3
     // VANILLA - SECTION A3
@@ -13295,6 +13551,88 @@
             "Priority": "Late",
             "When": { "(T) Radioactive Crop Seed": "true", "$ Toggle All Sprites - Section T": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
+    // TAHLA CROPS - SECTION U3
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cherry Tomato Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cucumber Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Moss Rose Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Red Coleus Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Snow Pea Starter": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Spaghetti Squash Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Succulent Lupine Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V3
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/BeefSeed",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Beef Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/ChickenSeed",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Chicken Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/PorkSeed",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
 // SEEDS - SATCHELS SEASONAL - MODULE 4
     // VANILLA - SECTION A4
         {
@@ -16770,6 +17108,88 @@
             "ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
             "Priority": "Late",
             "When": { "(T) Radioactive Crop Seed": "true", "$ Toggle All Sprites - Section T": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // TAHLA CROPS - SECTION U4
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cherry Tomato Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cucumber Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Moss Rose Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Red Coleus Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Snow Pea Starter": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Spaghetti Squash Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_seeds",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Succulent Lupine Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V4
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/BeefSeed",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Beef Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/ChickenSeed",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Chicken Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/PorkSeed",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
 // SEEDS - STASHES SENSIBLE - MODULE 5
     // VANILLA - SECTION A5
@@ -20247,6 +20667,88 @@
             "Priority": "Late",
             "When": { "(T) Radioactive Crop Seed": "true", "$ Toggle All Sprites - Section T": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
+    // TAHLA CROPS - SECTION U5
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cherry Tomato Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cucumber Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Moss Rose Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Red Coleus Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Snow Pea Starter": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Spaghetti Squash Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tahla-crops.png",
+            "FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Succulent Lupine Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V5
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/BeefSeed",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Beef Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/ChickenSeed",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Chicken Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/PorkSeed",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
 // SEEDS - STASHES SENSIBLE - MODULE 6
     // VANILLA - SECTION A6
         {
@@ -23723,6 +24225,88 @@
             "Priority": "Late",
             "When": { "(T) Radioactive Crop Seed": "true", "$ Toggle All Sprites - Section T": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
+    // TAHLA CROPS - SECTION U6
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cherry Tomato Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Cucumber Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Moss Rose Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Red Coleus Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Snow Pea Starter": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Spaghetti Squash Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_seeds",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tahla-crops.png",
+            "FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Succulent Lupine Seed": "true", "$ Toggle All Sprites - Section U": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V6
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/BeefSeed",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Beef Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/ChickenSeed",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Chicken Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/PorkSeed",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-mildkewy-food-starter.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
 // SAPLINGS - CLOUD SACKS - MODULE 7
     // VANILLA - SECTION A7
         {
@@ -24690,6 +25274,32 @@
             "ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
             "Priority": "Late",
             "When": { "(T) Geode Tree Sapling": "true", "$ Toggle All Sprites - Section T": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(1) Cloud", "= General Mod Toggle": "Enabled" }
+        },
+    // TAHLA CROPS - SECTION U7
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Kumquat_sapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-cloud/saplings-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Kumquat Sapling": "true", "$ Toggle All Sprites - Section U": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(1) Cloud", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V7
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/CocoaSapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-cloud/saplings-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Cocoa Sapling": "true", "$ Toggle All Sprites - Section V": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(1) Cloud", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/LemonSapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-cloud/saplings-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Lemon Sapling": "true", "$ Toggle All Sprites - Section V": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(1) Cloud", "= General Mod Toggle": "Enabled" }
         },
 // SAPLINGS - CREAM SACKS - MODULE 8
     // VANILLA - SECTION A8
@@ -25659,6 +26269,32 @@
             "Priority": "Late",
             "When": { "(T) Geode Tree Sapling": "true", "$ Toggle All Sprites - Section T": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(2) Cream", "= General Mod Toggle": "Enabled" }
         },
+    // TAHLA CROPS - SECTION U8
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Kumquat_sapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-cream/saplings-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Kumquat Sapling": "true", "$ Toggle All Sprites - Section U": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(2) Cream", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V8
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/CocoaSapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-cream/saplings-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Cocoa Sapling": "true", "$ Toggle All Sprites - Section V": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(2) Cream", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/LemonSapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-cream/saplings-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Lemon Sapling": "true", "$ Toggle All Sprites - Section V": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(2) Cream", "= General Mod Toggle": "Enabled" }
+        },
 // SAPLINGS - CHEST SACKS - MODULE 9
     // VANILLA - SECTION A9
         {
@@ -26626,6 +27262,32 @@
             "ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
             "Priority": "Late",
             "When": { "(T) Geode Tree Sapling": "true", "$ Toggle All Sprites - Section T": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(3) Chest", "= General Mod Toggle": "Enabled" }
+        },
+    // TAHLA CROPS - SECTION U9
+        {
+            "Action": "EditImage",
+            "Target": "Mods/SquishyMiqoteMods.CassiesGarden/Kumquat_sapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-chest/saplings-tahla-crops.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(U) Kumquat Sapling": "true", "$ Toggle All Sprites - Section U": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(3) Chest", "= General Mod Toggle": "Enabled" }
+        },
+    // MILDKEWY FOOD STARTER - SECTION V9
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/CocoaSapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-chest/saplings-mildkewy-food-starter.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Cocoa Sapling": "true", "$ Toggle All Sprites - Section V": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(3) Chest", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Mods/mildkewy.foodstarter/LemonSapling",
+            "FromFile": "assets/spritesheets/saplings/sacks-chest/saplings-mildkewy-food-starter.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(V) Lemon Sapling": "true", "$ Toggle All Sprites - Section V": "Enabled", "Sapling Sprites Toggle": "Enabled", "Sapling Sack Color": "(3) Chest", "= General Mod Toggle": "Enabled" }
         }
     ]
 }

@@ -177,5 +177,17 @@
         "config.$ Toggle All Sprites - Section T.name": "$ Összes ikon be/kikapcsolása - T szekció",
         "config.$ Toggle All Sprites - Section T.description": "Kapcsold ki vagy be az összes Ore Crops-ből származó ikont.",
         "config.$ Toggle All Sprites - Section T.values.Enabled": "Bekapcsolva",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "Kikapcsolva"
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "Kikapcsolva",
+
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ Összes ikon be/kikapcsolása - U szekció",
+        "config.$ Toggle All Sprites - Section U.description": "Kapcsold ki vagy be az összes Tahla Crops-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "Kikapcsolva",
+    
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ Összes ikon be/kikapcsolása - V szekció",
+        "config.$ Toggle All Sprites - Section V.description": "Kapcsold ki vagy be az összes Mildkewy Food Starter-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Kikapcsolva"
 }

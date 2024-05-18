@@ -177,5 +177,17 @@
         "config.$ Toggle All Sprites - Section T.name": "$ スプライトの変更 - T",
         "config.$ Toggle All Sprites - Section T.description": "Ore Cropsのスプライトのデザインを全て変更する。",
         "config.$ Toggle All Sprites - Section T.values.Enabled": "有効",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "無効"
-  }
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "無効",
+
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ スプライトの変更 - U",
+        "config.$ Toggle All Sprites - Section U.description": "Tahla Cropsのスプライトのデザインを全て変更する。",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "有効",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "無効",
+
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ スプライトの変更 - V",
+        "config.$ Toggle All Sprites - Section V.description": "Mildkewy Food Starterのスプライトのデザインを全て変更する。",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "有効",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "無効"
+}

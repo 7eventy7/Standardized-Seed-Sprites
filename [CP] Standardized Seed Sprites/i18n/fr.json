@@ -177,5 +177,17 @@
         "config.$ Toggle All Sprites - Section T.name": "$ Activation partielle\nPartie T : Ore Crops",
         "config.$ Toggle All Sprites - Section T.description": "Activé/désactive tous les changements sur Ore Crops.",
         "config.$ Toggle All Sprites - Section T.values.Enabled": "Activé",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "Désactivé"
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "Désactivé",
+
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ Activation partielle\nPartie U : Tahla Crops",
+        "config.$ Toggle All Sprites - Section U.description": "Activé/désactive tous les changements sur Tahla Crops.",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "Activé",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "Désactivé",
+    
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ Activation partielle\nPartie V : Mildkewy Food Starter",
+        "config.$ Toggle All Sprites - Section V.description": "Activé/désactive tous les changements sur Mildkewy Food Starter.",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "Activé",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Désactivé"
 }

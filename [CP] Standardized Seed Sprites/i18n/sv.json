@@ -18,8 +18,8 @@
             "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
     
         // GENERAL MOD TOGGLE
-            "config.= General Mod Toggle.name": "= = Växla Hela Mod",
-            "config.= General Mod Toggle.description": "Växla aktiveringsstatus för hela modden.",
+            "config.= General Mod Toggle.name": "= = Växla Hela Moddet",
+            "config.= General Mod Toggle.description": "Växla aktiveringsstatus för hela moddet.",
             "config.= General Mod Toggle.values.Enabled": "Aktiverad",
             "config.= General Mod Toggle.values.Disabled": "Inaktiverad",
     
@@ -177,5 +177,17 @@
             "config.$ Toggle All Sprites - Section T.name": "$ Växla Alla Texturer - Avsnitt T",
             "config.$ Toggle All Sprites - Section T.description": "Växla laddningsstatus för alla sprites från Ore Crops.",
             "config.$ Toggle All Sprites - Section T.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section T.values.Disabled": "Inaktiverad"
-    }
+            "config.$ Toggle All Sprites - Section T.values.Disabled": "Inaktiverad",
+
+        // SECTION U - TAHLA CROPS
+            "config.$ Toggle All Sprites - Section U.name": "$ Växla Alla Texturer - Avsnitt U",
+            "config.$ Toggle All Sprites - Section U.description": "Växla laddningsstatus för alla sprites från Tahla Crops.",
+            "config.$ Toggle All Sprites - Section U.values.Enabled": "Aktiverad",
+            "config.$ Toggle All Sprites - Section U.values.Disabled": "Inaktiverad",
+        
+        // SECTION V - MILDKEWY FOOD STARTER
+            "config.$ Toggle All Sprites - Section V.name": "$ Växla Alla Texturer - Avsnitt V",
+            "config.$ Toggle All Sprites - Section V.description": "Växla laddningsstatus för alla sprites från Mildkewy Food Starter.",
+            "config.$ Toggle All Sprites - Section V.values.Enabled": "Aktiverad",
+            "config.$ Toggle All Sprites - Section V.values.Disabled": "Inaktiverad"
+}

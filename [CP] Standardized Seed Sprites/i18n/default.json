@@ -177,5 +177,17 @@
         "config.$ Toggle All Sprites - Section T.name": "$ Toggle All Sprites - Section T",
         "config.$ Toggle All Sprites - Section T.description": "Toggle the loading status of all sprites from Ore Crops.",
         "config.$ Toggle All Sprites - Section T.values.Enabled": "Enabled",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "Disabled"
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "Disabled",
+
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ Toggle All Sprites - Section U",
+        "config.$ Toggle All Sprites - Section U.description": "Toggle the loading status of all sprites from Tahla Crops.",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "Enabled",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "Disabled",
+    
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ Toggle All Sprites - Section V",
+        "config.$ Toggle All Sprites - Section V.description": "Toggle the loading status of all sprites from Mildkewy Food Starter.",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "Enabled",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Disabled"
 }
