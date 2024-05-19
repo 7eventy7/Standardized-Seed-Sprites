@@ -4,7 +4,9 @@ All the wonderful individuals that helped contribute to this mod in some way!
 
 ---
 
-### ASSET ATTRIBUTION
+### ASSET ATTRIBUTION 
+#### - Authors that allowed me to use their assets as a basis for the new sprites
+
 > **Vanilla**  
 ➤ Concerned Ape
 
@@ -68,6 +70,7 @@ All the wonderful individuals that helped contribute to this mod in some way!
 ---
 
 ### LANGUAGE TRANSLATORS
+#### - Individuals that translated the default config into new languages
 
 > **French / Français**  
 ➤ Caranud
