@@ -32,6 +32,15 @@ All the wonderful individuals that helped contribute to this mod in some way!
 > **PolyamorySweet**  
 ➤ ApryllForever
 
+> **Tahla's Crops**  
+➤ SquishyMiqoteMods
+
+> **Mildkewy Food Starter**  
+➤ mildkewykiwi
+
+> **Tobacco and Hemp**  
+➤ BadMoonBeast
+
 > **Grapes of Ferngill**  
 ➤ Nrc5Skyrim
 
