@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Aktywacja Sprite'ów - Sekcja V",
         "config.$ Toggle All Sprites - Section V.description": "Aktywacja Sprite'ów pochodzących z Mildkewy Food Starter.",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "Aktywuj",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Dezaktywuj"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Dezaktywuj",
+
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Aktywacja Sprite'ów - Sekcja W",
+        "config.$ Toggle All Sprites - Section W.description": "Aktywacja Sprite'ów pochodzących z Tobacco and Hemp.",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "Aktywuj",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "Dezaktywuj"
 }

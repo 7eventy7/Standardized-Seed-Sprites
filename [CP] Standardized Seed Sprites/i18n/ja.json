@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ スプライトの変更 - V",
         "config.$ Toggle All Sprites - Section V.description": "Mildkewy Food Starterのスプライトのデザインを全て変更する。",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "有効",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "無効"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "無効",
+    
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ スプライトの変更 - W",
+        "config.$ Toggle All Sprites - Section W.description": "Tobacco and Hempのスプライトのデザインを全て変更する。",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "有効",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "無効"
 }

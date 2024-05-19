@@ -189,5 +189,11 @@
 		"config.$ Toggle All Sprites - Section V.name": "$ Aturan Semua Sprite - V",
 		"config.$ Toggle All Sprites - Section V.description": "Alihkan status pemuatan semua sprite dari Mildkewy Food Starter.",
 		"config.$ Toggle All Sprites - Section V.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section V.values.Disabled": "Nonaktifkan"
+		"config.$ Toggle All Sprites - Section V.values.Disabled": "Nonaktifkan",
+	
+	// SECTION W - TOBACCO AND HEMP
+		"config.$ Toggle All Sprites - Section W.name": "$ Aturan Semua Sprite - W",
+		"config.$ Toggle All Sprites - Section W.description": "Alihkan status pemuatan semua sprite dari Tobacco and Hemp.",
+		"config.$ Toggle All Sprites - Section W.values.Enabled": "Aktifkan",
+		"config.$ Toggle All Sprites - Section W.values.Disabled": "Nonaktifkan"
 }

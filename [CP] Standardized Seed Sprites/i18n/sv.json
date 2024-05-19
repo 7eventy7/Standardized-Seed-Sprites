@@ -189,5 +189,11 @@
             "config.$ Toggle All Sprites - Section V.name": "$ Växla Alla Texturer - Avsnitt V",
             "config.$ Toggle All Sprites - Section V.description": "Växla laddningsstatus för alla sprites från Mildkewy Food Starter.",
             "config.$ Toggle All Sprites - Section V.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section V.values.Disabled": "Inaktiverad"
+            "config.$ Toggle All Sprites - Section V.values.Disabled": "Inaktiverad",
+        
+        // SECTION W - TOBACCO AND HEMP
+            "config.$ Toggle All Sprites - Section W.name": "$ Växla Alla Texturer - Avsnitt W",
+            "config.$ Toggle All Sprites - Section W.description": "Växla laddningsstatus för alla sprites från Tobacco and Hemp.",
+            "config.$ Toggle All Sprites - Section W.values.Enabled": "Aktiverad",
+            "config.$ Toggle All Sprites - Section W.values.Disabled": "Inaktiverad"
 }

@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ 切换所有种子图标-V部分",
         "config.$ Toggle All Sprites - Section V.description": "切换所有Mildkewy Food Starter种子图标的装载状态。",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "启用",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "禁用"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "禁用",
+    
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ 切换所有种子图标-W部分",
+        "config.$ Toggle All Sprites - Section W.description": "切换所有Tobacco and Hemp种子图标的装载状态。",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "启用",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "禁用"
 }

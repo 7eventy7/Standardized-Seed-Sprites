@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Tüm Grafik Ayarlari - Bölüm V",
         "config.$ Toggle All Sprites - Section V.description": "Mildkewy Food Starter'dan tüm grafiklerin yükleme durumunu değiştirin.",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "Etkin",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Devre Dışı"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Devre Dışı",
+
+	// SECTION W - TOBACCO AND HEMP
+		"config.$ Toggle All Sprites - Section W.name": "$ Tüm Grafik Ayarlari - Bölüm W",
+		"config.$ Toggle All Sprites - Section W.description": "Tobacco and Hemp'tan tüm grafiklerin yükleme durumunu değiştirin.",
+		"config.$ Toggle All Sprites - Section W.values.Enabled": "Etkin",
+		"config.$ Toggle All Sprites - Section W.values.Disabled": "Devre Dışı"
 }

@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Ligar/Desligar todas as texturas - Secção V",
         "config.$ Toggle All Sprites - Section V.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Mildkewy Food Starter.",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Desativado"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Desativado",
+
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Ligar/Desligar todas as texturas - Secção W",
+        "config.$ Toggle All Sprites - Section W.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Tobacco and Hemp.",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "Ativado",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "Desativado"
 }

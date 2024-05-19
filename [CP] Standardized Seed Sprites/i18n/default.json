@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Toggle All Sprites - Section V",
         "config.$ Toggle All Sprites - Section V.description": "Toggle the loading status of all sprites from Mildkewy Food Starter.",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "Enabled",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Disabled"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Disabled",
+    
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Toggle All Sprites - Section W",
+        "config.$ Toggle All Sprites - Section W.description": "Toggle the loading status of all sprites from Tobacco and Hemp.",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "Enabled",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "Disabled"
 }

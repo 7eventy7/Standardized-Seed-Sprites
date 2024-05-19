@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Activar Todos los Sprites - Grupo V : Mildkewy Food Starter",
         "config.$ Toggle All Sprites - Section V.description": "Activa/desactiva los cambios visuales en los sprites de Mildkewy Food Starter.",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "Activado",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Desactivado"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Desactivado",
+    
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Activar Todos los Sprites - Grupo W : Tobacco and Hemp",
+        "config.$ Toggle All Sprites - Section W.description": "Activa/desactiva los cambios visuales en los sprites de Tobacco and Hemp.",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "Activado",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "Desactivado"
 }

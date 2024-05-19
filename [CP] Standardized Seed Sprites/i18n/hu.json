@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Összes ikon be/kikapcsolása - V szekció",
         "config.$ Toggle All Sprites - Section V.description": "Kapcsold ki vagy be az összes Mildkewy Food Starter-ből származó ikont.",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "Bekapcsolva",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Kikapcsolva"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Kikapcsolva",
+    
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Összes ikon be/kikapcsolása - W szekció",
+        "config.$ Toggle All Sprites - Section W.description": "Kapcsold ki vagy be az összes Tobacco and Hemp-ből származó ikont.",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "Bekapcsolva",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "Kikapcsolva"
 }

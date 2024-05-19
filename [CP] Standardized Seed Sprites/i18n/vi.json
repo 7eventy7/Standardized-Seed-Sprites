@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Thay đổi mọi hoạ tiết - phần V",
         "config.$ Toggle All Sprites - Section V.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Mildkewy Food Starter.",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Tắt"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Tắt",
+    
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Thay đổi mọi hoạ tiết - phần W",
+        "config.$ Toggle All Sprites - Section W.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Tobacco and Hemp.",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "Bật",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "Tắt"
 }

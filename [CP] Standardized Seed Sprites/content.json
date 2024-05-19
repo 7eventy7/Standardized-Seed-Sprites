@@ -2956,6 +2956,25 @@
             "AllowValues": "true, false",
             "Default": "true",
             "Section": "V - Mildkewy Food Starter"
+        },
+    // TOBACCO AND HEMP - SECTION W0
+        "$ Toggle All Sprites - Section W": 
+        {
+            "AllowValues": "Enabled, Disabled",
+            "Default": "Enabled",
+            "Section": "W - Tobacco and Hemp"
+        },
+        "(W) Hemp Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "W - Tobacco and Hemp"
+        },
+        "(W) Tobacco Seed": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "W - Tobacco and Hemp"
         }
     },
     "Changes": [
@@ -6517,6 +6536,23 @@
             "Priority": "Late",
             "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
+    // TOBACCO AND HEMP - SECTION W1
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_hemp",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Hemp Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_tobacco",
+            "FromFile": "assets/spritesheets/seeds/sleeves-sensible/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Tobacco Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(1) Sensible Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
 // SEEDS - SLEEVES SEASONAL - MODULE 2
     // VANILLA - SECTION A2
         {
@@ -10074,6 +10110,23 @@
             "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
             "Priority": "Late",
             "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // TOBACCO AND HEMP - SECTION W2
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_hemp",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Hemp Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_tobacco",
+            "FromFile": "assets/spritesheets/seeds/sleeves-seasonal/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Tobacco Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(2) Seasonal Sleeves", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
 // SEEDS - SATCHELS SENSIBLE - MODULE 3
     // VANILLA - SECTION A3
@@ -13633,6 +13686,23 @@
             "Priority": "Late",
             "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
+    // TOBACCO AND HEMP - SECTION W3
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_hemp",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Hemp Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_tobacco",
+            "FromFile": "assets/spritesheets/seeds/satchels-sensible/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Tobacco Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(3) Sensible Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
 // SEEDS - SATCHELS SEASONAL - MODULE 4
     // VANILLA - SECTION A4
         {
@@ -17190,6 +17260,23 @@
             "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
             "Priority": "Late",
             "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // TOBACCO AND HEMP - SECTION W4
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_hemp",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Hemp Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_tobacco",
+            "FromFile": "assets/spritesheets/seeds/satchels-seasonal/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Tobacco Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(4) Seasonal Satchels", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
 // SEEDS - STASHES SENSIBLE - MODULE 5
     // VANILLA - SECTION A5
@@ -20749,6 +20836,23 @@
             "Priority": "Late",
             "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
+    // TOBACCO AND HEMP - SECTION W5
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_hemp",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Hemp Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_tobacco",
+            "FromFile": "assets/spritesheets/seeds/stashes-sensible/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Tobacco Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(5) Sensible Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
 // SEEDS - STASHES SENSIBLE - MODULE 6
     // VANILLA - SECTION A6
         {
@@ -24306,6 +24410,23 @@
             "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
             "Priority": "Late",
             "When": { "(V) Pork Seed": "true", "$ Toggle All Sprites - Section V": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+    // TOBACCO AND HEMP - SECTION W6
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_hemp",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Hemp Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "bmb.tobaccohemp/seed_tobacco",
+            "FromFile": "assets/spritesheets/seeds/stashes-seasonal/seeds-tobacco-and-hemp.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+            "Priority": "Late",
+            "When": { "(W) Tobacco Seed": "true", "$ Toggle All Sprites - Section W": "Enabled", "Seed Packet Variant": "(6) Seasonal Stashes", "Seed Sprites Toggle": "Enabled", "= General Mod Toggle": "Enabled" }
         },
 // SAPLINGS - CLOUD SACKS - MODULE 7
     // VANILLA - SECTION A7

@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग वी",
         "config.$ Toggle All Sprites - Section V.description": "'मिल्डकेवी फूड स्टार्टर' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "चालू करो",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "बंद करें"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "बंद करें",
+
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ सभी स्प्राइट को बदलने के लिए - अनुभाग डब्ल्यू",
+        "config.$ Toggle All Sprites - Section W.description": "'तंबाकू और भांग' से सभी स्प्राइट्स की लोडिंग स्थिति बदलने के लिए।",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "चालू करो",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "बंद करें"
 }

@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Mildkewy Food Starter 모드 관련 작물",
         "config.$ Toggle All Sprites - Section V.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "적용함",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "적용 안 함"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "적용 안 함",
+    
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Tobacco and Hemp 모드 관련 작물",
+        "config.$ Toggle All Sprites - Section W.description": "해당 모드 내 모든 작물의 리택스처 적용 설정",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "적용함",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "적용 안 함"
 }

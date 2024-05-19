@@ -189,5 +189,11 @@
         "config.$ Toggle All Sprites - Section V.name": "$ Activation partielle\nPartie V : Mildkewy Food Starter",
         "config.$ Toggle All Sprites - Section V.description": "Activé/désactive tous les changements sur Mildkewy Food Starter.",
         "config.$ Toggle All Sprites - Section V.values.Enabled": "Activé",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Désactivé"
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Désactivé",
+
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Activation partielle\nPartie W : Tobacco and Hemp",
+        "config.$ Toggle All Sprites - Section W.description": "Activé/désactive tous les changements sur Tobacco and Hemp.",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "Activé",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "Désactivé"
 }
