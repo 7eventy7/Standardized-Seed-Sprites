@@ -99,7 +99,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ![d-translations](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/4663ceda-68bf-4fe4-81fb-0d0d9ddf802f)
 
-### If your language is not natively supported in Stardew Valley, you will need to download a mod to enable it
+### Languages not natively supported by Stardew Valley require a mod to enable them
 
 Natively Supported Languages:
 - Russian / Русский
