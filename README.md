@@ -1,9 +1,10 @@
-![Title-Page](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/dcacedea-36a2-4f16-961b-42fc27f02232)
+![Title-Page](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/722c294d-a7e3-4022-be91-a65bfbedac15)
+
 
 ![d-information](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/9ee42555-8ae8-46af-9c4b-27662a3cd7f5)
 
 
-This Stardew Valley mod retextures seeds, starters, and saplings from over fifteen different mods into uniform sleeves, satchels, stashes, and sacks. It's time to enhance your farming experience with a completely visually unified inventory! Choose from sensible designs featuring well-established color palettes, or seasonal variations that reflect the hues of the current season. All variants also include intuitive icons for trellis and bush seeds, indicating which plants cannot be walked through. The mod also includes three color options for the sacks that saplings are held in. Use the cream color option if you want sapling sacks that match with sensible stashes. Every single component is heavily customizable, including various configurable categories that can be toggled off and on at will. The extensive support and functionality of this mod have been made possible through the generous collaboration and willingness of other mod authors to share their assets. Please view the images for packet variants, sapling sack colors, and other comparative references.
+This Stardew Valley mod retextures seeds, starters, and saplings from over twenty different mods into uniform sleeves, satchels, stashes, and sacks. It's time to enhance your farming experience with a completely visually unified inventory! Choose from sensible designs featuring well-established color palettes, or seasonal variations that reflect the hues of the current season. All variants also include intuitive icons for trellis and bush seeds, indicating which plants cannot be walked through. The mod also includes three color options for the sacks that saplings are held in. Use the cream color option if you want sapling sacks that match with sensible stashes. Every single component is heavily customizable, including various configurable categories that can be toggled off and on at will. The extensive support and functionality of this mod have been made possible through the generous collaboration and willingness of other mod authors to share their assets. Please view the images for packet variants, sapling sack colors, and other comparative references.
 
 > ### *I've easily spent over 100 hours making and updating this mod.*
 > ##### *Please leave your support on the modpages!*
@@ -56,9 +57,9 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 ### **Stardew Valley v1.6.0+ on Linux, Mac, and Windows**
 - Extensively configurable toggles for Generic Mod Config Menu
 
-## 19 Different Mods Currently Supported:
+## 22 Different Mods Currently Supported:
 
-### **387 Included Seed Sprites:**
+### **399 Included Seed Sprites:**
 - **A** - [Vanilla](https://www.stardewvalley.net/) (51)
 - **B** - [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753) (8)
 - **C** - [East Scarp](https://www.nexusmods.com/stardewvalley/mods/5787) (4)
@@ -79,8 +80,12 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 - **R** - [Uncle Iroh Tea](https://www.nexusmods.com/stardewvalley/mods/22376) (8)
 - **S** - [Polyamory Sweet](https://www.nexusmods.com/stardewvalley/mods/20599) (1)
 - **T** - [Ore Crops](https://www.nexusmods.com/stardewvalley/mods/22219) (7)
+- **U** - [Tahla Crops](https://www.nexusmods.com/stardewvalley/mods/20639) (7)
+- **V** - [MildKewy Food Starter](https://www.nexusmods.com/stardewvalley/mods/22942) (3)
+- **W** - [Tobacco and Hemp](https://www.nexusmods.com/stardewvalley/mods/24158) (2)
 
-### **83 Included Sapling Sprites:**
+
+### **86 Included Sapling Sprites:**
 - **A** - [Vanilla](https://www.stardewvalley.net/) (8)
 - **C** - [East Scarp](https://www.nexusmods.com/stardewvalley/mods/5787) (1)
 - **D** - [Visit Mount Vapius](https://www.nexusmods.com/stardewvalley/mods/9600) (5)
@@ -95,6 +100,8 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 - **O** - [Forage of Ferngill](https://www.nexusmods.com/stardewvalley/mods/8828) (2)
 - **R** - [Uncle Iroh Tea](https://www.nexusmods.com/stardewvalley/mods/22376) (1)
 - **T** - [Ore Crops](https://www.nexusmods.com/stardewvalley/mods/22219) (1)
+- **U** - [Tahla Crops](https://www.nexusmods.com/stardewvalley/mods/20639) (1)
+- **V** - [MildKewy Food Starter](https://www.nexusmods.com/stardewvalley/mods/22942) (2)
 
 ---
 
