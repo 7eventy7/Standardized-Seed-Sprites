@@ -1,0 +1,199 @@
+{
+//CONFIG DEFINITIONS
+    // SEED PACKET VARIANT
+        "config.Seed Packet Variant.name": "Вариант пакета семян",
+        "config.Seed Packet Variant.description": "Выберите вариант пакета для всех значков семян.\nСмотрите изображения на странице мода для примеров.",
+        "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
+        "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
+        "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
+        "config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
+        "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
+        "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
+
+    // SAPLING SACK COLOR
+        "config.Sapling Sack Color.name": "Цвет мешка саженцев",
+        "config.Sapling Sack Color.description": "Выберите цвет для всех мешков с саженцами.\nСмотрите изображения на странице мода для примеров.",
+        "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
+        "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
+        "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+
+    // GENERAL MOD TOGGLE
+        "config.= General Mod Toggle.name": "= Общий переключатель мода",
+        "config.= General Mod Toggle.description": "Включает/выключает общий статус мода.",
+        "config.= General Mod Toggle.values.Enabled": "Включено",
+        "config.= General Mod Toggle.values.Disabled": "Выключено",
+
+    // SEED SPRITES TOGGLE
+        "config.Seed Sprites Toggle.name": "-> Переключатель значков семян",
+        "config.Seed Sprites Toggle.description": "Включает/выключает изменение значков семян.",
+        "config.Seed Sprites Toggle.values.Enabled": "Включено",
+        "config.Seed Sprites Toggle.values.Disabled": "Выключено",
+
+    // SAPLING SPRITES TOGGLE
+        "config.Sapling Sprites Toggle.name": "-> Переключатель значков саженцев",
+        "config.Sapling Sprites Toggle.description": "Включает/выключает изменение значков саженцев.",
+        "config.Sapling Sprites Toggle.values.Enabled": "Включено",
+        "config.Sapling Sprites Toggle.values.Disabled": "Выключено",
+
+    // BUSH SPRITES TOGGLE
+        "config.Bush Sprites Toggle.name": "-> Переключатель значков кустов",
+        "config.Bush Sprites Toggle.description": "Включает/выключает изменение значков кустов.",
+        "config.Bush Sprites Toggle.values.Enabled": "Включено",
+        "config.Bush Sprites Toggle.values.Disabled": "Выключено",
+
+    // TRELLIS SPRITES TOGGLE
+        "config.Trellis Sprites Toggle.name": "-> Переключатель значков шпалер",
+        "config.Trellis Sprites Toggle.description": "Включает/выключает изменение значков шпалер.",
+        "config.Trellis Sprites Toggle.values.Enabled": "Включено",
+        "config.Trellis Sprites Toggle.values.Disabled": "Выключено",
+
+    // TEA SAPLING SPRITES TOGGLE
+        "config.Tea Sapling Sprites Toggle.name": "-> Переключатель значков чайных саженцев",
+        "config.Tea Sapling Sprites Toggle.description": "Включает/выключает изменение значков чайных саженцев.",
+        "config.Tea Sapling Sprites Toggle.values.Enabled": "Включено",
+        "config.Tea Sapling Sprites Toggle.values.Disabled": "Выключено",
+
+    // MIXED SEED SPRITES TOGGLE
+        "config.Mixed Seed Sprites Toggle.name": "-> Переключатель значков смешанных семян",
+        "config.Mixed Seed Sprites Toggle.description": "Включает/выключает изменение значков смешанных семян.",
+        "config.Mixed Seed Sprites Toggle.values.Enabled": "Включено",
+        "config.Mixed Seed Sprites Toggle.values.Disabled": "Выключено",
+
+    // SECTION A - VANILLA
+        "config.$ Toggle All Sprites - Section A.name": "$ Частичный переключатель\nСекция А: Vanilla",
+        "config.$ Toggle All Sprites - Section A.description": "Включает/выключает все изменения в Vanilla.",
+        "config.$ Toggle All Sprites - Section A.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section A.values.Disabled": "Выключено",
+
+    // SECTION B - STARDEW VALLEY EXPANDED
+        "config.$ Toggle All Sprites - Section B.name": "$ Частичный переключатель\nСекция B: Stardew Valley Expanded",
+        "config.$ Toggle All Sprites - Section B.description": "Включает/выключает все изменения в Stardew Valley Expanded.",
+        "config.$ Toggle All Sprites - Section B.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section B.values.Disabled": "Выключено",
+
+    // SECTION C - EAST SCARP
+        "config.$ Toggle All Sprites - Section C.name": "$ Частичный переключатель\nСекция C: East Scarp",
+        "config.$ Toggle All Sprites - Section C.description": "Включает/выключает все изменения в East Scarp.",
+        "config.$ Toggle All Sprites - Section C.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section C.values.Disabled": "Выключено",
+
+    // SECTION D - VISIT MOUNT VAPIUS
+        "config.$ Toggle All Sprites - Section D.name": "$ Частичный переключатель\nСекция D: Visit Mount Vapius",
+        "config.$ Toggle All Sprites - Section D.description": "Включает/выключает все изменения в Visit Mount Vapius.",
+        "config.$ Toggle All Sprites - Section D.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section D.values.Disabled": "Выключено",
+
+    // SECTION E - SERENE MEADOW
+        "config.$ Toggle All Sprites - Section E.name": "$ Частичный переключатель\nСекция E: Serene Meadow",
+        "config.$ Toggle All Sprites - Section E.description": "Включает/выключает все изменения в Serene Meadow.",
+        "config.$ Toggle All Sprites - Section E.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section E.values.Disabled": "Выключено",
+
+    // SECTION F - GROWABLE FORAGE
+        "config.$ Toggle All Sprites - Section F.name": "$ Частичный переключатель\nСекция F: Growable Forage",
+        "config.$ Toggle All Sprites - Section F.description": "Включает/выключает все изменения в Growable Forage.",
+        "config.$ Toggle All Sprites - Section F.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section F.values.Disabled": "Выключено",
+
+    // SECTION G - CORNUCOPIA CROPS
+        "config.$ Toggle All Sprites - Section G.name": "$ Частичный переключатель\nСекция G: Cornucopia Crops",
+        "config.$ Toggle All Sprites - Section G.description": "Включает/выключает все изменения в Cornucopia Crops.",
+        "config.$ Toggle All Sprites - Section G.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section G.values.Disabled": "Выключено",
+
+    // SECTION H - CORNUCOPIA HERBS
+        "config.$ Toggle All Sprites - Section H.name": "$ Частичный переключатель\nСекция H: Cornucopia Herbs",
+        "config.$ Toggle All Sprites - Section H.description": "Включает/выключает все изменения в Cornucopia Herbs.",
+        "config.$ Toggle All Sprites - Section H.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section H.values.Disabled": "Выключено",
+
+    // SECTION I - CORNUCOPIA FLOWERS
+        "config.$ Toggle All Sprites - Section I.name": "$ Частичный переключатель\nСекция I: Cornucopia Flowers",
+        "config.$ Toggle All Sprites - Section I.description": "Включает/выключает все изменения в Cornucopia Flowers.",
+        "config.$ Toggle All Sprites - Section I.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section I.values.Disabled": "Выключено",
+
+    // SECTION J - ILUCIE WINTER CROPS
+        "config.$ Toggle All Sprites - Section J.name": "$ Частичный переключатель\nСекция J: Ilucie Winter Crops",
+        "config.$ Toggle All Sprites - Section J.description": "Включает/выключает все изменения в Ilucie Winter Crops.",
+        "config.$ Toggle All Sprites - Section J.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section J.values.Disabled": "Выключено",
+
+    // SECTION K - FLOWER GARDEN 2
+        "config.$ Toggle All Sprites - Section K.name": "$ Частичный переключатель\nСекция K: Flower Garden 2",
+        "config.$ Toggle All Sprites - Section K.description": "Включает/выключает все изменения в Flower Garden 2.",
+        "config.$ Toggle All Sprites - Section K.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section K.values.Disabled": "Выключено",
+
+    // SECTION L - GRAPES OF FERNGILL
+        "config.$ Toggle All Sprites - Section L.name": "$ Частичный переключатель\nСекция L: Grapes of Ferngill",
+        "config.$ Toggle All Sprites - Section L.description": "Включает/выключает все изменения в Grapes of Ferngill.",
+        "config.$ Toggle All Sprites - Section L.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section L.values.Disabled": "Выключено",
+
+    // SECTION M - ATELIER GOODS FORAGER
+        "config.$ Toggle All Sprites - Section M.name": "$ Частичный переключатель\nСекция M: Atelier Goods Forager",
+        "config.$ Toggle All Sprites - Section M.description": "Включает/выключает все изменения в Atelier Goods Forager.",
+        "config.$ Toggle All Sprites - Section M.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section M.values.Disabled": "Выключено",
+
+    // SECTION N - GARDEN VARIETY MIXED SEEDS
+        "config.$ Toggle All Sprites - Section N.name": "$ Частичный переключатель\nСекция N: Garden Variety Mixed Seeds",
+        "config.$ Toggle All Sprites - Section N.description": "Включает/выключает все изменения в Garden Variety Mixed Seeds.",
+        "config.$ Toggle All Sprites - Section N.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section N.values.Disabled": "Выключено",
+
+    // SECTION O - FORAGE OF FERNGILL
+        "config.$ Toggle All Sprites - Section O.name": "$ Частичный переключатель\nСекция O: Forage of Ferngill",
+        "config.$ Toggle All Sprites - Section O.description": "Включает/выключает все изменения в Forage of Ferngill.",
+        "config.$ Toggle All Sprites - Section O.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section O.values.Disabled": "Выключено",
+
+    // SECTION P - GRAINS OVERHULL
+        "config.$ Toggle All Sprites - Section P.name": "$ Частичный переключатель\nСекция P: Grains Overhull",
+        "config.$ Toggle All Sprites - Section P.description": "Включает/выключает все изменения в Grains Overhull.",
+        "config.$ Toggle All Sprites - Section P.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section P.values.Disabled": "Выключено",
+
+    // SECTION Q - CLOUDBERRIES AS FORAGE
+        "config.$ Toggle All Sprites - Section Q.name": "$ Частичный переключатель\nСекция Q: Cloudberries as Forage",
+        "config.$ Toggle All Sprites - Section Q.description": "Включает/выключает все изменения в Cloudberries as Forage.",
+        "config.$ Toggle All Sprites - Section Q.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section Q.values.Disabled": "Выключено",
+
+    // SECTION R - UNCLE IROH TEA
+        "config.$ Toggle All Sprites - Section R.name": "$ Частичный переключатель\nСекция R: Uncle Iroh Tea",
+        "config.$ Toggle All Sprites - Section R.description": "Включает/выключает все изменения в Uncle Iroh Tea.",
+        "config.$ Toggle All Sprites - Section R.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section R.values.Disabled": "Выключено",
+
+    // SECTION S - POLYAMORY SWEET
+        "config.$ Toggle All Sprites - Section S.name": "$ Частичный переключатель\nСекция S: Polyamory Sweet",
+        "config.$ Toggle All Sprites - Section S.description": "Включает/выключает все изменения в Polyamory Sweet.",
+        "config.$ Toggle All Sprites - Section S.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section S.values.Disabled": "Выключено",
+
+    // SECTION T - ORE CROPS
+        "config.$ Toggle All Sprites - Section T.name": "$ Частичный переключатель\nСекция T: Ore Crops",
+        "config.$ Toggle All Sprites - Section T.description": "Включает/выключает все изменения в Ore Crops.",
+        "config.$ Toggle All Sprites - Section T.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section T.values.Disabled": "Выключено",
+
+    // SECTION U - TAHLA CROPS
+        "config.$ Toggle All Sprites - Section U.name": "$ Частичный переключатель\nСекция U: Tahla Crops",
+        "config.$ Toggle All Sprites - Section U.description": "Включает/выключает все изменения в Tahla Crops.",
+        "config.$ Toggle All Sprites - Section U.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section U.values.Disabled": "Выключено",
+
+    // SECTION V - MILDKEWY FOOD STARTER
+        "config.$ Toggle All Sprites - Section V.name": "$ Частичный переключатель\nСекция V: Mildkewy Food Starter",
+        "config.$ Toggle All Sprites - Section V.description": "Включает/выключает все изменения в Mildkewy Food Starter.",
+        "config.$ Toggle All Sprites - Section V.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section V.values.Disabled": "Выключено",
+
+    // SECTION W - TOBACCO AND HEMP
+        "config.$ Toggle All Sprites - Section W.name": "$ Частичный переключатель\nСекция W: Tobacco and Hemp",
+        "config.$ Toggle All Sprites - Section W.description": "Включает/выключает все изменения в Tobacco and Hemp.",
+        "config.$ Toggle All Sprites - Section W.values.Enabled": "Включено",
+        "config.$ Toggle All Sprites - Section W.values.Disabled": "Выключено"
+}

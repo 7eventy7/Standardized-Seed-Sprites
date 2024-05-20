@@ -100,16 +100,13 @@ All the wonderful individuals that helped contribute to this mod in some way!
 ➤ molnaramy00
 
 > **German / Deutsch**  
-➤ 
+➤ Drasuk
 
 > **Italian / Italiano**  
 ➤ zyx_xbl
 
-> **Croatian / Hrvatski**  
-➤ 
-
 > **Russian / Русский**  
-➤ 
+➤ egxo
 
 > **Portuguese / Português**  
 ➤ Gofriak
