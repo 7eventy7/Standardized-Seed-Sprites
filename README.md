@@ -112,8 +112,8 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over twent
 Natively Supported Languages:
 - Russian / Русский
 - German / Deutsch
-- Chinese / 中文 (Simplified)
-- Portuguese / Português (Brazilian)
+- Chinese / 中文
+- Portuguese / Português
 - Japanese / 日本語
 - Spanish / Español
 - French / Français
