@@ -2,6 +2,35 @@
 
 Check out what has been added or changed from every single version ever released!
 
+## [Version 2.1.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v2.1.0)
+### Added
+- Support for "Tahla Crops"
+- Support for "Mildkewy Food Starter"
+- Support for "Tobacco and Hemp"
+- "Seasonal Sleeves" Design
+- "Seasonal Stashes" Design & Coloration
+- "Trellis/Bush" Indicators on Stashes
+- "Spanish / Español" Translation
+- "French / Français" Translation
+- "Hindi / हिंदी" Translation
+- "Hungarian / Magyar" Translation
+- "Indonesian / Bahasa Indonesia" Translation
+- "Italian / Italiano" Translation
+- "Japanese / 日本語" Translation
+- "Korean / 한국어" Translation
+- "Polish / Polski" Translation
+- "Portuguese / Português" Translation
+- "Swedish / Svenska" Translation
+- "Turkish / Türkçe" Translation
+- "Vietnamese / Tiếng Việt" Translation
+- "Chinese / 中文" Translation
+- "Russian / Русский" Translation
+- "German / Deutsch" Translation
+
+### Changed
+- "Sensible Sleeves" not having all indicators
+- "default.json" errors
+
 ## [Version 2.0.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v2.0.0)
 ### Added
 - Support for "Polyamory Sweet"
