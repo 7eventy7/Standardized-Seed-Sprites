@@ -81,7 +81,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over twent
 - **S** - [Polyamory Sweet](https://www.nexusmods.com/stardewvalley/mods/20599) (1)
 - **T** - [Ore Crops](https://www.nexusmods.com/stardewvalley/mods/22219) (7)
 - **U** - [Tahla Crops](https://www.nexusmods.com/stardewvalley/mods/20639) (7)
-- **V** - [MildKewy Food Starter](https://www.nexusmods.com/stardewvalley/mods/22942) (3)
+- **V** - [Mildkewy Food Starter](https://www.nexusmods.com/stardewvalley/mods/22942) (3)
 - **W** - [Tobacco and Hemp](https://www.nexusmods.com/stardewvalley/mods/24158) (2)
 
 
@@ -101,7 +101,7 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over twent
 - **R** - [Uncle Iroh Tea](https://www.nexusmods.com/stardewvalley/mods/22376) (1)
 - **T** - [Ore Crops](https://www.nexusmods.com/stardewvalley/mods/22219) (1)
 - **U** - [Tahla Crops](https://www.nexusmods.com/stardewvalley/mods/20639) (1)
-- **V** - [MildKewy Food Starter](https://www.nexusmods.com/stardewvalley/mods/22942) (2)
+- **V** - [Mildkewy Food Starter](https://www.nexusmods.com/stardewvalley/mods/22942) (2)
 
 ---
 
