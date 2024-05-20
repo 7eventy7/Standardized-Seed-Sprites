@@ -2,10 +2,9 @@
 ### REFERENCES
 ![Reference- A](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/f6983b57-22fa-450f-8f52-8d011c64e64f)
 ![Reference- B](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/f2aa5307-a67d-43b4-8da1-e14121aac56c)
-![Reference- C](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/ea8ac046-ffed-439b-a595-0703098b69ad)
-![Reference- D](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/70a08ff2-c95d-4254-9f85-4043dcb9349f)
-![Reference- E](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/fa7da2d6-9e3a-4795-9b28-1422d46d2ad3)
-
+![Reference- C](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/e8b1e13a-e29e-4bdd-8106-7a4a834dfa97)
+![Reference- D](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/ad9639e3-5d65-4be5-9346-68f017be857a)
+![Reference- E](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/b90a8680-91ef-4338-bb3e-ddc960ba9323)
 
 ### COMPARISONS
 ![Comparison - A](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/d5092e4b-a17b-4075-b2d3-1bd758c40543)
