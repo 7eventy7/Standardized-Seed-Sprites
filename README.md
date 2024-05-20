@@ -97,6 +97,32 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 
 ---
 
+![d-translations](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/4663ceda-68bf-4fe4-81fb-0d0d9ddf802f)
+
+### If your language is not natively supported in Stardew Valley, you will need to download a mod to enable it
+
+Natively Supported Languages:
+- Russian / Русский
+- German / Deutsch
+- Chinese / 中文 (Simplified)
+- Portuguese / Português (Brazilian)
+- Japanese / 日本語
+- Spanish / Español
+- French / Français
+- Italian / Italiano
+- Korean / 한국어
+- Turkish / Türkçe
+- Hungarian / Magyar
+
+Additionally Supported Languages:
+- Vietnamese / Tiếng Việt
+- Swedish / Svenska
+- Polish / Polski
+- Indonesian / Bahasa Indonesia
+- Hindi / हिंदी
+
+---
+
 ![d-design ethos](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/3d5af1d1-8f25-481f-bf90-af21eab9a42d)
 
 - Maintain vanilla style and feel
@@ -121,12 +147,6 @@ This Stardew Valley mod retextures seeds, starters, and saplings from over fifte
 1. Delete the current version inside **"Stardew Valley/Mods"**
 2. Download the latest version and unzip it into **"Stardew Valley/Mods"**
 3. Run the game using **"SMAPI"**
-
----
-
-![d-translations](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/4663ceda-68bf-4fe4-81fb-0d0d9ddf802f)
-
-### COMING SOON!
 
 ---
 
