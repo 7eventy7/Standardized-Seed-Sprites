@@ -30,6 +30,7 @@ Check out what has been added or changed from every single version ever released
 ### Changed
 - "Sensible Sleeves" not having all indicators
 - "default.json" errors
+- "Satchel" indicators moved up for visibility
 
 ## [Version 2.0.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v2.0.0)
 ### Added
