@@ -10,22 +10,7 @@ Check out what has been added or changed from every single version ever released
 - "Seasonal Sleeves" Design
 - "Seasonal Stashes" Design & Coloration
 - "Trellis/Bush" Indicators on Stashes
-- "Spanish / Español" Translation
-- "French / Français" Translation
-- "Hindi / हिंदी" Translation
-- "Hungarian / Magyar" Translation
-- "Indonesian / Bahasa Indonesia" Translation
-- "Italian / Italiano" Translation
-- "Japanese / 日本語" Translation
-- "Korean / 한국어" Translation
-- "Polish / Polski" Translation
-- "Portuguese / Português" Translation
-- "Swedish / Svenska" Translation
-- "Turkish / Türkçe" Translation
-- "Vietnamese / Tiếng Việt" Translation
-- "Chinese / 中文" Translation
-- "Russian / Русский" Translation
-- "German / Deutsch" Translation
+- Translations for 16 different languages
 
 ### Changed
 - "Sensible Sleeves" not having all indicators
