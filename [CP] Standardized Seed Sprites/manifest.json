@@ -1,9 +1,10 @@
 {
     "Name": "Standardized Seed Sprites",
     "Author": "7eventy7",
-    "Version": "2.1.0",
+    "Version": "2.2.0",
     "Description": "Uniform sprites for all seeds, starters, and saplings",
     "UniqueID": "7eventy7.StandardizedSeedSprites",
+    "MinimumGameVersion": "1.6",
     "UpdateKeys": [ "Nexus:21305" ],
     "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"

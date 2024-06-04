@@ -1,6 +1,5 @@
 {
-//CONFIG DEFINITIONS
-    // SEED PACKET VARIANT
+    // CONFIG OPTIONS
         "config.Seed Packet Variant.name": "Biến thể cho gói hạt giống",
         "config.Seed Packet Variant.description": "Đặt biến thể gói cho mọi gói hạt giống.\nVui lòng tham khảo ảnh của mod trên trang web để biết được hình dạng của từng túi.",
         "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
@@ -10,190 +9,182 @@
         "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
         "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
 
-    // SAPLING SACK COLOR
         "config.Sapling Sack Color.name": "Màu túi đựng cây non",
         "config.Sapling Sack Color.description": "Đặt màu túi cho mọi túi đựng cây non.\nVui lòng tham khảo ảnh của mod trên trang web để biết được màu cho từng tuỳ chọn.",
         "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
         "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
         "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+        "config.Sapling Sack Color.values.(4) Crypt": "(4) Crypt",
 
-    // GENERAL MOD TOGGLE
-        "config.= General Mod Toggle.name": "= Chuyển đổi mod chung",
-        "config.= General Mod Toggle.description": "Bật/Tắt cho toàn bộ mod.",
-        "config.= General Mod Toggle.values.Enabled": "Bật",
-        "config.= General Mod Toggle.values.Disabled": "Tắt",
+    // GLOBAL TOGGLES
+        "config.= Disable Entire Mod.name": "= Tắt toàn bộ mod",
+        "config.= Disable Entire Mod.description": "Bật/Tắt cho toàn bộ mod.",
+        "config.= Disable Entire Mod.values.true": "Bật",
+        "config.= Disable Entire Mod.values.false": "Tắt",
 
-    // SEED SPRITES TOGGLE
-        "config.Seed Sprites Toggle.name": "Thay đổi hoạ tiết Hạt giống",
-        "config.Seed Sprites Toggle.description": "Bật/Tắt tải hoạ tiết Hạt giống.",
-        "config.Seed Sprites Toggle.values.Enabled": "Bật",
-        "config.Seed Sprites Toggle.values.Disabled": "Tắt",
+        "config.Seed Sprites.name": "Thay đổi hoạ tiết Hạt giống",
+        "config.Seed Sprites.description": "Bật/Tắt tải hoạ tiết Hạt giống.",
+        "config.Seed Sprites.values.Enabled": "Bật",
+        "config.Seed Sprites.values.Disabled": "Tắt",
     
-    // SAPLING SPRITES TOGGLE
-        "config.Sapling Sprites Toggle.name": "Thay đổi hoạ tiết Cây non",
-        "config.Sapling Sprites Toggle.description": "Bật/Tắt tải hoạ tiết Cây non.",
-        "config.Sapling Sprites Toggle.values.Enabled": "Bật",
-        "config.Sapling Sprites Toggle.values.Disabled": "Tắt",
+        "config.Sapling Sprites.name": "Thay đổi hoạ tiết Cây non",
+        "config.Sapling Sprites.description": "Bật/Tắt tải hoạ tiết Cây non.",
+        "config.Sapling Sprites.values.Enabled": "Bật",
+        "config.Sapling Sprites.values.Disabled": "Tắt",
 
-    // BUSH SPRITES TOGGLE
-        "config.Bush Sprites Toggle.name": "Thay đổi hoạ tiết Bụi cây",
-        "config.Bush Sprites Toggle.description": "Bật/Tắt tải hoạ tiết Bụi cây tuỳ chỉnh.",
-        "config.Bush Sprites Toggle.values.Enabled": "Bật",
-        "config.Bush Sprites Toggle.values.Disabled": "Tắt",
+        "config.Bush Sprites.name": "Thay đổi hoạ tiết Bụi cây",
+        "config.Bush Sprites.description": "Bật/Tắt tải hoạ tiết Bụi cây tuỳ chỉnh.",
+        "config.Bush Sprites.values.Enabled": "Bật",
+        "config.Bush Sprites.values.Disabled": "Tắt",
 
-    // TRELLIS SPRITES TOGGLE
-        "config.Trellis Sprites Toggle.name": "Thay đổi hoạ tiết Giàn giáo cho cây thân leo",
-        "config.Trellis Sprites Toggle.description": "Bật/Tắt tải hoạ tiết Giàn giáo cho cây thân leo tuỳ chỉnh.",
-        "config.Trellis Sprites Toggle.values.Enabled": "Bật",
-        "config.Trellis Sprites Toggle.values.Disabled": "Tắt",
+        "config.Trellis Sprites.name": "Thay đổi hoạ tiết Giàn giáo cho cây thân leo",
+        "config.Trellis Sprites.description": "Bật/Tắt tải hoạ tiết Giàn giáo cho cây thân leo tuỳ chỉnh.",
+        "config.Trellis Sprites.values.Enabled": "Bật",
+        "config.Trellis Sprites.values.Disabled": "Tắt",
 
-    // TEA SAPLING SPRITES TOGGLE
-        "config.Tea Sapling Sprites Toggle.name": "Thay đổi hoạ tiết Cây chè non",
-        "config.Tea Sapling Sprites Toggle.description": "Bật/Tắt tải hoạ tiết Cây chè non.",
-        "config.Tea Sapling Sprites Toggle.values.Enabled": "Bật",
-        "config.Tea Sapling Sprites Toggle.values.Disabled": "Tắt",
+        "config.Tea Sapling Sprites.name": "Thay đổi hoạ tiết Cây chè non",
+        "config.Tea Sapling Sprites.description": "Bật/Tắt tải hoạ tiết Cây chè non.",
+        "config.Tea Sapling Sprites.values.Enabled": "Bật",
+        "config.Tea Sapling Sprites.values.Disabled": "Tắt",
 
-    // MIXED SEED SPRITES TOGGLE
-        "config.Mixed Seed Sprites Toggle.name": "Thay đổi hoạ tiết Hạt giống tổng hợp",
-        "config.Mixed Seed Sprites Toggle.description": "Bật/Tắt tải hoạ tiết Hạt giống tổng hợp",
-        "config.Mixed Seed Sprites Toggle.values.Enabled": "Bật",
-        "config.Mixed Seed Sprites Toggle.values.Disabled": "Tắt",
+        "config.Mixed Seed Sprites.name": "Thay đổi hoạ tiết Hạt giống tổng hợp",
+        "config.Mixed Seed Sprites.description": "Bật/Tắt tải hoạ tiết Hạt giống tổng hợp",
+        "config.Mixed Seed Sprites.values.Enabled": "Bật",
+        "config.Mixed Seed Sprites.values.Disabled": "Tắt",
 
-    // SECTION A - VANILLA
-        "config.$ Toggle All Sprites - Section A.name": "$ Thay đổi mọi hoạ tiết - phần A",
-        "config.$ Toggle All Sprites - Section A.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Vanilla.",
-        "config.$ Toggle All Sprites - Section A.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section A.values.Disabled": "Tắt",
+    // MOD SECTION TOGGLES
+        "config.(A) Vanilla.name": "(A) Vanilla",
+        "config.(A) Vanilla.description": "Bật/Tắt tải cho từng kết cấu cây từ trò chơi cơ bản.",
+        "config.(A) Vanilla.values.true": "Bật",
+        "config.(A) Vanilla.values.false": "Tắt",
 
-    // SECTION B - STARDEW VALLEY EXPANDED
-        "config.$ Toggle All Sprites - Section B.name": "$ Thay đổi mọi hoạ tiết - phần B",
-        "config.$ Toggle All Sprites - Section B.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Stardew Valley Expanded.",
-        "config.$ Toggle All Sprites - Section B.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section B.values.Disabled": "Tắt",
+        "config.(B) Stardew Valley Expanded.name": "(B) Stardew Valley Expanded",
+        "config.(B) Stardew Valley Expanded.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Stardew Valley Expanded.",
+        "config.(B) Stardew Valley Expanded.values.true": "Bật",
+        "config.(B) Stardew Valley Expanded.values.false": "Tắt",
 
-    // SECTION C - EAST SCARP
-        "config.$ Toggle All Sprites - Section C.name": "$ Thay đổi mọi hoạ tiết - phần C",
-        "config.$ Toggle All Sprites - Section C.description": "Bật/Tắt tải cho từng hoạ tiết cây từ East Scarp.",
-        "config.$ Toggle All Sprites - Section C.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section C.values.Disabled": "Tắt",
+        "config.(C) East Scarp.name": "(C) East Scarp",
+        "config.(C) East Scarp.description": "Bật/Tắt tải cho từng hoạ tiết cây từ East Scarp.",
+        "config.(C) East Scarp.values.true": "Bật",
+        "config.(C) East Scarp.values.false": "Tắt",
 
-    // SECTION D - VISIT MOUNT VAPIUS
-        "config.$ Toggle All Sprites - Section D.name": "$ Thay đổi mọi hoạ tiết - phần D",
-        "config.$ Toggle All Sprites - Section D.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Visit Mount Vapius.",
-        "config.$ Toggle All Sprites - Section D.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section D.values.Disabled": "Tắt",
+        "config.(D) Visit Mount Vapius.name": "(D) Visit Mount Vapius",
+        "config.(D) Visit Mount Vapius.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Visit Mount Vapius.",
+        "config.(D) Visit Mount Vapius.values.true": "Bật",
+        "config.(D) Visit Mount Vapius.values.false": "Tắt",
 
-    // SECTION E - SERENE MEADOW
-        "config.$ Toggle All Sprites - Section E.name": "$ Thay đổi mọi hoạ tiết - phần E",
-        "config.$ Toggle All Sprites - Section E.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Serene Meadow.",
-        "config.$ Toggle All Sprites - Section E.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section E.values.Disabled": "Tắt",
+        "config.(E) Serene Meadow.name": "(E) Serene Meadow",
+        "config.(E) Serene Meadow.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Serene Meadow.",
+        "config.(E) Serene Meadow.values.true": "Bật",
+        "config.(E) Serene Meadow.values.false": "Tắt",
 
-    // SECTION F - GROWABLE FORAGE
-        "config.$ Toggle All Sprites - Section F.name": "$ Thay đổi mọi hoạ tiết - phần F",
-        "config.$ Toggle All Sprites - Section F.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Growable Forage.",
-        "config.$ Toggle All Sprites - Section F.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section F.values.Disabled": "Tắt",
+        "config.(F) Growable Forage.name": "(F) Growable Forage",
+        "config.(F) Growable Forage.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Growable Forage.",
+        "config.(F) Growable Forage.values.true": "Bật",
+        "config.(F) Growable Forage.values.false": "Tắt",
 
-    // SECTION G - CORNUCOPIA CROPS
-        "config.$ Toggle All Sprites - Section G.name": "$ Thay đổi mọi hoạ tiết - phần G",
-        "config.$ Toggle All Sprites - Section G.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Cornucopia Crops.",
-        "config.$ Toggle All Sprites - Section G.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section G.values.Disabled": "Tắt",
+        "config.(G) Cornucopia Crops.name": "(G) Cornucopia Crops",
+        "config.(G) Cornucopia Crops.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Cornucopia Crops.",
+        "config.(G) Cornucopia Crops.values.true": "Bật",
+        "config.(G) Cornucopia Crops.values.false": "Tắt",
 
-    // SECTION H - CORNUCOPIA HERBS
-        "config.$ Toggle All Sprites - Section H.name": "$ Thay đổi mọi hoạ tiết - phần H",
-        "config.$ Toggle All Sprites - Section H.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Cornucopia Herbs.",
-        "config.$ Toggle All Sprites - Section H.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section H.values.Disabled": "Tắt",
+        "config.(H) Cornucopia Herbs.name": "(H) Cornucopia Herbs",
+        "config.(H) Cornucopia Herbs.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Cornucopia Herbs.",
+        "config.(H) Cornucopia Herbs.values.true": "Bật",
+        "config.(H) Cornucopia Herbs.values.false": "Tắt",
 
-    // SECTION I - CORNUCOPIA FLOWERS
-        "config.$ Toggle All Sprites - Section I.name": "$ Thay đổi mọi hoạ tiết - phần I",
-        "config.$ Toggle All Sprites - Section I.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Cornucopia Flowers.",
-        "config.$ Toggle All Sprites - Section I.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section I.values.Disabled": "Tắt",
+        "config.(I) Cornucopia Flowers.name": "(I) Cornucopia Flowers",
+        "config.(I) Cornucopia Flowers.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Cornucopia Flowers.",
+        "config.(I) Cornucopia Flowers.values.true": "Bật",
+        "config.(I) Cornucopia Flowers.values.false": "Tắt",
 
-    // SECTION J - ILUCIE WINTER CROPS
-        "config.$ Toggle All Sprites - Section J.name": "$ Thay đổi mọi hoạ tiết - phần J",
-        "config.$ Toggle All Sprites - Section J.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Ilucie Winter Crops.",
-        "config.$ Toggle All Sprites - Section J.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section J.values.Disabled": "Tắt",
+        "config.(J) Ilucie Winter Crops.name": "(J) Ilucie Winter Crops",
+        "config.(J) Ilucie Winter Crops.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Ilucie Winter Crops.",
+        "config.(J) Ilucie Winter Crops.values.true": "Bật",
+        "config.(J) Ilucie Winter Crops.values.false": "Tắt",
 
-    // SECTION K - FLOWER GARDEN 2
-        "config.$ Toggle All Sprites - Section K.name": "$ Thay đổi mọi hoạ tiết - phần K",
-        "config.$ Toggle All Sprites - Section K.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Flower Garden 2.",
-        "config.$ Toggle All Sprites - Section K.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section K.values.Disabled": "Tắt",
+        "config.(K) Flower Garden 2.name": "(K) Flower Garden 2",
+        "config.(K) Flower Garden 2.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Flower Garden 2.",
+        "config.(K) Flower Garden 2.values.true": "Bật",
+        "config.(K) Flower Garden 2.values.false": "Tắt",
 
-    // SECTION L - GRAPES OF FERNGILL
-        "config.$ Toggle All Sprites - Section L.name": "$ Thay đổi mọi hoạ tiết - phần L",
-        "config.$ Toggle All Sprites - Section L.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Grapes of Ferngill.",
-        "config.$ Toggle All Sprites - Section L.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section L.values.Disabled": "Tắt",
+        "config.(L) Grapes of Ferngill.name": "(L) Grapes of Ferngill",
+        "config.(L) Grapes of Ferngill.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Grapes of Ferngill.",
+        "config.(L) Grapes of Ferngill.values.true": "Bật",
+        "config.(L) Grapes of Ferngill.values.false": "Tắt",
 
-    // SECTION M - ATELIER GOODS FORAGER
-        "config.$ Toggle All Sprites - Section M.name": "$ Thay đổi mọi hoạ tiết - phần M",
-        "config.$ Toggle All Sprites - Section M.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Atelier Goods Forager.",
-        "config.$ Toggle All Sprites - Section M.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section M.values.Disabled": "Tắt",
+        "config.(M) Atelier Goods Forager.name": "(M) Atelier Goods Forager",
+        "config.(M) Atelier Goods Forager.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Atelier Goods Forager.",
+        "config.(M) Atelier Goods Forager.values.true": "Bật",
+        "config.(M) Atelier Goods Forager.values.false": "Tắt",
 
-    // SECTION N - GARDEN VARIETY MIXED SEEDS
-        "config.$ Toggle All Sprites - Section N.name": "$ Thay đổi mọi hoạ tiết - phần N",
-        "config.$ Toggle All Sprites - Section N.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Garden Variety Mixed Seeds.",
-        "config.$ Toggle All Sprites - Section N.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section N.values.Disabled": "Tắt",
+        "config.(N) Garden Variety Mixed Seeds.name": "(N) Garden Variety Mixed Seeds",
+        "config.(N) Garden Variety Mixed Seeds.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Garden Variety Mixed Seeds.",
+        "config.(N) Garden Variety Mixed Seeds.values.true": "Bật",
+        "config.(N) Garden Variety Mixed Seeds.values.false": "Tắt",
 
-    // SECTION O - FORAGE OF FERNGILL
-        "config.$ Toggle All Sprites - Section O.name": "$ Thay đổi mọi hoạ tiết - phần O",
-        "config.$ Toggle All Sprites - Section O.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Forage of Ferngill.",
-        "config.$ Toggle All Sprites - Section O.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section O.values.Disabled": "Tắt",
+        "config.(O) Forage of Ferngill.name": "(O) Forage of Ferngill",
+        "config.(O) Forage of Ferngill.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Forage of Ferngill.",
+        "config.(O) Forage of Ferngill.values.true": "Bật",
+        "config.(O) Forage of Ferngill.values.false": "Tắt",
 
-    // SECTION P - GRAINS OVERHULL
-        "config.$ Toggle All Sprites - Section P.name": "$ Thay đổi mọi hoạ tiết - phần P",
-        "config.$ Toggle All Sprites - Section P.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Grains Overhull.",
-        "config.$ Toggle All Sprites - Section P.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section P.values.Disabled": "Tắt",
+        "config.(P) Grains Overhull.name": "(P) Grains Overhull",
+        "config.(P) Grains Overhull.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Grains Overhull.",
+        "config.(P) Grains Overhull.values.true": "Bật",
+        "config.(P) Grains Overhull.values.false": "Tắt",
 
-    // SECTION Q - CLOUDBERRIES AS FORAGE
-        "config.$ Toggle All Sprites - Section Q.name": "$ Thay đổi mọi hoạ tiết - phần Q",
-        "config.$ Toggle All Sprites - Section Q.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Cloudberries as Forage.",
-        "config.$ Toggle All Sprites - Section Q.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section Q.values.Disabled": "Tắt",
+        "config.(Q) Bonster Crops Combined.name": "(Q) Bonster Crops Combined",
+        "config.(Q) Bonster Crops Combined.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Bonster Crops Combined.",
+        "config.(Q) Bonster Crops Combined.values.true": "Bật",
+        "config.(Q) Bonster Crops Combined.values.false": "Tắt",
 
-    // SECTION R - UNCLE IROH TEA
-        "config.$ Toggle All Sprites - Section R.name": "$ Thay đổi mọi hoạ tiết - phần R",
-        "config.$ Toggle All Sprites - Section R.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Uncle Iroh Tea.",
-        "config.$ Toggle All Sprites - Section R.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section R.values.Disabled": "Tắt",
+        "config.(R) Uncle Iroh Tea.name": "(R) Uncle Iroh Tea",
+        "config.(R) Uncle Iroh Tea.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Uncle Iroh Tea.",
+        "config.(R) Uncle Iroh Tea.values.true": "Bật",
+        "config.(R) Uncle Iroh Tea.values.false": "Tắt",
 
-    // SECTION S - pOLYAMORY SWEET
-        "config.$ Toggle All Sprites - Section S.name": "$ Thay đổi mọi hoạ tiết - phần S",
-        "config.$ Toggle All Sprites - Section S.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Polyamory Sweet.",
-        "config.$ Toggle All Sprites - Section S.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section S.values.Disabled": "Tắt",
+        "config.(S) Polyamory Sweet.name": "(S) Polyamory Sweet",
+        "config.(S) Polyamory Sweet.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Polyamory Sweet.",
+        "config.(S) Polyamory Sweet.values.true": "Bật",
+        "config.(S) Polyamory Sweet.values.false": "Tắt",
 
-    // SECTION T - ORE CROPS
-        "config.$ Toggle All Sprites - Section T.name": "$ Thay đổi mọi hoạ tiết - phần T",
-        "config.$ Toggle All Sprites - Section T.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Ore Crops.",
-        "config.$ Toggle All Sprites - Section T.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "Tắt",
+        "config.(T) Ore Crops.name": "(T) Ore Crops",
+        "config.(T) Ore Crops.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Ore Crops.",
+        "config.(T) Ore Crops.values.true": "Bật",
+        "config.(T) Ore Crops.values.false": "Tắt",
+
+        "config.(U) Tahla Crops.name": "(U) Tahla Crops",
+        "config.(U) Tahla Crops.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Tahla Crops.",
+        "config.(U) Tahla Crops.values.true": "Bật",
+        "config.(U) Tahla Crops.values.false": "Tắt",
     
-    // SECTION U - TAHLA CROPS
-        "config.$ Toggle All Sprites - Section U.name": "$ Thay đổi mọi hoạ tiết - phần U",
-        "config.$ Toggle All Sprites - Section U.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Tahla Crops.",
-        "config.$ Toggle All Sprites - Section U.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section U.values.Disabled": "Tắt",
+        "config.(V) Mildkewy Food Starter.name": "(V) Mildkewy Food Starter",
+        "config.(V) Mildkewy Food Starter.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Mildkewy Food Starter.",
+        "config.(V) Mildkewy Food Starter.values.true": "Bật",
+        "config.(V) Mildkewy Food Starter.values.false": "Tắt",
     
-    // SECTION V - MILDKEWY FOOD STARTER
-        "config.$ Toggle All Sprites - Section V.name": "$ Thay đổi mọi hoạ tiết - phần V",
-        "config.$ Toggle All Sprites - Section V.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Mildkewy Food Starter.",
-        "config.$ Toggle All Sprites - Section V.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Tắt",
+        "config.(W) Tobacco and Hemp.name": "(W) Tobacco and Hemp",
+        "config.(W) Tobacco and Hemp.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Tobacco and Hemp.",
+        "config.(W) Tobacco and Hemp.values.true": "Bật",
+        "config.(W) Tobacco and Hemp.values.false": "Tắt",
     
-    // SECTION W - TOBACCO AND HEMP
-        "config.$ Toggle All Sprites - Section W.name": "$ Thay đổi mọi hoạ tiết - phần W",
-        "config.$ Toggle All Sprites - Section W.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Tobacco and Hemp.",
-        "config.$ Toggle All Sprites - Section W.values.Enabled": "Bật",
-        "config.$ Toggle All Sprites - Section W.values.Disabled": "Tắt"
+        "config.(X) Ridgeside Village.name": "(X) Ridgeside Village",
+        "config.(X) Ridgeside Village.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Ridgeside Village.",
+        "config.(X) Ridgeside Village.values.true": "Bật",
+        "config.(X) Ridgeside Village.values.false": "Tắt",
+    
+        "config.(Y) Adventurer Guild Expanded.name": "(Y) Adventurer Guild Expanded",
+        "config.(Y) Adventurer Guild Expanded.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Adventurer Guild Expanded.",
+        "config.(Y) Adventurer Guild Expanded.values.true": "Bật",
+        "config.(Y) Adventurer Guild Expanded.values.false": "Tắt",
+    
+        "config.(Z) Distant Lands.name": "(Z) Distant Lands",
+        "config.(Z) Distant Lands.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Distant Lands.",
+        "config.(Z) Distant Lands.values.true": "Bật",
+        "config.(Z) Distant Lands.values.false": "Tắt",
+
+        "config.(A²) Magical Crops.name": "(A²) Magical Crops",
+        "config.(A²) Magical Crops.description": "Bật/Tắt tải cho từng hoạ tiết cây từ Magical Crops.",
+        "config.(A²) Magical Crops.values.true": "Bật",
+        "config.(A²) Magical Crops.values.false": "Tắt"
 }

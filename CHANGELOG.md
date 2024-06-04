@@ -2,6 +2,26 @@
 
 Check out what has been added or changed from every single version ever released!
 
+## [Version 2.2.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v2.2.0)
+### Added
+- Support for "Ridgeside Village"
+- Support for "Adventurer Guild Expanded"
+- Support for "Distant Lands"
+- Support for "Adventurer Guild Expanded"
+- Support for "Bonster Combined Crops"
+- "Crypt" Sapling Sack Color
+
+### Changed
+- Complete restructuring & reformatting of content.json
+- Pathing for assets to be simpler
+- Formatting of various toggles and config settings
+- "Modules" are now using a single entry per sprite
+- "Translations" to Include New Sections
+
+### Removed
+- Toggles for each individual sprite
+- Support for "Cloudberries as Forage"
+
 ## [Version 2.1.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v2.1.0)
 ### Added
 - Support for "Tahla Crops"
@@ -13,10 +33,10 @@ Check out what has been added or changed from every single version ever released
 - Translations for 16 different languages
 
 ### Changed
-- "Sensible Sleeves" not having all indicators
-- "default.json" errors
-- "Stashes" indicators moved up for visibility
-- "Cream" set to default sapling sack color
+- "Sensible Sleeves" Not Having All Indicators
+- "default.json" Errors
+- "Stashes" Indicators Moved Up For Visibility
+- "Cream" Set to Default Sapling Sack Color
 
 ## [Version 2.0.0](https://github.com/7eventy7/Standardized-Seed-Sprites/releases/tag/v2.0.0)
 ### Added

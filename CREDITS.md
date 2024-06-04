@@ -67,6 +67,27 @@ All the wonderful individuals that helped contribute to this mod in some way!
 > **Uncle Iroh Approved Tea**  
 ➤ slimerrain
 
+> **Bonster's Combined Crops**  
+➤ bonster42
+
+> **Ridgeside Village**  
+➤ Rafseazz
+
+> **Adventurer Guild Expanded**  
+➤ LiveOnSUPERT
+
+> **Distant Lands**  
+➤ Aimon111
+
+> **Magical Crops**  
+➤ shekurika
+
+> **Bonster's Crops and Recipes Retexture**  
+➤ 6480
+
+> **Bonster's Rare Crops Retexture**  
+➤ shekurika
+
 ---
 
 ### LANGUAGE TRANSLATORS

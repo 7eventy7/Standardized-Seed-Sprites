@@ -1,199 +1,190 @@
 {
-//CONFIG DEFINITIONS
-    // SEED PACKET VARIANT	
-		"config.Seed Packet Variant.name": "Varian Paket Benih",
-		"config.Seed Packet Variant.description": "Atur varian paket untuk semua sprite benih.\nLihat gambar di halaman mod untuk referensi.",
-		"config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
-		"config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
-		"config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
-		"config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
-		"config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
-		"config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
-	
-	// SAPLING SACK COLOR
-		"config.Sapling Sack Color.name": "Warna Karung Bibit",
-		"config.Sapling Sack Color.description": "Atur warna karung untuk semua sprite bibit.\nLihat gambar di halaman mod untuk referensi.",
-		"config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
-		"config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
-		"config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
-	
-   // GENERAL MOD TOGGLE	
-		"config.= General Mod Toggle.name": "= Pengaturan Mod Umum",
-		"config.= General Mod Toggle.description": "Alihkan status aktivasi seluruh mod.",
-		"config.= General Mod Toggle.values.Enabled": "Aktifkan",
-		"config.= General Mod Toggle.values.Disabled": "Nonaktifkan",
-		
-	// SEED SPRITES TOGGLE
-		"config.Seed Sprites Toggle.name": "Pengaturan Sprite Benih",
-		"config.Seed Sprites Toggle.description": "Alihkan status pemuatan sprite benih.",
-		"config.Seed Sprites Toggle.values.Enabled": "Aktifkan",
-		"config.Seed Sprites Toggle.values.Disabled": "Nonaktifkan",
-	
-	// SAPLING SPRITES TOGGLE
-		"config.Sapling Sprites Toggle.name": "Pengaturan Sprite Bibit",
-		"config.Sapling Sprites Toggle.description": "Alihkan status pemuatan sprite bibit.",
-		"config.Sapling Sprites Toggle.values.Enabled": "Aktifkan",
-		"config.Sapling Sprites Toggle.values.Disabled": "Nonaktifkan",
-	
-	// BUSH SPRITES TOGGLE
-		"config.Bush Sprites Toggle.name": "Pengaturan Sprite Semak",
-		"config.Bush Sprites Toggle.description": "Alihkan status pemuatan sprite semak kustom.",
-		"config.Bush Sprites Toggle.values.Enabled": "Aktifkan",
-		"config.Bush Sprites Toggle.values.Disabled": "Nonaktifkan",
-	
-	// BUSH SPRITES TOGGLE
-		"config.Trellis Sprites Toggle.name": "Pengaturan Sprite Teralis",
-		"config.Trellis Sprites Toggle.description": "Alihkan status pemuatan sprite teralis kustom.",
-		"config.Trellis Sprites Toggle.values.Enabled": "Aktifkan",
-		"config.Trellis Sprites Toggle.values.Disabled": "Nonaktifkan",
-	
-	// TEA SAPLING SPRITES TOGGLE
-		"config.Tea Sapling Sprites Toggle.name": "Pengaturan Sprite Bibit Teh",
-		"config.Tea Sapling Sprites Toggle.description": "Alihkan status pemuatan sprite bibit teh.",
-		"config.Tea Sapling Sprites Toggle.values.Enabled": "Aktifkan",
-		"config.Tea Sapling Sprites Toggle.values.Disabled": "Nonaktifkan",
-	
-	// MIXED SEED SPRITES TOGGLE
-		"config.Mixed Seed Sprites Toggle.name": "Pengaturan Sprite Benih Campur",
-		"config.Mixed Seed Sprites Toggle.description": "Alihkan status pemuatan sprite benih campuran.",
-		"config.Mixed Seed Sprites Toggle.values.Enabled": "Aktifkan",
-		"config.Mixed Seed Sprites Toggle.values.Disabled": "Nonaktifkan",
-	
-	// SECTION A - VANILLA
-		"config.$ Toggle All Sprites - Section A.name": "$ Aturan Semua Sprite - A",
-		"config.$ Toggle All Sprites - Section A.description": "Alihkan status pemuatan semua sprite dari Vanilla.",
-		"config.$ Toggle All Sprites - Section A.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section A.values.Disabled": "Nonaktifkan",
-	
-	// SECTION B - STARDEW VALLEY EXPANDED
-		"config.$ Toggle All Sprites - Section B.name": "$ Aturan Semua Sprite - B",
-		"config.$ Toggle All Sprites - Section B.description": "Alihkan status pemuatan semua sprite dari Stardew Valley Expanded.",
-		"config.$ Toggle All Sprites - Section B.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section B.values.Disabled": "Nonaktifkan",
-	
-	// SECTION C - EAST SCARP
-		"config.$ Toggle All Sprites - Section C.name": "$ Aturan Semua Sprite - C",
-		"config.$ Toggle All Sprites - Section C.description": "Alihkan status pemuatan semua sprite dari East Scarp.",
-		"config.$ Toggle All Sprites - Section C.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section C.values.Disabled": "Nonaktifkan",
-	
-	// SECTION D - VISIT MOUNT VAPIUS
-		"config.$ Toggle All Sprites - Section D.name": "$ Aturan Semua Sprite - D",
-		"config.$ Toggle All Sprites - Section D.description": "Alihkan status pemuatan semua sprite dari Visit Mount Vapius.",
-		"config.$ Toggle All Sprites - Section D.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section D.values.Disabled": "Nonaktifkan",
-	
-	// SECTION E - SERENE MEADOW
-		"config.$ Toggle All Sprites - Section E.name": "$ Aturan Semua Sprite - E",
-		"config.$ Toggle All Sprites - Section E.description": "Alihkan status pemuatan semua sprite dari Serene Meadow.",
-		"config.$ Toggle All Sprites - Section E.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section E.values.Disabled": "Nonaktifkan",
-	
-	// SECTION F - GROWABLE FORAGE
-		"config.$ Toggle All Sprites - Section F.name": "$ Aturan Semua Sprite - F",
-		"config.$ Toggle All Sprites - Section F.description": "Alihkan status pemuatan semua sprite dari Growable Forage.",
-		"config.$ Toggle All Sprites - Section F.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section F.values.Disabled": "Nonaktifkan",
-	
-	// SECTION G - CORNUCOPIA CROPS
-		"config.$ Toggle All Sprites - Section G.name": "$ Aturan Semua Sprite - G",
-		"config.$ Toggle All Sprites - Section G.description": "Alihkan status pemuatan semua sprite dari Cornucopia Crops.",
-		"config.$ Toggle All Sprites - Section G.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section G.values.Disabled": "Nonaktifkan",
-	
-	// SECTION H - CORNUCOPIA HERBS
-		"config.$ Toggle All Sprites - Section H.name": "$ Aturan Semua Sprite - H",
-		"config.$ Toggle All Sprites - Section H.description": "Alihkan status pemuatan semua sprite dari Cornucopia Herbs.",
-		"config.$ Toggle All Sprites - Section H.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section H.values.Disabled": "Nonaktifkan",
-	
-	// SECTION I - CORNUCOPIA FLOWERS
-		"config.$ Toggle All Sprites - Section I.name": "$ Aturan Semua Sprite - I",
-		"config.$ Toggle All Sprites - Section I.description": "Alihkan status pemuatan semua sprite dari Cornucopia Flowers.",
-		"config.$ Toggle All Sprites - Section I.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section I.values.Disabled": "Nonaktifkan",
-	
-	// SECTION J - ILUCIE WINTER CROPS
-		"config.$ Toggle All Sprites - Section J.name": "$ Aturan Semua Sprite - J",
-		"config.$ Toggle All Sprites - Section J.description": "Alihkan status pemuatan semua sprite dari Ilucie Winter Crops.",
-		"config.$ Toggle All Sprites - Section J.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section J.values.Disabled": "Nonaktifkan",
-	
-	// SECTION K - FLOWER GARDEN 2
-		"config.$ Toggle All Sprites - Section K.name": "$ Aturan Semua Sprite - K",
-		"config.$ Toggle All Sprites - Section K.description": "Alihkan status pemuatan semua sprite dari Flower Garden 2.",
-		"config.$ Toggle All Sprites - Section K.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section K.values.Disabled": "Nonaktifkan",
-	
-	// SECTION L - GRAPES OF FERNGILL
-		"config.$ Toggle All Sprites - Section L.name": "$ Aturan Semua Sprite - L",
-		"config.$ Toggle All Sprites - Section L.description": "Alihkan status pemuatan semua sprite dari Grapes of Ferngill.",
-		"config.$ Toggle All Sprites - Section L.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section L.values.Disabled": "Nonaktifkan",
-	
-	// SECTION M - ATELIER GOODS FORAGER
-		"config.$ Toggle All Sprites - Section M.name": "$ Aturan Semua Sprite - M",
-		"config.$ Toggle All Sprites - Section M.description": "Alihkan status pemuatan semua sprite dari Atelier Goods Forager.",
-		"config.$ Toggle All Sprites - Section M.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section M.values.Disabled": "Nonaktifkan",
-	
-	// SECTION N - GARDEN VARIETY MIXED SEEDS
-		"config.$ Toggle All Sprites - Section N.name": "$ Aturan Semua Sprite - N",
-		"config.$ Toggle All Sprites - Section N.description": "Alihkan status pemuatan semua sprite dari Garden Variety Mixed Seeds.",
-		"config.$ Toggle All Sprites - Section N.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section N.values.Disabled": "Nonaktifkan",
-	
-	// SECTION O - FORAGE OF FERNGILL
-		"config.$ Toggle All Sprites - Section O.name": "$ Aturan Semua Sprite - O",
-		"config.$ Toggle All Sprites - Section O.description": "Alihkan status pemuatan semua sprite dari Forage of Ferngill.",
-		"config.$ Toggle All Sprites - Section O.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section O.values.Disabled": "Nonaktifkan",
-	
-	// SECTION P - GRAINS OVERHULL
-		"config.$ Toggle All Sprites - Section P.name": "$ Aturan Semua Sprite - P",
-		"config.$ Toggle All Sprites - Section P.description": "Alihkan status pemuatan semua sprite dari Grains Overhull.",
-		"config.$ Toggle All Sprites - Section P.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section P.values.Disabled": "Nonaktifkan",
-	
-	// SECTION Q - CLOUDBERRIES AS FORAGE
-		"config.$ Toggle All Sprites - Section Q.name": "$ Aturan Semua Sprite - Q",
-		"config.$ Toggle All Sprites - Section Q.description": "Alihkan status pemuatan semua sprite dari Cloudberries sebagai Forage.",
-		"config.$ Toggle All Sprites - Section Q.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section Q.values.Disabled": "Nonaktifkan",
-	
-	// SECTION R - UNCLE IROH TEA
-		"config.$ Toggle All Sprites - Section R.name": "$ Aturan Semua Sprite - R",
-		"config.$ Toggle All Sprites - Section R.description": "Alihkan status pemuatan semua sprite dari Uncle Iroh Tea.",
-		"config.$ Toggle All Sprites - Section R.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section R.values.Disabled": "Nonaktifkan",
-	
-	// SECTION S - POLYAMORY SWEET
-		"config.$ Toggle All Sprites - Section S.name": "$ Aturan Semua Sprite - S",
-		"config.$ Toggle All Sprites - Section S.description": "Alihkan status pemuatan semua sprite dari Polyamory Sweet.",
-		"config.$ Toggle All Sprites - Section S.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section S.values.Disabled": "Nonaktifkan",
-	
-	// SECTION T - ORE CROPS
-		"config.$ Toggle All Sprites - Section T.name": "$ Aturan Semua Sprite - T",
-		"config.$ Toggle All Sprites - Section T.description": "Alihkan status pemuatan semua sprite dari Ore Crops.",
-		"config.$ Toggle All Sprites - Section T.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section T.values.Disabled": "Nonaktifkan",
+    // CONFIG OPTIONS
+        "config.Seed Packet Variant.name": "Varian Paket Benih",
+        "config.Seed Packet Variant.description": "Atur varian paket untuk semua sprite benih.\nLihat gambar di halaman mod untuk referensi.",
+        "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
+        "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
+        "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
+        "config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
+        "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
+        "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
 
-	// SECTION U - TAHLA CROPS
-		"config.$ Toggle All Sprites - Section U.name": "$ Aturan Semua Sprite - U",
-		"config.$ Toggle All Sprites - Section U.description": "Alihkan status pemuatan semua sprite dari Tahla Crops.",
-		"config.$ Toggle All Sprites - Section U.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section U.values.Disabled": "Nonaktifkan",
-	
-	// SECTION V - MILDKEWY FOOD STARTER
-		"config.$ Toggle All Sprites - Section V.name": "$ Aturan Semua Sprite - V",
-		"config.$ Toggle All Sprites - Section V.description": "Alihkan status pemuatan semua sprite dari Mildkewy Food Starter.",
-		"config.$ Toggle All Sprites - Section V.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section V.values.Disabled": "Nonaktifkan",
-	
-	// SECTION W - TOBACCO AND HEMP
-		"config.$ Toggle All Sprites - Section W.name": "$ Aturan Semua Sprite - W",
-		"config.$ Toggle All Sprites - Section W.description": "Alihkan status pemuatan semua sprite dari Tobacco and Hemp.",
-		"config.$ Toggle All Sprites - Section W.values.Enabled": "Aktifkan",
-		"config.$ Toggle All Sprites - Section W.values.Disabled": "Nonaktifkan"
+        "config.Sapling Sack Color.name": "Warna Karung Bibit",
+        "config.Sapling Sack Color.description": "Atur warna karung untuk semua sprite bibit.\nLihat gambar di halaman mod untuk referensi.",
+        "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
+        "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
+        "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+        "config.Sapling Sack Color.values.(4) Crypt": "(4) Crypt",
+
+    // GLOBAL TOGGLES
+        "config.= Disable Entire Mod.name": "= Nonaktifkan Seluruh Mod",
+        "config.= Disable Entire Mod.description": "Alihkan status aktivasi seluruh mod.",
+        "config.= Disable Entire Mod.values.true": "Aktifkan",
+        "config.= Disable Entire Mod.values.false": "Nonaktifkan",
+
+        "config.Seed Sprites.name": "Pengaturan Sprite Benih",
+        "config.Seed Sprites.description": "Alihkan status pemuatan sprite benih.",
+        "config.Seed Sprites.values.Enabled": "Aktifkan",
+        "config.Seed Sprites.values.Disabled": "Nonaktifkan",
+    
+        "config.Sapling Sprites.name": "Pengaturan Sprite Bibit",
+        "config.Sapling Sprites.description": "Alihkan status pemuatan sprite bibit.",
+        "config.Sapling Sprites.values.Enabled": "Aktifkan",
+        "config.Sapling Sprites.values.Disabled": "Nonaktifkan",
+
+        "config.Bush Sprites.name": "Pengaturan Sprite Semak",
+        "config.Bush Sprites.description": "Alihkan status pemuatan sprite semak kustom.",
+        "config.Bush Sprites.values.Enabled": "Aktifkan",
+        "config.Bush Sprites.values.Disabled": "Nonaktifkan",
+
+        "config.Trellis Sprites.name": "Pengaturan Sprite Teralis",
+        "config.Trellis Sprites.description": "Alihkan status pemuatan sprite teralis kustom.",
+        "config.Trellis Sprites.values.Enabled": "Aktifkan",
+        "config.Trellis Sprites.values.Disabled": "Nonaktifkan",
+
+        "config.Tea Sapling Sprites.name": "Pengaturan Sprite Bibit Teh",
+        "config.Tea Sapling Sprites.description": "Alihkan status pemuatan sprite bibit teh.",
+        "config.Tea Sapling Sprites.values.Enabled": "Aktifkan",
+        "config.Tea Sapling Sprites.values.Disabled": "Nonaktifkan",
+
+        "config.Mixed Seed Sprites.name": "Pengaturan Sprite Benih Campur",
+        "config.Mixed Seed Sprites.description": "Alihkan status pemuatan sprite benih campuran.",
+        "config.Mixed Seed Sprites.values.Enabled": "Aktifkan",
+        "config.Mixed Seed Sprites.values.Disabled": "Nonaktifkan",
+
+    // MOD SECTION TOGGLES
+        "config.(A) Vanilla.name": "(A) Vanilla",
+        "config.(A) Vanilla.description": "Ubah status pemuatan semua sprite dari game dasar.",
+        "config.(A) Vanilla.values.true": "Aktifkan",
+        "config.(A) Vanilla.values.false": "Nonaktifkan",
+
+        "config.(B) Stardew Valley Expanded.name": "(B) Stardew Valley Expanded",
+        "config.(B) Stardew Valley Expanded.description": "Alihkan status pemuatan semua sprite dari Stardew Valley Expanded.",
+        "config.(B) Stardew Valley Expanded.values.true": "Aktifkan",
+        "config.(B) Stardew Valley Expanded.values.false": "Nonaktifkan",
+
+        "config.(C) East Scarp.name": "(C) East Scarp",
+        "config.(C) East Scarp.description": "Alihkan status pemuatan semua sprite dari East Scarp.",
+        "config.(C) East Scarp.values.true": "Aktifkan",
+        "config.(C) East Scarp.values.false": "Nonaktifkan",
+
+        "config.(D) Visit Mount Vapius.name": "(D) Visit Mount Vapius",
+        "config.(D) Visit Mount Vapius.description": "Alihkan status pemuatan semua sprite dari Visit Mount Vapius.",
+        "config.(D) Visit Mount Vapius.values.true": "Aktifkan",
+        "config.(D) Visit Mount Vapius.values.false": "Nonaktifkan",
+
+        "config.(E) Serene Meadow.name": "(E) Serene Meadow",
+        "config.(E) Serene Meadow.description": "Alihkan status pemuatan semua sprite dari Serene Meadow.",
+        "config.(E) Serene Meadow.values.true": "Aktifkan",
+        "config.(E) Serene Meadow.values.false": "Nonaktifkan",
+
+        "config.(F) Growable Forage.name": "(F) Growable Forage",
+        "config.(F) Growable Forage.description": "Alihkan status pemuatan semua sprite dari Growable Forage.",
+        "config.(F) Growable Forage.values.true": "Aktifkan",
+        "config.(F) Growable Forage.values.false": "Nonaktifkan",
+
+        "config.(G) Cornucopia Crops.name": "(G) Cornucopia Crops",
+        "config.(G) Cornucopia Crops.description": "Alihkan status pemuatan semua sprite dari Cornucopia Crops.",
+        "config.(G) Cornucopia Crops.values.true": "Aktifkan",
+        "config.(G) Cornucopia Crops.values.false": "Nonaktifkan",
+
+        "config.(H) Cornucopia Herbs.name": "(H) Cornucopia Herbs",
+        "config.(H) Cornucopia Herbs.description": "Alihkan status pemuatan semua sprite dari Cornucopia Herbs.",
+        "config.(H) Cornucopia Herbs.values.true": "Aktifkan",
+        "config.(H) Cornucopia Herbs.values.false": "Nonaktifkan",
+
+        "config.(I) Cornucopia Flowers.name": "(I) Cornucopia Flowers",
+        "config.(I) Cornucopia Flowers.description": "Alihkan status pemuatan semua sprite dari Cornucopia Flowers.",
+        "config.(I) Cornucopia Flowers.values.true": "Aktifkan",
+        "config.(I) Cornucopia Flowers.values.false": "Nonaktifkan",
+
+        "config.(J) Ilucie Winter Crops.name": "(J) Ilucie Winter Crops",
+        "config.(J) Ilucie Winter Crops.description": "Alihkan status pemuatan semua sprite dari Ilucie Winter Crops.",
+        "config.(J) Ilucie Winter Crops.values.true": "Aktifkan",
+        "config.(J) Ilucie Winter Crops.values.false": "Nonaktifkan",
+
+        "config.(K) Flower Garden 2.name": "(K) Flower Garden 2",
+        "config.(K) Flower Garden 2.description": "Alihkan status pemuatan semua sprite dari Flower Garden 2.",
+        "config.(K) Flower Garden 2.values.true": "Aktifkan",
+        "config.(K) Flower Garden 2.values.false": "Nonaktifkan",
+
+        "config.(L) Grapes of Ferngill.name": "(L) Grapes of Ferngill",
+        "config.(L) Grapes of Ferngill.description": "Alihkan status pemuatan semua sprite dari Grapes of Ferngill.",
+        "config.(L) Grapes of Ferngill.values.true": "Aktifkan",
+        "config.(L) Grapes of Ferngill.values.false": "Nonaktifkan",
+
+        "config.(M) Atelier Goods Forager.name": "(M) Atelier Goods Forager",
+        "config.(M) Atelier Goods Forager.description": "Alihkan status pemuatan semua sprite dari Atelier Goods Forager.",
+        "config.(M) Atelier Goods Forager.values.true": "Aktifkan",
+        "config.(M) Atelier Goods Forager.values.false": "Nonaktifkan",
+
+        "config.(N) Garden Variety Mixed Seeds.name": "(N) Garden Variety Mixed Seeds",
+        "config.(N) Garden Variety Mixed Seeds.description": "Alihkan status pemuatan semua sprite dari Garden Variety Mixed Seeds.",
+        "config.(N) Garden Variety Mixed Seeds.values.true": "Aktifkan",
+        "config.(N) Garden Variety Mixed Seeds.values.false": "Nonaktifkan",
+
+        "config.(O) Forage of Ferngill.name": "(O) Forage of Ferngill",
+        "config.(O) Forage of Ferngill.description": "Alihkan status pemuatan semua sprite dari Forage of Ferngill.",
+        "config.(O) Forage of Ferngill.values.true": "Aktifkan",
+        "config.(O) Forage of Ferngill.values.false": "Nonaktifkan",
+
+        "config.(P) Grains Overhull.name": "(P) Grains Overhull",
+        "config.(P) Grains Overhull.description": "Alihkan status pemuatan semua sprite dari Grains Overhull.",
+        "config.(P) Grains Overhull.values.true": "Aktifkan",
+        "config.(P) Grains Overhull.values.false": "Nonaktifkan",
+
+        "config.(Q) Bonster Crops Combined.name": "(Q) Bonster Crops Combined",
+        "config.(Q) Bonster Crops Combined.description": "Alihkan status pemuatan semua sprite dari Bonster Crops Combined.",
+        "config.(Q) Bonster Crops Combined.values.true": "Aktifkan",
+        "config.(Q) Bonster Crops Combined.values.false": "Nonaktifkan",
+
+        "config.(R) Uncle Iroh Tea.name": "(R) Uncle Iroh Tea",
+        "config.(R) Uncle Iroh Tea.description": "Alihkan status pemuatan semua sprite dari Uncle Iroh Tea.",
+        "config.(R) Uncle Iroh Tea.values.true": "Aktifkan",
+        "config.(R) Uncle Iroh Tea.values.false": "Nonaktifkan",
+
+        "config.(S) Polyamory Sweet.name": "(S) Polyamory Sweet",
+        "config.(S) Polyamory Sweet.description": "Alihkan status pemuatan semua sprite dari Polyamory Sweet.",
+        "config.(S) Polyamory Sweet.values.true": "Aktifkan",
+        "config.(S) Polyamory Sweet.values.false": "Nonaktifkan",
+
+        "config.(T) Ore Crops.name": "(T) Ore Crops",
+        "config.(T) Ore Crops.description": "Alihkan status pemuatan semua sprite dari Ore Crops.",
+        "config.(T) Ore Crops.values.true": "Aktifkan",
+        "config.(T) Ore Crops.values.false": "Nonaktifkan",
+
+        "config.(U) Tahla Crops.name": "(U) Tahla Crops",
+        "config.(U) Tahla Crops.description": "Alihkan status pemuatan semua sprite dari Tahla Crops.",
+        "config.(U) Tahla Crops.values.true": "Aktifkan",
+        "config.(U) Tahla Crops.values.false": "Nonaktifkan",
+    
+        "config.(V) Mildkewy Food Starter.name": "(V) Mildkewy Food Starter",
+        "config.(V) Mildkewy Food Starter.description": "Alihkan status pemuatan semua sprite dari Mildkewy Food Starter.",
+        "config.(V) Mildkewy Food Starter.values.true": "Aktifkan",
+        "config.(V) Mildkewy Food Starter.values.false": "Nonaktifkan",
+    
+        "config.(W) Tobacco and Hemp.name": "(W) Tobacco and Hemp",
+        "config.(W) Tobacco and Hemp.description": "Alihkan status pemuatan semua sprite dari Tobacco and Hemp.",
+        "config.(W) Tobacco and Hemp.values.true": "Aktifkan",
+        "config.(W) Tobacco and Hemp.values.false": "Nonaktifkan",
+    
+        "config.(X) Ridgeside Village.name": "(X) Ridgeside Village",
+        "config.(X) Ridgeside Village.description": "Alihkan status pemuatan semua sprite dari Ridgeside Village.",
+        "config.(X) Ridgeside Village.values.true": "Aktifkan",
+        "config.(X) Ridgeside Village.values.false": "Nonaktifkan",
+    
+        "config.(Y) Adventurer Guild Expanded.name": "(Y) Adventurer Guild Expanded",
+        "config.(Y) Adventurer Guild Expanded.description": "Alihkan status pemuatan semua sprite dari Adventurer Guild Expanded.",
+        "config.(Y) Adventurer Guild Expanded.values.true": "Aktifkan",
+        "config.(Y) Adventurer Guild Expanded.values.false": "Nonaktifkan",
+    
+        "config.(Z) Distant Lands.name": "(Z) Distant Lands",
+        "config.(Z) Distant Lands.description": "Alihkan status pemuatan semua sprite dari Distant Lands.",
+        "config.(Z) Distant Lands.values.true": "Aktifkan",
+        "config.(Z) Distant Lands.values.false": "Nonaktifkan",
+
+        "config.(A²) Magical Crops.name": "(A²) Magical Crops",
+        "config.(A²) Magical Crops.description": "Alihkan status pemuatan semua sprite dari Magical Crops.",
+        "config.(A²) Magical Crops.values.true": "Aktifkan",
+        "config.(A²) Magical Crops.values.false": "Nonaktifkan"
 }

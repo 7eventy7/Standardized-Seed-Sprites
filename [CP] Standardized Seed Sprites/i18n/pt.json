@@ -1,6 +1,5 @@
 {
-//CONFIG DEFINITIONS
-    // SEED PACKET VARIANT
+    // CONFIG OPTIONS
         "config.Seed Packet Variant.name": "Variante de Pacote de Semente",
         "config.Seed Packet Variant.description": "Defina a variante de pacote para todas as texturas de semente.\nVeja as imagens na página do mod para referências.",
         "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
@@ -10,190 +9,182 @@
         "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
         "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
 
-    // SAPLING SACK COLOR
         "config.Sapling Sack Color.name": "Cor do Saco de Rebento",
         "config.Sapling Sack Color.description": "Defina a cor dos sacos para todas as texturas de rebento.\nVeja as imagens na página do mod para referências.",
         "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
         "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
         "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+        "config.Sapling Sack Color.values.(4) Crypt": "(4) Crypt",
 
-    // GENERAL MOD TOGGLE
-        "config.= General Mod Toggle.name": "= Ligar/Desligar de Mod Geral",
-        "config.= General Mod Toggle.description": "Ligar/Desligar o estado de ativação do mod inteiro.",
-        "config.= General Mod Toggle.values.Enabled": "Ativado",
-        "config.= General Mod Toggle.values.Disabled": "Desativado",
+    // GLOBAL TOGGLES
+        "config.= Disable Entire Mod.name": "= Desligar de Mod Inteiro",
+        "config.= Disable Entire Mod.description": "Ligar/Desligar o estado de ativação do mod inteiro.",
+        "config.= Disable Entire Mod.values.true": "Ativado",
+        "config.= Disable Entire Mod.values.false": "Desativado",
 
-    // SEED SPRITES TOGGLE
-        "config.Seed Sprites Toggle.name": "Ligar/Desligar Texturas de Semente",
-        "config.Seed Sprites Toggle.description": "Ligar/Desligar o estado de carregamento das texturas de semente.",
-        "config.Seed Sprites Toggle.values.Enabled": "Ativado",
-        "config.Seed Sprites Toggle.values.Disabled": "Desativado",
+        "config.Seed Sprites.name": "Ligar/Desligar Texturas de Semente",
+        "config.Seed Sprites.description": "Ligar/Desligar o estado de carregamento das texturas de semente.",
+        "config.Seed Sprites.values.Enabled": "Ativado",
+        "config.Seed Sprites.values.Disabled": "Desativado",
     
-    // SAPLING SPRITES TOGGLE
-        "config.Sapling Sprites Toggle.name": "Texturas de Rebento Ligar/Desligar",
-        "config.Sapling Sprites Toggle.description": "Ligar/Desligar o estado de carregamento das texturas de rebento.",
-        "config.Sapling Sprites Toggle.values.Enabled": "Ativado",
-        "config.Sapling Sprites Toggle.values.Disabled": "Desativado",
+        "config.Sapling Sprites.name": "Texturas de Rebento Ligar/Desligar",
+        "config.Sapling Sprites.description": "Ligar/Desligar o estado de carregamento das texturas de rebento.",
+        "config.Sapling Sprites.values.Enabled": "Ativado",
+        "config.Sapling Sprites.values.Disabled": "Desativado",
 
-    // BUSH SPRITES TOGGLE
-        "config.Bush Sprites Toggle.name": "Texturas de Arbusto Ligar/Desligar",
-        "config.Bush Sprites Toggle.description": "Ligar/Desligar o estado de carregamento das texturas personalizadas de arbusto.",
-        "config.Bush Sprites Toggle.values.Enabled": "Ativado",
-        "config.Bush Sprites Toggle.values.Disabled": "Desativado",
+        "config.Bush Sprites.name": "Texturas de Arbusto Ligar/Desligar",
+        "config.Bush Sprites.description": "Ligar/Desligar o estado de carregamento das texturas personalizadas de arbusto.",
+        "config.Bush Sprites.values.Enabled": "Ativado",
+        "config.Bush Sprites.values.Disabled": "Desativado",
 
-    // TRELLIS SPRITES TOGGLE
-        "config.Trellis Sprites Toggle.name": "Texturas de Treliça Ligar/Desligar",
-        "config.Trellis Sprites Toggle.description": "Ligar/Desligar o estado de carregamento das texturas personalizadas de arbusto.",
-        "config.Trellis Sprites Toggle.values.Enabled": "Ativado",
-        "config.Trellis Sprites Toggle.values.Disabled": "Desativado",
+        "config.Trellis Sprites.name": "Texturas de Treliça Ligar/Desligar",
+        "config.Trellis Sprites.description": "Ligar/Desligar o estado de carregamento das texturas personalizadas de arbusto.",
+        "config.Trellis Sprites.values.Enabled": "Ativado",
+        "config.Trellis Sprites.values.Disabled": "Desativado",
 
-    // TEA SAPLING SPRITES TOGGLE
-        "config.Tea Sapling Sprites Toggle.name": "Texturas de Broto de Chá Ligar/Desligar",
-        "config.Tea Sapling Sprites Toggle.description": "Ligar/Desligar o estado de carregamento das texturas de broto de chá.",
-        "config.Tea Sapling Sprites Toggle.values.Enabled": "Ativado",
-        "config.Tea Sapling Sprites Toggle.values.Disabled": "Desativado",
+        "config.Tea Sapling Sprites.name": "Texturas de Broto de Chá Ligar/Desligar",
+        "config.Tea Sapling Sprites.description": "Ligar/Desligar o estado de carregamento das texturas de broto de chá.",
+        "config.Tea Sapling Sprites.values.Enabled": "Ativado",
+        "config.Tea Sapling Sprites.values.Disabled": "Desativado",
 
-    // MIXED SEED SPRITES TOGGLE
-        "config.Mixed Seed Sprites Toggle.name": "Texturas de Semente Mistas Ligar/Desligar",
-        "config.Mixed Seed Sprites Toggle.description": "Ligar/Desligar o estado de carregamento das texturas de semente mistas.",
-        "config.Mixed Seed Sprites Toggle.values.Enabled": "Ativado",
-        "config.Mixed Seed Sprites Toggle.values.Disabled": "Desativado",
+        "config.Mixed Seed Sprites.name": "Texturas de Semente Mistas Ligar/Desligar",
+        "config.Mixed Seed Sprites.description": "Ligar/Desligar o estado de carregamento das texturas de semente mistas.",
+        "config.Mixed Seed Sprites.values.Enabled": "Ativado",
+        "config.Mixed Seed Sprites.values.Disabled": "Desativado",
 
-    // SECTION A - VANILLA
-        "config.$ Toggle All Sprites - Section A.name": "$ Ligar/Desligar todas as texturas - Secção A",
-        "config.$ Toggle All Sprites - Section A.description": "Ligar/Desligar o estado de carregamento de todas as texturas em Vanilla.",
-        "config.$ Toggle All Sprites - Section A.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section A.values.Disabled": "Desativado",
+    // MOD SECTION TOGGLES
+        "config.(A) Vanilla.name": "(A) Vanilla",
+        "config.(A) Vanilla.description": "Ligar/Desligar o estado de carregamento de todas as texturas no jogo básico.",
+        "config.(A) Vanilla.values.true": "Ativado",
+        "config.(A) Vanilla.values.false": "Desativado",
 
-    // SECTION B - STARDEW VALLEY EXPANDED
-        "config.$ Toggle All Sprites - Section B.name": "$ Ligar/Desligar todas as texturas - Secção B",
-        "config.$ Toggle All Sprites - Section B.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Stardew Valley Expanded.",
-        "config.$ Toggle All Sprites - Section B.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section B.values.Disabled": "Desativado",
+        "config.(B) Stardew Valley Expanded.name": "(B) Stardew Valley Expanded",
+        "config.(B) Stardew Valley Expanded.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Stardew Valley Expanded.",
+        "config.(B) Stardew Valley Expanded.values.true": "Ativado",
+        "config.(B) Stardew Valley Expanded.values.false": "Desativado",
 
-    // SECTION C - EAST SCARP
-        "config.$ Toggle All Sprites - Section C.name": "$ Ligar/Desligar todas as texturas - Secção C",
-        "config.$ Toggle All Sprites - Section C.description": "Ligar/Desligar o estado de carregamento de todas as texturas do East Scarp.",
-        "config.$ Toggle All Sprites - Section C.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section C.values.Disabled": "Desativado",
+        "config.(C) East Scarp.name": "(C) East Scarp",
+        "config.(C) East Scarp.description": "Ligar/Desligar o estado de carregamento de todas as texturas do East Scarp.",
+        "config.(C) East Scarp.values.true": "Ativado",
+        "config.(C) East Scarp.values.false": "Desativado",
 
-    // SECTION D - VISIT MOUNT VAPIUS
-        "config.$ Toggle All Sprites - Section D.name": "$ Ligar/Desligar todas as texturas - Secção D",
-        "config.$ Toggle All Sprites - Section D.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Visit Mount Vapius.",
-        "config.$ Toggle All Sprites - Section D.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section D.values.Disabled": "Desativado",
+        "config.(D) Visit Mount Vapius.name": "(D) Visit Mount Vapius",
+        "config.(D) Visit Mount Vapius.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Visit Mount Vapius.",
+        "config.(D) Visit Mount Vapius.values.true": "Ativado",
+        "config.(D) Visit Mount Vapius.values.false": "Desativado",
 
-    // SECTION E - SERENE MEADOW
-        "config.$ Toggle All Sprites - Section E.name": "$ Ligar/Desligar todas as texturas - Secção E",
-        "config.$ Toggle All Sprites - Section E.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Serene Meadow.",
-        "config.$ Toggle All Sprites - Section E.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section E.values.Disabled": "Desativado",
+        "config.(E) Serene Meadow.name": "(E) Serene Meadow",
+        "config.(E) Serene Meadow.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Serene Meadow.",
+        "config.(E) Serene Meadow.values.true": "Ativado",
+        "config.(E) Serene Meadow.values.false": "Desativado",
 
-    // SECTION F - GROWABLE FORAGE
-        "config.$ Toggle All Sprites - Section F.name": "$ Ligar/Desligar todas as texturas - Secção F",
-        "config.$ Toggle All Sprites - Section F.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Growable Forage.",
-        "config.$ Toggle All Sprites - Section F.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section F.values.Disabled": "Desativado",
+        "config.(F) Growable Forage.name": "(F) Growable Forage",
+        "config.(F) Growable Forage.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Growable Forage.",
+        "config.(F) Growable Forage.values.true": "Ativado",
+        "config.(F) Growable Forage.values.false": "Desativado",
 
-    // SECTION G - CORNUCOPIA CROPS
-        "config.$ Toggle All Sprites - Section G.name": "$ Ligar/Desligar todas as texturas - Secção G",
-        "config.$ Toggle All Sprites - Section G.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Cornucopia Crops.",
-        "config.$ Toggle All Sprites - Section G.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section G.values.Disabled": "Desativado",
+        "config.(G) Cornucopia Crops.name": "(G) Cornucopia Crops",
+        "config.(G) Cornucopia Crops.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Cornucopia Crops.",
+        "config.(G) Cornucopia Crops.values.true": "Ativado",
+        "config.(G) Cornucopia Crops.values.false": "Desativado",
 
-    // SECTION H - CORNUCOPIA HERBS
-        "config.$ Toggle All Sprites - Section H.name": "$ Ligar/Desligar todas as texturas - Secção H",
-        "config.$ Toggle All Sprites - Section H.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Cornucopia Herbs.",
-        "config.$ Toggle All Sprites - Section H.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section H.values.Disabled": "Desativado",
+        "config.(H) Cornucopia Herbs.name": "(H) Cornucopia Herbs",
+        "config.(H) Cornucopia Herbs.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Cornucopia Herbs.",
+        "config.(H) Cornucopia Herbs.values.true": "Ativado",
+        "config.(H) Cornucopia Herbs.values.false": "Desativado",
 
-    // SECTION I - CORNUCOPIA FLOWERS
-        "config.$ Toggle All Sprites - Section I.name": "$ Ligar/Desligar todas as texturas - Secção I",
-        "config.$ Toggle All Sprites - Section I.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Cornucopia Flowers.",
-        "config.$ Toggle All Sprites - Section I.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section I.values.Disabled": "Desativado",
+        "config.(I) Cornucopia Flowers.name": "(I) Cornucopia Flowers",
+        "config.(I) Cornucopia Flowers.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Cornucopia Flowers.",
+        "config.(I) Cornucopia Flowers.values.true": "Ativado",
+        "config.(I) Cornucopia Flowers.values.false": "Desativado",
 
-    // SECTION J - ILUCIE WINTER CROPS
-        "config.$ Toggle All Sprites - Section J.name": "$ Ligar/Desligar todas as texturas - Secção J",
-        "config.$ Toggle All Sprites - Section J.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Ilucie Winter Crops.",
-        "config.$ Toggle All Sprites - Section J.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section J.values.Disabled": "Desativado",
+        "config.(J) Ilucie Winter Crops.name": "(J) Ilucie Winter Crops",
+        "config.(J) Ilucie Winter Crops.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Ilucie Winter Crops.",
+        "config.(J) Ilucie Winter Crops.values.true": "Ativado",
+        "config.(J) Ilucie Winter Crops.values.false": "Desativado",
 
-    // SECTION K - FLOWER GARDEN 2
-        "config.$ Toggle All Sprites - Section K.name": "$ Ligar/Desligar todas as texturas - Secção K",
-        "config.$ Toggle All Sprites - Section K.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Flower Garden 2.",
-        "config.$ Toggle All Sprites - Section K.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section K.values.Disabled": "Desativado",
+        "config.(K) Flower Garden 2.name": "(K) Flower Garden 2",
+        "config.(K) Flower Garden 2.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Flower Garden 2.",
+        "config.(K) Flower Garden 2.values.true": "Ativado",
+        "config.(K) Flower Garden 2.values.false": "Desativado",
 
-    // SECTION L - GRAPES OF FERNGILL
-        "config.$ Toggle All Sprites - Section L.name": "$ Ligar/Desligar todas as texturas - Secção L",
-        "config.$ Toggle All Sprites - Section L.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Grapes of Ferngill.",
-        "config.$ Toggle All Sprites - Section L.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section L.values.Disabled": "Desativado",
+        "config.(L) Grapes of Ferngill.name": "(L) Grapes of Ferngill",
+        "config.(L) Grapes of Ferngill.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Grapes of Ferngill.",
+        "config.(L) Grapes of Ferngill.values.true": "Ativado",
+        "config.(L) Grapes of Ferngill.values.false": "Desativado",
 
-    // SECTION M - ATELIER GOODS FORAGER
-        "config.$ Toggle All Sprites - Section M.name": "$ Ligar/Desligar todas as texturas - Secção M",
-        "config.$ Toggle All Sprites - Section M.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Atelier Goods Forager.",
-        "config.$ Toggle All Sprites - Section M.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section M.values.Disabled": "Desativado",
+        "config.(M) Atelier Goods Forager.name": "(M) Atelier Goods Forager",
+        "config.(M) Atelier Goods Forager.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Atelier Goods Forager.",
+        "config.(M) Atelier Goods Forager.values.true": "Ativado",
+        "config.(M) Atelier Goods Forager.values.false": "Desativado",
 
-    // SECTION N - GARDEN VARIETY MIXED SEEDS
-        "config.$ Toggle All Sprites - Section N.name": "$ Ligar/Desligar todas as texturas - Secção N",
-        "config.$ Toggle All Sprites - Section N.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Garden Variety Mixed Seeds.",
-        "config.$ Toggle All Sprites - Section N.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section N.values.Disabled": "Desativado",
+        "config.(N) Garden Variety Mixed Seeds.name": "(N) Garden Variety Mixed Seeds",
+        "config.(N) Garden Variety Mixed Seeds.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Garden Variety Mixed Seeds.",
+        "config.(N) Garden Variety Mixed Seeds.values.true": "Ativado",
+        "config.(N) Garden Variety Mixed Seeds.values.false": "Desativado",
 
-    // SECTION O - FORAGE OF FERNGILL
-        "config.$ Toggle All Sprites - Section O.name": "$ Ligar/Desligar todas as texturas - Secção O",
-        "config.$ Toggle All Sprites - Section O.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Forage of Ferngill.",
-        "config.$ Toggle All Sprites - Section O.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section O.values.Disabled": "Desativado",
+        "config.(O) Forage of Ferngill.name": "(O) Forage of Ferngill",
+        "config.(O) Forage of Ferngill.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Forage of Ferngill.",
+        "config.(O) Forage of Ferngill.values.true": "Ativado",
+        "config.(O) Forage of Ferngill.values.false": "Desativado",
 
-    // SECTION P - GRAINS OVERHULL
-        "config.$ Toggle All Sprites - Section P.name": "$ Ligar/Desligar todas as texturas - Secção P",
-        "config.$ Toggle All Sprites - Section P.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Grains Overhull.",
-        "config.$ Toggle All Sprites - Section P.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section P.values.Disabled": "Desativado",
+        "config.(P) Grains Overhull.name": "(P) Grains Overhull",
+        "config.(P) Grains Overhull.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Grains Overhull.",
+        "config.(P) Grains Overhull.values.true": "Ativado",
+        "config.(P) Grains Overhull.values.false": "Desativado",
 
-    // SECTION Q - CLOUDBERRIES AS FORAGE
-        "config.$ Toggle All Sprites - Section Q.name": "$ Ligar/Desligar todas as texturas - Secção Q",
-        "config.$ Toggle All Sprites - Section Q.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Cloudberries as Forage.",
-        "config.$ Toggle All Sprites - Section Q.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section Q.values.Disabled": "Desativado",
+        "config.(Q) Bonster Crops Combined.name": "(Q) Bonster Crops Combined",
+        "config.(Q) Bonster Crops Combined.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Bonster Crops Combined.",
+        "config.(Q) Bonster Crops Combined.values.true": "Ativado",
+        "config.(Q) Bonster Crops Combined.values.false": "Desativado",
 
-    // SECTION R - UNCLE IROH TEA
-        "config.$ Toggle All Sprites - Section R.name": "$ Ligar/Desligar todas as texturas - Secção R",
-        "config.$ Toggle All Sprites - Section R.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Uncle Iroh Tea.",
-        "config.$ Toggle All Sprites - Section R.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section R.values.Disabled": "Desativado",
+        "config.(R) Uncle Iroh Tea.name": "(R) Uncle Iroh Tea",
+        "config.(R) Uncle Iroh Tea.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Uncle Iroh Tea.",
+        "config.(R) Uncle Iroh Tea.values.true": "Ativado",
+        "config.(R) Uncle Iroh Tea.values.false": "Desativado",
 
-    // SECTION S - POLYAMORY SWEET
-        "config.$ Toggle All Sprites - Section S.name": "$ Ligar/Desligar todas as texturas - Secção S",
-        "config.$ Toggle All Sprites - Section S.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Polyamory Sweet.",
-        "config.$ Toggle All Sprites - Section S.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section S.values.Disabled": "Desativado",
+        "config.(S) Polyamory Sweet.name": "(S) Polyamory Sweet",
+        "config.(S) Polyamory Sweet.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Polyamory Sweet.",
+        "config.(S) Polyamory Sweet.values.true": "Ativado",
+        "config.(S) Polyamory Sweet.values.false": "Desativado",
 
-    // SECTION T - ORE CROPS
-        "config.$ Toggle All Sprites - Section T.name": "$ Ligar/Desligar todas as texturas - Secção T",
-        "config.$ Toggle All Sprites - Section T.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Ore Crops.",
-        "config.$ Toggle All Sprites - Section T.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "Desativado",
+        "config.(T) Ore Crops.name": "(T) Ore Crops",
+        "config.(T) Ore Crops.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Ore Crops.",
+        "config.(T) Ore Crops.values.true": "Ativado",
+        "config.(T) Ore Crops.values.false": "Desativado",
 
-    // SECTION U - TAHLA CROPS
-        "config.$ Toggle All Sprites - Section U.name": "$ Ligar/Desligar todas as texturas - Secção U",
-        "config.$ Toggle All Sprites - Section U.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Tahla Crops.",
-        "config.$ Toggle All Sprites - Section U.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section U.values.Disabled": "Desativado",
+        "config.(U) Tahla Crops.name": "(U) Tahla Crops",
+        "config.(U) Tahla Crops.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Tahla Crops.",
+        "config.(U) Tahla Crops.values.true": "Ativado",
+        "config.(U) Tahla Crops.values.false": "Desativado",
     
-    // SECTION V - MILDKEWY FOOD STARTER
-        "config.$ Toggle All Sprites - Section V.name": "$ Ligar/Desligar todas as texturas - Secção V",
-        "config.$ Toggle All Sprites - Section V.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Mildkewy Food Starter.",
-        "config.$ Toggle All Sprites - Section V.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Desativado",
+        "config.(V) Mildkewy Food Starter.name": "(V) Mildkewy Food Starter",
+        "config.(V) Mildkewy Food Starter.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Mildkewy Food Starter.",
+        "config.(V) Mildkewy Food Starter.values.true": "Ativado",
+        "config.(V) Mildkewy Food Starter.values.false": "Desativado",
+    
+        "config.(W) Tobacco and Hemp.name": "(W) Tobacco and Hemp",
+        "config.(W) Tobacco and Hemp.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Tobacco and Hemp.",
+        "config.(W) Tobacco and Hemp.values.true": "Ativado",
+        "config.(W) Tobacco and Hemp.values.false": "Desativado",
+    
+        "config.(X) Ridgeside Village.name": "(X) Ridgeside Village",
+        "config.(X) Ridgeside Village.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Ridgeside Village.",
+        "config.(X) Ridgeside Village.values.true": "Ativado",
+        "config.(X) Ridgeside Village.values.false": "Desativado",
+    
+        "config.(Y) Adventurer Guild Expanded.name": "(Y) Adventurer Guild Expanded",
+        "config.(Y) Adventurer Guild Expanded.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Adventurer Guild Expanded.",
+        "config.(Y) Adventurer Guild Expanded.values.true": "Ativado",
+        "config.(Y) Adventurer Guild Expanded.values.false": "Desativado",
+    
+        "config.(Z) Distant Lands.name": "(Z) Distant Lands",
+        "config.(Z) Distant Lands.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Distant Lands.",
+        "config.(Z) Distant Lands.values.true": "Ativado",
+        "config.(Z) Distant Lands.values.false": "Desativado",
 
-    // SECTION W - TOBACCO AND HEMP
-        "config.$ Toggle All Sprites - Section W.name": "$ Ligar/Desligar todas as texturas - Secção W",
-        "config.$ Toggle All Sprites - Section W.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Tobacco and Hemp.",
-        "config.$ Toggle All Sprites - Section W.values.Enabled": "Ativado",
-        "config.$ Toggle All Sprites - Section W.values.Disabled": "Desativado"
+        "config.(A²) Magical Crops.name": "(A²) Magical Crops",
+        "config.(A²) Magical Crops.description": "Ligar/Desligar o estado de carregamento de todas as texturas do Magical Crops.",
+        "config.(A²) Magical Crops.values.true": "Ativado",
+        "config.(A²) Magical Crops.values.false": "Desativado"
 }

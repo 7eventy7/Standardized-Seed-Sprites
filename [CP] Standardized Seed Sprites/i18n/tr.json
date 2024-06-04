@@ -1,8 +1,7 @@
 {
-//CONFIG DEFINITIONS
-	// SEED PACKET VARIANT
-		"config.Seed Packet Variant.name": "Tohum Paketi Varyantı",
-		"config.Seed Packet Variant.description": "Tüm tohum grafiklerinin paket varyantını ayarlayın.\nReferanslar için mod sayfasındaki resimlere bakın.",
+    // CONFIG OPTIONS
+        "config.Seed Packet Variant.name": "Tohum Paketi Varyantı",
+        "config.Seed Packet Variant.description": "Tüm tohum grafiklerinin paket varyantını ayarlayın.\nReferanslar için mod sayfasındaki resimlere bakın.",
         "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
         "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
         "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
@@ -10,190 +9,182 @@
         "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
         "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
 
-	// SAPLING SACK COLOR
-		"config.Sapling Sack Color.name": "Fidan Çuvalı Rengi",
-		"config.Sapling Sack Color.description": "Tüm fidan grafiklerinin çuval rengini ayarlayın.\nReferanslar için mod sayfasındaki resimlere bakın.",
+        "config.Sapling Sack Color.name": "Fidan Çuvalı Rengi",
+        "config.Sapling Sack Color.description": "Tüm fidan grafiklerinin çuval rengini ayarlayın.\nReferanslar için mod sayfasındaki resimlere bakın.",
         "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
         "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
         "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
-	
-	// GENERAL MOD TOGGLE
-		"config.= General Mod Toggle.name": "= Genel Mod Ayarlari",
-		"config.= General Mod Toggle.description": "Modun tümünün etkinleştirme durumunu değiştirin.",
-		"config.= General Mod Toggle.values.Enabled": "Etkin",
-		"config.= General Mod Toggle.values.Disabled": "Devre Dışı",
-	
-	// SEED SPRITES TOGGLE
-		"config.Seed Sprites Toggle.name": "Tohum Grafik Ayarlari",
-		"config.Seed Sprites Toggle.description": "Tohum grafiklerinin yükleme durumunu değiştirin.",
-		"config.Seed Sprites Toggle.values.Enabled": "Etkin",
-		"config.Seed Sprites Toggle.values.Disabled": "Devre Dışı",
-	
-	// SAPLING SPRITES TOGGLE
-		"config.Sapling Sprites Toggle.name": "Fidan Grafik Ayarlari",
-		"config.Sapling Sprites Toggle.description": "Fidan grafiklerinin yükleme durumunu değiştirin.",
-		"config.Sapling Sprites Toggle.values.Enabled": "Etkin",
-		"config.Sapling Sprites Toggle.values.Disabled": "Devre Dışı",
-	
-	// BUSH SPRITES TOGGLE
-		"config.Bush Sprites Toggle.name": "Çalı Grafik Ayarlari",
-		"config.Bush Sprites Toggle.description": "Özel çalı grafiklerinin yükleme durumunu değiştirin.",
-		"config.Bush Sprites Toggle.values.Enabled": "Etkin",
-		"config.Bush Sprites Toggle.values.Disabled": "Devre Dışı",
-	
-	// TRELLIS SPRITES TOGGLE
-		"config.Trellis Sprites Toggle.name": "Tahta Çit Grafik Ayarlari",
-		"config.Trellis Sprites Toggle.description": "Özel tahta çit grafiklerinin yükleme durumunu değiştirin.",
-		"config.Trellis Sprites Toggle.values.Enabled": "Etkin",
-		"config.Trellis Sprites Toggle.values.Disabled": "Devre Dışı",
-	
-	// TEA SAPLING SPRITES TOGGLE
-		"config.Tea Sapling Sprites Toggle.name": "Çay Fidanı Grafik Ayarlari",
-		"config.Tea Sapling Sprites Toggle.description": "Çay fidanı grafiklerinin yükleme durumunu değiştirin.",
-		"config.Tea Sapling Sprites Toggle.values.Enabled": "Etkin",
-		"config.Tea Sapling Sprites Toggle.values.Disabled": "Devre Dışı",
-	
-	// MIXED SEED SPRITES TOGGLE
-		"config.Mixed Seed Sprites Toggle.name": "Karışık Tohum Grafik Ayarlari",
-		"config.Mixed Seed Sprites Toggle.description": "Karışık tohum grafiklerinin yükleme durumunu değiştirin.",
-		"config.Mixed Seed Sprites Toggle.values.Enabled": "Etkin",
-		"config.Mixed Seed Sprites Toggle.values.Disabled": "Devre Dışı",
-	
-	// SECTION A - VANILLA
-		"config.$ Toggle All Sprites - Section A.name": "$ Tüm Grafik Ayarlari - Bölüm A",
-		"config.$ Toggle All Sprites - Section A.description": "Vanilla'dan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section A.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section A.values.Disabled": "Devre Dışı",
-	
-	// SECTION B - STARDEW VALLEY EXPANDED
-		"config.$ Toggle All Sprites - Section B.name": "$ Tüm Grafik Ayarlari - Bölüm B",
-		"config.$ Toggle All Sprites - Section B.description": "Stardew Valley Expanded'dan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section B.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section B.values.Disabled": "Devre Dışı",
-	
-	// SECTION C - EAST SCARP
-		"config.$ Toggle All Sprites - Section C.name": "$ Tüm Grafik Ayarlari - Bölüm C",
-		"config.$ Toggle All Sprites - Section C.description": "East Scarp'dan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section C.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section C.values.Disabled": "Devre Dışı",
-	
-	// SECTION D - VISIT MOUNT VAPIUS
-		"config.$ Toggle All Sprites - Section D.name": "$ Tüm Grafik Ayarlari - Bölüm D",
-		"config.$ Toggle All Sprites - Section D.description": "Visit Mount Vapius'tan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section D.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section D.values.Disabled": "Devre Dışı",
-	
-	// SECTION E - SERENE MEADOW
-		"config.$ Toggle All Sprites - Section E.name": "$ Tüm Grafik Ayarlari - Bölüm E",
-		"config.$ Toggle All Sprites - Section E.description": "Serene Meadow'dan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section E.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section E.values.Disabled": "Devre Dışı",
-	
-	// SECTION F - GROWABLE FORAGE
-		"config.$ Toggle All Sprites - Section F.name": "$ Tüm Grafik Ayarlari - Bölüm F",
-		"config.$ Toggle All Sprites - Section F.description": "Growable Forage'dan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section F.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section F.values.Disabled": "Devre Dışı",
-	
-	// SECTION G - CORNUCOPIA CROPS
-		"config.$ Toggle All Sprites - Section G.name": "$ Tüm Grafik Ayarlari - Bölüm G",
-		"config.$ Toggle All Sprites - Section G.description": "Cornucopia Crops'tan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section G.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section G.values.Disabled": "Devre Dışı",
-	
-	// SECTION H - CORNUCOPIA HERBS
-		"config.$ Toggle All Sprites - Section H.name": "$ Tüm Grafik Ayarlari - Bölüm H",
-		"config.$ Toggle All Sprites - Section H.description": "Cornucopia Herbs'ten tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section H.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section H.values.Disabled": "Devre Dışı",
-	
-	// SECTION I - CORNUCOPIA FLOWERS
-		"config.$ Toggle All Sprites - Section I.name": "$ Tüm Grafik Ayarlari - Bölüm I",
-		"config.$ Toggle All Sprites - Section I.description": "Cornucopia Flowers'tan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section I.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section I.values.Disabled": "Devre Dışı",
-	
-	// SECTION J - ILUCIE WINTER CROPS
-		"config.$ Toggle All Sprites - Section J.name": "$ Tüm Grafik Ayarlari - Bölüm J",
-		"config.$ Toggle All Sprites - Section J.description": "Ilucie Winter Crops'tan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section J.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section J.values.Disabled": "Devre Dışı",
-	
-	// SECTION K - FLOWER GARDEN 2
-		"config.$ Toggle All Sprites - Section K.name": "$ Tüm Grafik Ayarlari - Bölüm K",
-		"config.$ Toggle All Sprites - Section K.description": "Flower Garden 2'den tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section K.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section K.values.Disabled": "Devre Dışı",
-	
-	// SECTION L - GRAPES OF FERNGILL
-		"config.$ Toggle All Sprites - Section L.name": "$ Tüm Grafik Ayarlari - Bölüm L",
-		"config.$ Toggle All Sprites - Section L.description": "Grapes of Ferngill'den tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section L.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section L.values.Disabled": "Devre Dışı",
-	
-	// SECTION M - ATELIER GOODS FORAGER
-		"config.$ Toggle All Sprites - Section M.name": "$ Tüm Grafik Ayarlari - Bölüm M",
-		"config.$ Toggle All Sprites - Section M.description": "Atelier Goods Forager'dan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section M.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section M.values.Disabled": "Devre Dışı",
-	
-	// SECTION N - GARDEN VARIETY MIXED SEEDS
-		"config.$ Toggle All Sprites - Section N.name": "$ Tüm Grafik Ayarlari - Bölüm N",
-		"config.$ Toggle All Sprites - Section N.description": "Garden Variety Mixed Seeds'ten tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section N.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section N.values.Disabled": "Devre Dışı",
-	
-	// SECTION O - FORAGE OF FERNGILL
-		"config.$ Toggle All Sprites - Section O.name": "$ Tüm Grafik Ayarlari - Bölüm O",
-		"config.$ Toggle All Sprites - Section O.description": "Forage of Ferngill'den tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section O.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section O.values.Disabled": "Devre Dışı",
-	
-	// SECTION P - GRAINS OVERHULL
-		"config.$ Toggle All Sprites - Section P.name": "$ Tüm Grafik Ayarlari - Bölüm P",
-		"config.$ Toggle All Sprites - Section P.description": "Grains Overhull'dan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section P.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section P.values.Disabled": "Devre Dışı",
-	
-	// SECTION Q - CLOUDBERRIES AS FORAGE
-		"config.$ Toggle All Sprites - Section Q.name": "$ Tüm Grafik Ayarlari - Bölüm Q",
-		"config.$ Toggle All Sprites - Section Q.description": "Cloudberries as Forage'den tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section Q.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section Q.values.Disabled": "Devre Dışı",
-	
-	// SECTION R - UNCLE IROH TEA
-		"config.$ Toggle All Sprites - Section R.name": "$ Tüm Grafik Ayarlari - Bölüm R",
-		"config.$ Toggle All Sprites - Section R.description": "Uncle Iroh Tea'den tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section R.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section R.values.Disabled": "Devre Dışı",
-	
-	// SECTION S - POLYAMORY SWEET
-		"config.$ Toggle All Sprites - Section S.name": "$ Tüm Grafik Ayarlari - Bölüm S",
-		"config.$ Toggle All Sprites - Section S.description": "Polyamory Sweet'ten tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section S.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section S.values.Disabled": "Devre Dışı",
-	
-	// SECTION T - ORE CROPS
-		"config.$ Toggle All Sprites - Section T.name": "$ Tüm Grafik Ayarlari - Bölüm T",
-		"config.$ Toggle All Sprites - Section T.description": "Ore Crops'tan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section T.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section T.values.Disabled": "Devre Dışı",
+        "config.Sapling Sack Color.values.(4) Crypt": "(4) Crypt",
 
-    // SECTION U - TAHLA CROPS
-        "config.$ Toggle All Sprites - Section U.name": "$ Tüm Grafik Ayarlari - Bölüm U",
-        "config.$ Toggle All Sprites - Section U.description": "Tahla Crops'tan tüm grafiklerin yükleme durumunu değiştirin.",
-        "config.$ Toggle All Sprites - Section U.values.Enabled": "Etkin",
-        "config.$ Toggle All Sprites - Section U.values.Disabled": "Devre Dışı",
+    // GLOBAL TOGGLES
+        "config.= Disable Entire Mod.name": "= Tüm Modu Devre Dışı Bırak",
+        "config.= Disable Entire Mod.description": "Modun tümünün etkinleştirme durumunu değiştirin.",
+        "config.= Disable Entire Mod.values.true": "Etkin",
+        "config.= Disable Entire Mod.values.false": "Devre Dışı",
 
-    // SECTION V - MILDKEWY FOOD STARTER
-        "config.$ Toggle All Sprites - Section V.name": "$ Tüm Grafik Ayarlari - Bölüm V",
-        "config.$ Toggle All Sprites - Section V.description": "Mildkewy Food Starter'dan tüm grafiklerin yükleme durumunu değiştirin.",
-        "config.$ Toggle All Sprites - Section V.values.Enabled": "Etkin",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Devre Dışı",
+        "config.Seed Sprites.name": "Tohum Grafik Ayarları",
+        "config.Seed Sprites.description": "Tohum grafiklerinin yükleme durumunu değiştirin.",
+        "config.Seed Sprites.values.Enabled": "Etkin",
+        "config.Seed Sprites.values.Disabled": "Devre Dışı",
+    
+        "config.Sapling Sprites.name": "Fidan Grafik Ayarları",
+        "config.Sapling Sprites.description": "Fidan grafiklerinin yükleme durumunu değiştirin.",
+        "config.Sapling Sprites.values.Enabled": "Etkin",
+        "config.Sapling Sprites.values.Disabled": "Devre Dışı",
 
-	// SECTION W - TOBACCO AND HEMP
-		"config.$ Toggle All Sprites - Section W.name": "$ Tüm Grafik Ayarlari - Bölüm W",
-		"config.$ Toggle All Sprites - Section W.description": "Tobacco and Hemp'tan tüm grafiklerin yükleme durumunu değiştirin.",
-		"config.$ Toggle All Sprites - Section W.values.Enabled": "Etkin",
-		"config.$ Toggle All Sprites - Section W.values.Disabled": "Devre Dışı"
+        "config.Bush Sprites.name": "Çalı Grafik Ayarları",
+        "config.Bush Sprites.description": "Özel çalı grafiklerinin yükleme durumunu değiştirin.",
+        "config.Bush Sprites.values.Enabled": "Etkin",
+        "config.Bush Sprites.values.Disabled": "Devre Dışı",
+
+        "config.Trellis Sprites.name": "Tahta Çit Grafik Ayarları",
+        "config.Trellis Sprites.description": "Özel tahta çit grafiklerinin yükleme durumunu değiştirin.",
+        "config.Trellis Sprites.values.Enabled": "Etkin",
+        "config.Trellis Sprites.values.Disabled": "Devre Dışı",
+
+        "config.Tea Sapling Sprites.name": "Çay Fidanı Grafik Ayarları",
+        "config.Tea Sapling Sprites.description": "Çay fidanı grafiklerinin yükleme durumunu değiştirin.",
+        "config.Tea Sapling Sprites.values.Enabled": "Etkin",
+        "config.Tea Sapling Sprites.values.Disabled": "Devre Dışı",
+
+        "config.Mixed Seed Sprites.name": "Karışık Tohum Grafik Ayarları",
+        "config.Mixed Seed Sprites.description": "Karışık tohum grafiklerinin yükleme durumunu değiştirin.",
+        "config.Mixed Seed Sprites.values.Enabled": "Etkin",
+        "config.Mixed Seed Sprites.values.Disabled": "Devre Dışı",
+
+    // MOD SECTION TOGGLES
+        "config.(A) Vanilla.name": "(A) Vanilla",
+        "config.(A) Vanilla.description": "Temel oyundaki tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(A) Vanilla.values.true": "Etkin",
+        "config.(A) Vanilla.values.false": "Devre Dışı",
+
+        "config.(B) Stardew Valley Expanded.name": "(B) Stardew Valley Expanded",
+        "config.(B) Stardew Valley Expanded.description": "Stardew Valley Expanded'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(B) Stardew Valley Expanded.values.true": "Etkin",
+        "config.(B) Stardew Valley Expanded.values.false": "Devre Dışı",
+
+        "config.(C) East Scarp.name": "(C) East Scarp",
+        "config.(C) East Scarp.description": "East Scarp'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(C) East Scarp.values.true": "Etkin",
+        "config.(C) East Scarp.values.false": "Devre Dışı",
+
+        "config.(D) Visit Mount Vapius.name": "(D) Visit Mount Vapius",
+        "config.(D) Visit Mount Vapius.description": "Visit Mount Vapius'tan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(D) Visit Mount Vapius.values.true": "Etkin",
+        "config.(D) Visit Mount Vapius.values.false": "Devre Dışı",
+
+        "config.(E) Serene Meadow.name": "(E) Serene Meadow",
+        "config.(E) Serene Meadow.description": "Serene Meadow'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(E) Serene Meadow.values.true": "Etkin",
+        "config.(E) Serene Meadow.values.false": "Devre Dışı",
+
+        "config.(F) Growable Forage.name": "(F) Growable Forage",
+        "config.(F) Growable Forage.description": "Growable Forage'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(F) Growable Forage.values.true": "Etkin",
+        "config.(F) Growable Forage.values.false": "Devre Dışı",
+
+        "config.(G) Cornucopia Crops.name": "(G) Cornucopia Crops",
+        "config.(G) Cornucopia Crops.description": "Cornucopia Crops'tan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(G) Cornucopia Crops.values.true": "Etkin",
+        "config.(G) Cornucopia Crops.values.false": "Devre Dışı",
+
+        "config.(H) Cornucopia Herbs.name": "(H) Cornucopia Herbs",
+        "config.(H) Cornucopia Herbs.description": "Cornucopia Herbs'ten tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(H) Cornucopia Herbs.values.true": "Etkin",
+        "config.(H) Cornucopia Herbs.values.false": "Devre Dışı",
+
+        "config.(I) Cornucopia Flowers.name": "(I) Cornucopia Flowers",
+        "config.(I) Cornucopia Flowers.description": "Cornucopia Flowers'tan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(I) Cornucopia Flowers.values.true": "Etkin",
+        "config.(I) Cornucopia Flowers.values.false": "Devre Dışı",
+
+        "config.(J) Ilucie Winter Crops.name": "(J) Ilucie Winter Crops",
+        "config.(J) Ilucie Winter Crops.description": "Ilucie Winter Crops'tan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(J) Ilucie Winter Crops.values.true": "Etkin",
+        "config.(J) Ilucie Winter Crops.values.false": "Devre Dışı",
+
+        "config.(K) Flower Garden 2.name": "(K) Flower Garden 2",
+        "config.(K) Flower Garden 2.description": "Flower Garden 2'den tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(K) Flower Garden 2.values.true": "Etkin",
+        "config.(K) Flower Garden 2.values.false": "Devre Dışı",
+
+        "config.(L) Grapes of Ferngill.name": "(L) Grapes of Ferngill",
+        "config.(L) Grapes of Ferngill.description": "Grapes of Ferngill'den tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(L) Grapes of Ferngill.values.true": "Etkin",
+        "config.(L) Grapes of Ferngill.values.false": "Devre Dışı",
+
+        "config.(M) Atelier Goods Forager.name": "(M) Atelier Goods Forager",
+        "config.(M) Atelier Goods Forager.description": "Atelier Goods Forager'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(M) Atelier Goods Forager.values.true": "Etkin",
+        "config.(M) Atelier Goods Forager.values.false": "Devre Dışı",
+
+        "config.(N) Garden Variety Mixed Seeds.name": "(N) Garden Variety Mixed Seeds",
+        "config.(N) Garden Variety Mixed Seeds.description": "Garden Variety Mixed Seeds'ten tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(N) Garden Variety Mixed Seeds.values.true": "Etkin",
+        "config.(N) Garden Variety Mixed Seeds.values.false": "Devre Dışı",
+
+        "config.(O) Forage of Ferngill.name": "(O) Forage of Ferngill",
+        "config.(O) Forage of Ferngill.description": "Forage of Ferngill'den tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(O) Forage of Ferngill.values.true": "Etkin",
+        "config.(O) Forage of Ferngill.values.false": "Devre Dışı",
+
+        "config.(P) Grains Overhull.name": "(P) Grains Overhull",
+        "config.(P) Grains Overhull.description": "Grains Overhull'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(P) Grains Overhull.values.true": "Etkin",
+        "config.(P) Grains Overhull.values.false": "Devre Dışı",
+
+        "config.(Q) Bonster Crops Combined.name": "(Q) Bonster Crops Combined",
+        "config.(Q) Bonster Crops Combined.description": "Bonster Crops Combined'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(Q) Bonster Crops Combined.values.true": "Etkin",
+        "config.(Q) Bonster Crops Combined.values.false": "Devre Dışı",
+
+        "config.(R) Uncle Iroh Tea.name": "(R) Uncle Iroh Tea",
+        "config.(R) Uncle Iroh Tea.description": "Uncle Iroh Tea'den tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(R) Uncle Iroh Tea.values.true": "Etkin",
+        "config.(R) Uncle Iroh Tea.values.false": "Devre Dışı",
+
+        "config.(S) Polyamory Sweet.name": "(S) Polyamory Sweet",
+        "config.(S) Polyamory Sweet.description": "Polyamory Sweet'ten tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(S) Polyamory Sweet.values.true": "Etkin",
+        "config.(S) Polyamory Sweet.values.false": "Devre Dışı",
+
+        "config.(T) Ore Crops.name": "(T) Ore Crops",
+        "config.(T) Ore Crops.description": "Ore Crops'tan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(T) Ore Crops.values.true": "Etkin",
+        "config.(T) Ore Crops.values.false": "Devre Dışı",
+
+        "config.(U) Tahla Crops.name": "(U) Tahla Crops",
+        "config.(U) Tahla Crops.description": "Tahla Crops'tan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(U) Tahla Crops.values.true": "Etkin",
+        "config.(U) Tahla Crops.values.false": "Devre Dışı",
+    
+        "config.(V) Mildkewy Food Starter.name": "(V) Mildkewy Food Starter",
+        "config.(V) Mildkewy Food Starter.description": "Mildkewy Food Starter'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(V) Mildkewy Food Starter.values.true": "Etkin",
+        "config.(V) Mildkewy Food Starter.values.false": "Devre Dışı",
+    
+        "config.(W) Tobacco and Hemp.name": "(W) Tobacco and Hemp",
+        "config.(W) Tobacco and Hemp.description": "Tobacco and Hemp'tan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(W) Tobacco and Hemp.values.true": "Etkin",
+        "config.(W) Tobacco and Hemp.values.false": "Devre Dışı",
+    
+        "config.(X) Ridgeside Village.name": "(X) Ridgeside Village",
+        "config.(X) Ridgeside Village.description": "Ridgeside Village'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(X) Ridgeside Village.values.true": "Etkin",
+        "config.(X) Ridgeside Village.values.false": "Devre Dışı",
+    
+        "config.(Y) Adventurer Guild Expanded.name": "(Y) Adventurer Guild Expanded",
+        "config.(Y) Adventurer Guild Expanded.description": "Adventurer Guild Expanded'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(Y) Adventurer Guild Expanded.values.true": "Etkin",
+        "config.(Y) Adventurer Guild Expanded.values.false": "Devre Dışı",
+    
+        "config.(Z) Distant Lands.name": "(Z) Distant Lands",
+        "config.(Z) Distant Lands.description": "Distant Lands'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(Z) Distant Lands.values.true": "Etkin",
+        "config.(Z) Distant Lands.values.false": "Devre Dışı",
+
+        "config.(A²) Magical Crops.name": "(A²) Magical Crops",
+        "config.(A²) Magical Crops.description": "Magical Crops'dan tüm grafiklerin yükleme durumunu değiştirin.",
+        "config.(A²) Magical Crops.values.true": "Etkin",
+        "config.(A²) Magical Crops.values.false": "Devre Dışı"
 }

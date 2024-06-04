@@ -1,6 +1,5 @@
 {
-//CONFIG DEFINITIONS
-    // SEED PACKET VARIANT
+    // CONFIG OPTIONS
         "config.Seed Packet Variant.name": "Saatgutsorten",
         "config.Seed Packet Variant.description": "Wählen Sie die Variante für alle Saatgutsymbole.\nSiehe Bilder auf der Mod-Seite als Referenz.",
         "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
@@ -10,190 +9,182 @@
         "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
         "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
 
-    // SAPLING SACK COLOR
         "config.Sapling Sack Color.name": "Farbe der Setzlingssäcke",
         "config.Sapling Sack Color.description": "Wählen Sie die Farbe für alle Setzlingssäcke.\nSiehe Bilder auf der Mod-Seite als Referenz.",
         "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
         "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
         "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+        "config.Sapling Sack Color.values.(4) Crypt": "(4) Crypt",
 
-    // GENERAL MOD TOGGLE
-        "config.= General Mod Toggle.name": "= Allgemeiner Mod-Schalter",
-        "config.= General Mod Toggle.description": "Schaltet den allgemeinen Status des Mods ein/aus.",
-        "config.= General Mod Toggle.values.Enabled": "Eingeschaltet",
-        "config.= General Mod Toggle.values.Disabled": "Ausgeschaltet",
+    // GLOBAL TOGGLES
+        "config.= Disable Entire Mod.name": "= Deaktiviere Den Gesamten Mod",
+        "config.= Disable Entire Mod.description": "Schaltet den allgemeinen Status des Mods ein/aus.",
+        "config.= Disable Entire Mod.values.true": "Aktiviert",
+        "config.= Disable Entire Mod.values.false": "Deaktiviert",
 
-    // SEED SPRITES TOGGLE
-        "config.Seed Sprites Toggle.name": "-> Saatgut-Symbole umschalten",
-        "config.Seed Sprites Toggle.description": "Schaltet die Änderung der Saatgut-Symbole ein/aus.",
-        "config.Seed Sprites Toggle.values.Enabled": "Eingeschaltet",
-        "config.Seed Sprites Toggle.values.Disabled": "Ausgeschaltet",
+        "config.Seed Sprites.name": "Saatgut-Symbole Textur",
+        "config.Seed Sprites.description": "Schaltet die Änderung der Saatgut-Symbole ein/aus.",
+        "config.Seed Sprites.values.Enabled": "Aktiviert",
+        "config.Seed Sprites.values.Disabled": "Deaktiviert",
+    
+        "config.Sapling Sprites.name": "Setzlings-Symbole Textur",
+        "config.Sapling Sprites.description": "Schaltet die Änderung der Setzlings-Symbole ein/aus.",
+        "config.Sapling Sprites.values.Enabled": "Aktiviert",
+        "config.Sapling Sprites.values.Disabled": "Deaktiviert",
 
-    // SAPLING SPRITES TOGGLE
-        "config.Sapling Sprites Toggle.name": "-> Setzlings-Symbole umschalten",
-        "config.Sapling Sprites Toggle.description": "Schaltet die Änderung der Setzlings-Symbole ein/aus.",
-        "config.Sapling Sprites Toggle.values.Enabled": "Eingeschaltet",
-        "config.Sapling Sprites Toggle.values.Disabled": "Ausgeschaltet",
+        "config.Bush Sprites.name": "Busch-Symbole Textur",
+        "config.Bush Sprites.description": "Schaltet die Änderung der Busch-Symbole ein/aus.",
+        "config.Bush Sprites.values.Enabled": "Aktiviert",
+        "config.Bush Sprites.values.Disabled": "Deaktiviert",
 
-    // BUSH SPRITES TOGGLE
-        "config.Bush Sprites Toggle.name": "-> Busch-Symbole umschalten",
-        "config.Bush Sprites Toggle.description": "Schaltet die Änderung der Busch-Symbole ein/aus.",
-        "config.Bush Sprites Toggle.values.Enabled": "Eingeschaltet",
-        "config.Bush Sprites Toggle.values.Disabled": "Ausgeschaltet",
+        "config.Trellis Sprites.name": "Spalier-Symbole Textur",
+        "config.Trellis Sprites.description": "Schaltet die Änderung der Spalier-Symbole ein/aus.",
+        "config.Trellis Sprites.values.Enabled": "Aktiviert",
+        "config.Trellis Sprites.values.Disabled": "Deaktiviert",
 
-    // TRELLIS SPRITES TOGGLE
-        "config.Trellis Sprites Toggle.name": "-> Spalier-Symbole umschalten",
-        "config.Trellis Sprites Toggle.description": "Schaltet die Änderung der Spalier-Symbole ein/aus.",
-        "config.Trellis Sprites Toggle.values.Enabled": "Eingeschaltet",
-        "config.Trellis Sprites Toggle.values.Disabled": "Ausgeschaltet",
+        "config.Tea Sapling Sprites.name": "Tee-Setzlings-Symbole Textur",
+        "config.Tea Sapling Sprites.description": "Schaltet die Änderung der Tee-Setzlings-Symbole ein/aus.",
+        "config.Tea Sapling Sprites.values.Enabled": "Aktiviert",
+        "config.Tea Sapling Sprites.values.Disabled": "Deaktiviert",
 
-    // TEA SAPLING SPRITES TOGGLE
-        "config.Tea Sapling Sprites Toggle.name": "-> Tee-Setzlings-Symbole umschalten",
-        "config.Tea Sapling Sprites Toggle.description": "Schaltet die Änderung der Tee-Setzlings-Symbole ein/aus.",
-        "config.Tea Sapling Sprites Toggle.values.Enabled": "Eingeschaltet",
-        "config.Tea Sapling Sprites Toggle.values.Disabled": "Ausgeschaltet",
+        "config.Mixed Seed Sprites.name": "Gemischte Saatgut-Symbole Textur",
+        "config.Mixed Seed Sprites.description": "Schaltet die Änderung der gemischten Saatgut-Symbole ein/aus.",
+        "config.Mixed Seed Sprites.values.Enabled": "Aktiviert",
+        "config.Mixed Seed Sprites.values.Disabled": "Deaktiviert",
 
-    // MIXED SEED SPRITES TOGGLE
-        "config.Mixed Seed Sprites Toggle.name": "-> Gemischte Saatgut-Symbole umschalten",
-        "config.Mixed Seed Sprites Toggle.description": "Schaltet die Änderung der gemischten Saatgut-Symbole ein/aus.",
-        "config.Mixed Seed Sprites Toggle.values.Enabled": "Eingeschaltet",
-        "config.Mixed Seed Sprites Toggle.values.Disabled": "Ausgeschaltet",
+    // MOD SECTION TOGGLES
+        "config.(A) Vanilla.name": "(A) Vanilla",
+        "config.(A) Vanilla.description": "Schaltet alle Änderungen aus Die Basis Spiel.",
+        "config.(A) Vanilla.values.true": "Aktiviert",
+        "config.(A) Vanilla.values.false": "Deaktiviert",
 
-    // SECTION A - VANILLA
-        "config.$ Toggle All Sprites - Section A.name": "$ Teilweiser Schalter\nSektion A: Vanilla",
-        "config.$ Toggle All Sprites - Section A.description": "Schaltet alle Änderungen in Vanilla ein/aus.",
-        "config.$ Toggle All Sprites - Section A.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section A.values.Disabled": "Ausgeschaltet",
+        "config.(B) Stardew Valley Expanded.name": "(B) Stardew Valley Expanded",
+        "config.(B) Stardew Valley Expanded.description": "Schaltet alle Änderungen in Stardew Valley Expanded ein/aus.",
+        "config.(B) Stardew Valley Expanded.values.true": "Aktiviert",
+        "config.(B) Stardew Valley Expanded.values.false": "Deaktiviert",
 
-    // SECTION B - STARDEW VALLEY EXPANDED
-        "config.$ Toggle All Sprites - Section B.name": "$ Teilweiser Schalter\nSektion B: Stardew Valley Expanded",
-        "config.$ Toggle All Sprites - Section B.description": "Schaltet alle Änderungen in Stardew Valley Expanded ein/aus.",
-        "config.$ Toggle All Sprites - Section B.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section B.values.Disabled": "Ausgeschaltet",
+        "config.(C) East Scarp.name": "(C) East Scarp",
+        "config.(C) East Scarp.description": "Schaltet alle Änderungen in East Scarp ein/aus.",
+        "config.(C) East Scarp.values.true": "Aktiviert",
+        "config.(C) East Scarp.values.false": "Deaktiviert",
 
-    // SECTION C - EAST SCARP
-        "config.$ Toggle All Sprites - Section C.name": "$ Teilweiser Schalter\nSektion C: East Scarp",
-        "config.$ Toggle All Sprites - Section C.description": "Schaltet alle Änderungen in East Scarp ein/aus.",
-        "config.$ Toggle All Sprites - Section C.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section C.values.Disabled": "Ausgeschaltet",
+        "config.(D) Visit Mount Vapius.name": "(D) Visit Mount Vapius",
+        "config.(D) Visit Mount Vapius.description": "Schaltet alle Änderungen in Visit Mount Vapius ein/aus.",
+        "config.(D) Visit Mount Vapius.values.true": "Aktiviert",
+        "config.(D) Visit Mount Vapius.values.false": "Deaktiviert",
 
-    // SECTION D - VISIT MOUNT VAPIUS
-        "config.$ Toggle All Sprites - Section D.name": "$ Teilweiser Schalter\nSektion D: Visit Mount Vapius",
-        "config.$ Toggle All Sprites - Section D.description": "Schaltet alle Änderungen in Visit Mount Vapius ein/aus.",
-        "config.$ Toggle All Sprites - Section D.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section D.values.Disabled": "Ausgeschaltet",
+        "config.(E) Serene Meadow.name": "(E) Serene Meadow",
+        "config.(E) Serene Meadow.description": "Schaltet alle Änderungen in Serene Meadow ein/aus.",
+        "config.(E) Serene Meadow.values.true": "Aktiviert",
+        "config.(E) Serene Meadow.values.false": "Deaktiviert",
 
-    // SECTION E - SERENE MEADOW
-        "config.$ Toggle All Sprites - Section E.name": "$ Teilweiser Schalter\nSektion E: Serene Meadow",
-        "config.$ Toggle All Sprites - Section E.description": "Schaltet alle Änderungen in Serene Meadow ein/aus.",
-        "config.$ Toggle All Sprites - Section E.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section E.values.Disabled": "Ausgeschaltet",
+        "config.(F) Growable Forage.name": "(F) Growable Forage",
+        "config.(F) Growable Forage.description": "Schaltet alle Änderungen in Growable Forage ein/aus.",
+        "config.(F) Growable Forage.values.true": "Aktiviert",
+        "config.(F) Growable Forage.values.false": "Deaktiviert",
 
-    // SECTION F - GROWABLE FORAGE
-        "config.$ Toggle All Sprites - Section F.name": "$ Teilweiser Schalter\nSektion F: Growable Forage",
-        "config.$ Toggle All Sprites - Section F.description": "Schaltet alle Änderungen in Growable Forage ein/aus.",
-        "config.$ Toggle All Sprites - Section F.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section F.values.Disabled": "Ausgeschaltet",
+        "config.(G) Cornucopia Crops.name": "(G) Cornucopia Crops",
+        "config.(G) Cornucopia Crops.description": "Schaltet alle Änderungen in Cornucopia Crops ein/aus.",
+        "config.(G) Cornucopia Crops.values.true": "Aktiviert",
+        "config.(G) Cornucopia Crops.values.false": "Deaktiviert",
 
-    // SECTION G - CORNUCOPIA CROPS
-        "config.$ Toggle All Sprites - Section G.name": "$ Teilweiser Schalter\nSektion G: Cornucopia Crops",
-        "config.$ Toggle All Sprites - Section G.description": "Schaltet alle Änderungen in Cornucopia Crops ein/aus.",
-        "config.$ Toggle All Sprites - Section G.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section G.values.Disabled": "Ausgeschaltet",
+        "config.(H) Cornucopia Herbs.name": "(H) Cornucopia Herbs",
+        "config.(H) Cornucopia Herbs.description": "Schaltet alle Änderungen in Cornucopia Herbs ein/aus.",
+        "config.(H) Cornucopia Herbs.values.true": "Aktiviert",
+        "config.(H) Cornucopia Herbs.values.false": "Deaktiviert",
 
-    // SECTION H - CORNUCOPIA HERBS
-        "config.$ Toggle All Sprites - Section H.name": "$ Teilweiser Schalter\nSektion H: Cornucopia Herbs",
-        "config.$ Toggle All Sprites - Section H.description": "Schaltet alle Änderungen in Cornucopia Herbs ein/aus.",
-        "config.$ Toggle All Sprites - Section H.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section H.values.Disabled": "Ausgeschaltet",
+        "config.(I) Cornucopia Flowers.name": "(I) Cornucopia Flowers",
+        "config.(I) Cornucopia Flowers.description": "Schaltet alle Änderungen in Cornucopia Flowers ein/aus.",
+        "config.(I) Cornucopia Flowers.values.true": "Aktiviert",
+        "config.(I) Cornucopia Flowers.values.false": "Deaktiviert",
 
-    // SECTION I - CORNUCOPIA FLOWERS
-        "config.$ Toggle All Sprites - Section I.name": "$ Teilweiser Schalter\nSektion I: Cornucopia Flowers",
-        "config.$ Toggle All Sprites - Section I.description": "Schaltet alle Änderungen in Cornucopia Flowers ein/aus.",
-        "config.$ Toggle All Sprites - Section I.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section I.values.Disabled": "Ausgeschaltet",
+        "config.(J) Ilucie Winter Crops.name": "(J) Ilucie Winter Crops",
+        "config.(J) Ilucie Winter Crops.description": "Schaltet alle Änderungen in Ilucie Winter Crops ein/aus.",
+        "config.(J) Ilucie Winter Crops.values.true": "Aktiviert",
+        "config.(J) Ilucie Winter Crops.values.false": "Deaktiviert",
 
-    // SECTION J - ILUCIE WINTER CROPS
-        "config.$ Toggle All Sprites - Section J.name": "$ Teilweiser Schalter\nSektion J: Ilucie Winter Crops",
-        "config.$ Toggle All Sprites - Section J.description": "Schaltet alle Änderungen in Ilucie Winter Crops ein/aus.",
-        "config.$ Toggle All Sprites - Section J.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section J.values.Disabled": "Ausgeschaltet",
+        "config.(K) Flower Garden 2.name": "(K) Flower Garden 2",
+        "config.(K) Flower Garden 2.description": "Schaltet alle Änderungen in Flower Garden 2 ein/aus.",
+        "config.(K) Flower Garden 2.values.true": "Aktiviert",
+        "config.(K) Flower Garden 2.values.false": "Deaktiviert",
 
-    // SECTION K - FLOWER GARDEN 2
-        "config.$ Toggle All Sprites - Section K.name": "$ Teilweiser Schalter\nSektion K: Flower Garden 2",
-        "config.$ Toggle All Sprites - Section K.description": "Schaltet alle Änderungen in Flower Garden 2 ein/aus.",
-        "config.$ Toggle All Sprites - Section K.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section K.values.Disabled": "Ausgeschaltet",
+        "config.(L) Grapes of Ferngill.name": "(L) Grapes of Ferngill",
+        "config.(L) Grapes of Ferngill.description": "Schaltet alle Änderungen in Grapes of Ferngill ein/aus.",
+        "config.(L) Grapes of Ferngill.values.true": "Aktiviert",
+        "config.(L) Grapes of Ferngill.values.false": "Deaktiviert",
 
-    // SECTION L - GRAPES OF FERNGILL
-        "config.$ Toggle All Sprites - Section L.name": "$ Teilweiser Schalter\nSektion L: Grapes of Ferngill",
-        "config.$ Toggle All Sprites - Section L.description": "Schaltet alle Änderungen in Grapes of Ferngill ein/aus.",
-        "config.$ Toggle All Sprites - Section L.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section L.values.Disabled": "Ausgeschaltet",
+        "config.(M) Atelier Goods Forager.name": "(M) Atelier Goods Forager",
+        "config.(M) Atelier Goods Forager.description": "Schaltet alle Änderungen in Atelier Goods Forager ein/aus.",
+        "config.(M) Atelier Goods Forager.values.true": "Aktiviert",
+        "config.(M) Atelier Goods Forager.values.false": "Deaktiviert",
 
-    // SECTION M - ATELIER GOODS FORAGER
-        "config.$ Toggle All Sprites - Section M.name": "$ Teilweiser Schalter\nSektion M: Atelier Goods Forager",
-        "config.$ Toggle All Sprites - Section M.description": "Schaltet alle Änderungen in Atelier Goods Forager ein/aus.",
-        "config.$ Toggle All Sprites - Section M.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section M.values.Disabled": "Ausgeschaltet",
+        "config.(N) Garden Variety Mixed Seeds.name": "(N) Garden Variety Mixed Seeds",
+        "config.(N) Garden Variety Mixed Seeds.description": "Schaltet alle Änderungen in Garden Variety Mixed Seeds ein/aus.",
+        "config.(N) Garden Variety Mixed Seeds.values.true": "Aktiviert",
+        "config.(N) Garden Variety Mixed Seeds.values.false": "Deaktiviert",
 
-    // SECTION N - GARDEN VARIETY MIXED SEEDS
-        "config.$ Toggle All Sprites - Section N.name": "$ Teilweiser Schalter\nSektion N: Garden Variety Mixed Seeds",
-        "config.$ Toggle All Sprites - Section N.description": "Schaltet alle Änderungen in Garden Variety Mixed Seeds ein/aus.",
-        "config.$ Toggle All Sprites - Section N.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section N.values.Disabled": "Ausgeschaltet",
+        "config.(O) Forage of Ferngill.name": "(O) Forage of Ferngill",
+        "config.(O) Forage of Ferngill.description": "Schaltet alle Änderungen in Forage of Ferngill ein/aus.",
+        "config.(O) Forage of Ferngill.values.true": "Aktiviert",
+        "config.(O) Forage of Ferngill.values.false": "Deaktiviert",
 
-    // SECTION O - FORAGE OF FERNGILL
-        "config.$ Toggle All Sprites - Section O.name": "$ Teilweiser Schalter\nSektion O: Forage of Ferngill",
-        "config.$ Toggle All Sprites - Section O.description": "Schaltet alle Änderungen in Forage of Ferngill ein/aus.",
-        "config.$ Toggle All Sprites - Section O.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section O.values.Disabled": "Ausgeschaltet",
+        "config.(P) Grains Overhull.name": "(P) Grains Overhull",
+        "config.(P) Grains Overhull.description": "Schaltet alle Änderungen in Grains Overhull ein/aus.",
+        "config.(P) Grains Overhull.values.true": "Aktiviert",
+        "config.(P) Grains Overhull.values.false": "Deaktiviert",
 
-    // SECTION P - GRAINS OVERHULL
-        "config.$ Toggle All Sprites - Section P.name": "$ Teilweiser Schalter\nSektion P: Grains Overhull",
-        "config.$ Toggle All Sprites - Section P.description": "Schaltet alle Änderungen in Grains Overhull ein/aus.",
-        "config.$ Toggle All Sprites - Section P.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section P.values.Disabled": "Ausgeschaltet",
+        "config.(Q) Bonster Crops Combined.name": "(Q) Bonster Combined Crops",
+        "config.(Q) Bonster Crops Combined.description": "Schaltet alle Änderungen in Bonster Combined Crops ein/aus.",
+        "config.(Q) Bonster Crops Combined.values.true": "Aktiviert",
+        "config.(Q) Bonster Crops Combined.values.false": "Deaktiviert",
 
-    // SECTION Q - CLOUDBERRIES AS FORAGE
-        "config.$ Toggle All Sprites - Section Q.name": "$ Teilweiser Schalter\nSektion Q: Cloudberries as Forage",
-        "config.$ Toggle All Sprites - Section Q.description": "Schaltet alle Änderungen in Cloudberries as Forage ein/aus.",
-        "config.$ Toggle All Sprites - Section Q.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section Q.values.Disabled": "Ausgeschaltet",
+        "config.(R) Uncle Iroh Tea.name": "(R) Uncle Iroh Tea",
+        "config.(R) Uncle Iroh Tea.description": "Schaltet alle Änderungen in Uncle Iroh Tea ein/aus.",
+        "config.(R) Uncle Iroh Tea.values.true": "Aktiviert",
+        "config.(R) Uncle Iroh Tea.values.false": "Deaktiviert",
 
-    // SECTION R - UNCLE IROH TEA
-        "config.$ Toggle All Sprites - Section R.name": "$ Teilweiser Schalter\nSektion R: Uncle Iroh Tea",
-        "config.$ Toggle All Sprites - Section R.description": "Schaltet alle Änderungen in Uncle Iroh Tea ein/aus.",
-        "config.$ Toggle All Sprites - Section R.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section R.values.Disabled": "Ausgeschaltet",
+        "config.(S) Polyamory Sweet.name": "(S) Polyamory Sweet",
+        "config.(S) Polyamory Sweet.description": "Schaltet alle Änderungen in Polyamory Sweet ein/aus.",
+        "config.(S) Polyamory Sweet.values.true": "Aktiviert",
+        "config.(S) Polyamory Sweet.values.false": "Deaktiviert",
 
-    // SECTION S - POLYAMORY SWEET
-        "config.$ Toggle All Sprites - Section S.name": "$ Teilweiser Schalter\nSektion S: Polyamory Sweet",
-        "config.$ Toggle All Sprites - Section S.description": "Schaltet alle Änderungen in Polyamory Sweet ein/aus.",
-        "config.$ Toggle All Sprites - Section S.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section S.values.Disabled": "Ausgeschaltet",
+        "config.(T) Ore Crops.name": "(T) Ore Crops",
+        "config.(T) Ore Crops.description": "Schaltet alle Änderungen in Ore Crops ein/aus.",
+        "config.(T) Ore Crops.values.true": "Aktiviert",
+        "config.(T) Ore Crops.values.false": "Deaktiviert",
 
-    // SECTION T - ORE CROPS
-        "config.$ Toggle All Sprites - Section T.name": "$ Teilweiser Schalter\nSektion T: Ore Crops",
-        "config.$ Toggle All Sprites - Section T.description": "Schaltet alle Änderungen in Ore Crops ein/aus.",
-        "config.$ Toggle All Sprites - Section T.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section T.values.Disabled": "Ausgeschaltet",
+        "config.(U) Tahla Crops.name": "(U) Tahla Crops",
+        "config.(U) Tahla Crops.description": "Schaltet alle Änderungen in Tahla Crops ein/aus.",
+        "config.(U) Tahla Crops.values.true": "Aktiviert",
+        "config.(U) Tahla Crops.values.false": "Deaktiviert",
+    
+        "config.(V) Mildkewy Food Starter.name": "(V) Mildkewy Food Starter",
+        "config.(V) Mildkewy Food Starter.description": "Schaltet alle Änderungen in Mildkewy Food Starter ein/aus.",
+        "config.(V) Mildkewy Food Starter.values.true": "Aktiviert",
+        "config.(V) Mildkewy Food Starter.values.false": "Deaktiviert",
+    
+        "config.(W) Tobacco and Hemp.name": "(W) Tobacco and Hemp",
+        "config.(W) Tobacco and Hemp.description": "Schaltet alle Änderungen in Tobacco and Hemp ein/aus.",
+        "config.(W) Tobacco and Hemp.values.true": "Aktiviert",
+        "config.(W) Tobacco and Hemp.values.false": "Deaktiviert",
+    
+        "config.(X) Ridgeside Village.name": "(X) Ridgeside Village",
+        "config.(X) Ridgeside Village.description": "Schaltet alle Änderungen in Ridgeside Village ein/aus.",
+        "config.(X) Ridgeside Village.values.true": "Aktiviert",
+        "config.(X) Ridgeside Village.values.false": "Deaktiviert",
+    
+        "config.(Y) Adventurer Guild Expanded.name": "(Y) Adventurer Guild Expanded",
+        "config.(Y) Adventurer Guild Expanded.description": "Schaltet alle Änderungen in Adventurer Guild Expanded ein/aus.",
+        "config.(Y) Adventurer Guild Expanded.values.true": "Aktiviert",
+        "config.(Y) Adventurer Guild Expanded.values.false": "Deaktiviert",
+    
+        "config.(Z) Distant Lands.name": "(Z) Distant Lands",
+        "config.(Z) Distant Lands.description": "Schaltet alle Änderungen in Distant Lands ein/aus.",
+        "config.(Z) Distant Lands.values.true": "Aktiviert",
+        "config.(Z) Distant Lands.values.false": "Deaktiviert",
 
-    // SECTION U - TAHLA CROPS
-        "config.$ Toggle All Sprites - Section U.name": "$ Teilweiser Schalter\nSektion U: Tahla Crops",
-        "config.$ Toggle All Sprites - Section U.description": "Schaltet alle Änderungen in Tahla Crops ein/aus.",
-        "config.$ Toggle All Sprites - Section U.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section U.values.Disabled": "Ausgeschaltet",
-
-    // SECTION V - MILDKEWY FOOD STARTER
-        "config.$ Toggle All Sprites - Section V.name": "$ Teilweiser Schalter\nSektion V: Mildkewy Food Starter",
-        "config.$ Toggle All Sprites - Section V.description": "Schaltet alle Änderungen in Mildkewy Food Starter ein/aus.",
-        "config.$ Toggle All Sprites - Section V.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section V.values.Disabled": "Ausgeschaltet",
-
-    // SECTION W - TOBACCO AND HEMP
-        "config.$ Toggle All Sprites - Section W.name": "$ Teilweiser Schalter\nSektion W: Tobacco and Hemp",
-        "config.$ Toggle All Sprites - Section W.description": "Schaltet alle Änderungen in Tobacco and Hemp ein/aus.",
-        "config.$ Toggle All Sprites - Section W.values.Enabled": "Eingeschaltet",
-        "config.$ Toggle All Sprites - Section W.values.Disabled": "Ausgeschaltet"
-}
+        "config.(A²) Magical Crops.name": "(A²) Magical Crops",
+        "config.(A²) Magical Crops.description": "Schaltet alle Änderungen in Magical Crops ein/aus.",
+        "config.(A²) Magical Crops.values.true": "Aktiviert",
+        "config.(A²) Magical Crops.values.false": "Deaktiviert"
+}    

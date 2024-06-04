@@ -1,199 +1,190 @@
 {
-    //CONFIG DEFINITIONS
-        // SEED PACKET VARIANT
-            "config.Seed Packet Variant.name": "Fröpaketvariant",
-            "config.Seed Packet Variant.description": "Ställ in paketvarianten för alla frötexturer.\nSe bilder på modsidan för referenser.",
-            "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
-            "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
-            "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
-            "config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
-            "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
-            "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
+    // CONFIG OPTIONS
+        "config.Seed Packet Variant.name": "Fröpaketvariant",
+        "config.Seed Packet Variant.description": "Ställ in paketvarianten för alla frötexturer.\nSe bilder på modsidan för referenser.",
+        "config.Seed Packet Variant.values.(1) Sensible Sleeves": "(1) Sensible Sleeves",
+        "config.Seed Packet Variant.values.(2) Seasonal Sleeves": "(2) Seasonal Sleeves",
+        "config.Seed Packet Variant.values.(3) Sensible Satchels": "(3) Sensible Satchels",
+        "config.Seed Packet Variant.values.(4) Seasonal Satchels": "(4) Seasonal Satchels",
+        "config.Seed Packet Variant.values.(5) Sensible Stashes": "(5) Sensible Stashes",
+        "config.Seed Packet Variant.values.(6) Seasonal Stashes": "(6) Seasonal Stashes",
+
+        "config.Sapling Sack Color.name": "Trädsapling Säckfärg",
+        "config.Sapling Sack Color.description": "Ställ in säckfärgen för alla trädsapling sprites.\nSe bilder på modsidan för referenser.",
+        "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
+        "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
+        "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+        "config.Sapling Sack Color.values.(4) Crypt": "(4) Crypt",
+
+    // GLOBAL TOGGLES
+        "config.= Disable Entire Mod.name": "= Inaktivera hela mod",
+        "config.= Disable Entire Mod.description": "Växla aktiveringsstatus för hela moddet.",
+        "config.= Disable Entire Mod.values.true": "Aktiverad",
+        "config.= Disable Entire Mod.values.false": "Inaktiverad",
+
+        "config.Seed Sprites.name": "Växla Frötexturer",
+        "config.Seed Sprites.description": "Växla laddningsstatus för alla frötexturer.",
+        "config.Seed Sprites.values.Enabled": "Aktiverad",
+        "config.Seed Sprites.values.Disabled": "Inaktiverad",
     
-        // SAPLING SACK COLOR
-            "config.Sapling Sack Color.name": "Trädsapling Säckfärg",
-            "config.Sapling Sack Color.description": "Ställ in säckfärgen för alla trädsapling sprites.\nSe bilder på modsidan för referenser.",
-            "config.Sapling Sack Color.values.(1) Cloud": "(1) Cloud",
-            "config.Sapling Sack Color.values.(2) Cream": "(2) Cream",
-            "config.Sapling Sack Color.values.(3) Chest": "(3) Chest",
+        "config.Sapling Sprites.name": "Växla Trädsaplingtexturer",
+        "config.Sapling Sprites.description": "Växla laddningsstatus för alla trädsaplingtexturer.",
+        "config.Sapling Sprites.values.Enabled": "Aktiverad",
+        "config.Sapling Sprites.values.Disabled": "Inaktiverad",
+
+        "config.Bush Sprites.name": "Växla Busketexturer",
+        "config.Bush Sprites.description": "Växla laddningsstatus för alla busketexturer.",
+        "config.Bush Sprites.values.Enabled": "Aktiverad",
+        "config.Bush Sprites.values.Disabled": "Inaktiverad",
+
+        "config.Trellis Sprites.name": "Växla Spaljetexturer",
+        "config.Trellis Sprites.description": "Växla laddningsstatus för alla spaljetexturer.",
+        "config.Trellis Sprites.values.Enabled": "Aktiverad",
+        "config.Trellis Sprites.values.Disabled": "Inaktiverad",
+
+        "config.Tea Sapling Sprites.name": "Växla Te Saplingtexturer",
+        "config.Tea Sapling Sprites.description": "Växla laddningsstatus för alla te saplingtexturer.",
+        "config.Tea Sapling Sprites.values.Enabled": "Aktiverad",
+        "config.Tea Sapling Sprites.values.Disabled": "Inaktiverad",
+
+        "config.Mixed Seed Sprites.name": "Växla Utsädetexturer",
+        "config.Mixed Seed Sprites.description": "Växla laddningsstatus för alla utsädetexturer.",
+        "config.Mixed Seed Sprites.values.Enabled": "Aktiverad",
+        "config.Mixed Seed Sprites.values.Disabled": "Inaktiverad",
+
+    // MOD SECTION TOGGLES
+        "config.(A) Vanilla.name": "(A) Vanilla",
+        "config.(A) Vanilla.description": "Växla laddningsstatus för alla sprites från basspelet.",
+        "config.(A) Vanilla.values.true": "Aktiverad",
+        "config.(A) Vanilla.values.false": "Inaktiverad",
+
+        "config.(B) Stardew Valley Expanded.name": "(B) Stardew Valley Expanded",
+        "config.(B) Stardew Valley Expanded.description": "Växla laddningsstatus för alla sprites från Stardew Valley Expanded.",
+        "config.(B) Stardew Valley Expanded.values.true": "Aktiverad",
+        "config.(B) Stardew Valley Expanded.values.false": "Inaktiverad",
+
+        "config.(C) East Scarp.name": "(C) East Scarp",
+        "config.(C) East Scarp.description": "Växla laddningsstatus för alla sprites från East Scarp.",
+        "config.(C) East Scarp.values.true": "Aktiverad",
+        "config.(C) East Scarp.values.false": "Inaktiverad",
+
+        "config.(D) Visit Mount Vapius.name": "(D) Visit Mount Vapius",
+        "config.(D) Visit Mount Vapius.description": "Växla laddningsstatus för alla sprites från Visit Mount Vapius.",
+        "config.(D) Visit Mount Vapius.values.true": "Aktiverad",
+        "config.(D) Visit Mount Vapius.values.false": "Inaktiverad",
+
+        "config.(E) Serene Meadow.name": "(E) Serene Meadow",
+        "config.(E) Serene Meadow.description": "Växla laddningsstatus för alla sprites från Serene Meadow.",
+        "config.(E) Serene Meadow.values.true": "Aktiverad",
+        "config.(E) Serene Meadow.values.false": "Inaktiverad",
+
+        "config.(F) Growable Forage.name": "(F) Growable Forage",
+        "config.(F) Growable Forage.description": "Växla laddningsstatus för alla sprites från Growable Forage.",
+        "config.(F) Growable Forage.values.true": "Aktiverad",
+        "config.(F) Growable Forage.values.false": "Inaktiverad",
+
+        "config.(G) Cornucopia Crops.name": "(G) Cornucopia Crops",
+        "config.(G) Cornucopia Crops.description": "Växla laddningsstatus för alla sprites från Cornucopia Crops.",
+        "config.(G) Cornucopia Crops.values.true": "Aktiverad",
+        "config.(G) Cornucopia Crops.values.false": "Inaktiverad",
+
+        "config.(H) Cornucopia Herbs.name": "(H) Cornucopia Herbs",
+        "config.(H) Cornucopia Herbs.description": "Växla laddningsstatus för alla sprites från Cornucopia Herbs.",
+        "config.(H) Cornucopia Herbs.values.true": "Aktiverad",
+        "config.(H) Cornucopia Herbs.values.false": "Inaktiverad",
+
+        "config.(I) Cornucopia Flowers.name": "(I) Cornucopia Flowers",
+        "config.(I) Cornucopia Flowers.description": "Växla laddningsstatus för alla sprites från Cornucopia Flowers.",
+        "config.(I) Cornucopia Flowers.values.true": "Aktiverad",
+        "config.(I) Cornucopia Flowers.values.false": "Inaktiverad",
+
+        "config.(J) Ilucie Winter Crops.name": "(J) Ilucie Winter Crops",
+        "config.(J) Ilucie Winter Crops.description": "Växla laddningsstatus för alla sprites från Ilucie Winter Crops.",
+        "config.(J) Ilucie Winter Crops.values.true": "Aktiverad",
+        "config.(J) Ilucie Winter Crops.values.false": "Inaktiverad",
+
+        "config.(K) Flower Garden 2.name": "(K) Flower Garden 2",
+        "config.(K) Flower Garden 2.description": "Växla laddningsstatus för alla sprites från Flower Garden 2.",
+        "config.(K) Flower Garden 2.values.true": "Aktiverad",
+        "config.(K) Flower Garden 2.values.false": "Inaktiverad",
+
+        "config.(L) Grapes of Ferngill.name": "(L) Grapes of Ferngill",
+        "config.(L) Grapes of Ferngill.description": "Växla laddningsstatus för alla sprites från Grapes of Ferngill.",
+        "config.(L) Grapes of Ferngill.values.true": "Aktiverad",
+        "config.(L) Grapes of Ferngill.values.false": "Inaktiverad",
+
+        "config.(M) Atelier Goods Forager.name": "(M) Atelier Goods Forager",
+        "config.(M) Atelier Goods Forager.description": "Växla laddningsstatus för alla sprites från Atelier Goods Forager.",
+        "config.(M) Atelier Goods Forager.values.true": "Aktiverad",
+        "config.(M) Atelier Goods Forager.values.false": "Inaktiverad",
+
+        "config.(N) Garden Variety Mixed Seeds.name": "(N) Garden Variety Mixed Seeds",
+        "config.(N) Garden Variety Mixed Seeds.description": "Växla laddningsstatus för alla sprites från Garden Variety Mixed Seeds.",
+        "config.(N) Garden Variety Mixed Seeds.values.true": "Aktiverad",
+        "config.(N) Garden Variety Mixed Seeds.values.false": "Inaktiverad",
+
+        "config.(O) Forage of Ferngill.name": "(O) Forage of Ferngill",
+        "config.(O) Forage of Ferngill.description": "Växla laddningsstatus för alla sprites från Forage of Ferngill.",
+        "config.(O) Forage of Ferngill.values.true": "Aktiverad",
+        "config.(O) Forage of Ferngill.values.false": "Inaktiverad",
+
+        "config.(P) Grains Overhull.name": "(P) Grains Overhull",
+        "config.(P) Grains Overhull.description": "Växla laddningsstatus för alla sprites från Grains Overhull.",
+        "config.(P) Grains Overhull.values.true": "Aktiverad",
+        "config.(P) Grains Overhull.values.false": "Inaktiverad",
+
+        "config.(Q) Bonster Crops Combined.name": "(Q) Bonster Crops Combined",
+        "config.(Q) Bonster Crops Combined.description": "Växla laddningsstatus för alla sprites från Bonster Crops Combined.",
+        "config.(Q) Bonster Crops Combined.values.true": "Aktiverad",
+        "config.(Q) Bonster Crops Combined.values.false": "Inaktiverad",
+
+        "config.(R) Uncle Iroh Tea.name": "(R) Uncle Iroh Tea",
+        "config.(R) Uncle Iroh Tea.description": "Växla laddningsstatus för alla sprites från Uncle Iroh Tea.",
+        "config.(R) Uncle Iroh Tea.values.true": "Aktiverad",
+        "config.(R) Uncle Iroh Tea.values.false": "Inaktiverad",
+
+        "config.(S) Polyamory Sweet.name": "(S) Polyamory Sweet",
+        "config.(S) Polyamory Sweet.description": "Växla laddningsstatus för alla sprites från Polyamory Sweet.",
+        "config.(S) Polyamory Sweet.values.true": "Aktiverad",
+        "config.(S) Polyamory Sweet.values.false": "Inaktiverad",
+
+        "config.(T) Ore Crops.name": "(T) Ore Crops",
+        "config.(T) Ore Crops.description": "Växla laddningsstatus för alla sprites från Ore Crops.",
+        "config.(T) Ore Crops.values.true": "Aktiverad",
+        "config.(T) Ore Crops.values.false": "Inaktiverad",
+
+        "config.(U) Tahla Crops.name": "(U) Tahla Crops",
+        "config.(U) Tahla Crops.description": "Växla laddningsstatus för alla sprites från Tahla Crops.",
+        "config.(U) Tahla Crops.values.true": "Aktiverad",
+        "config.(U) Tahla Crops.values.false": "Inaktiverad",
     
-        // GENERAL MOD TOGGLE
-            "config.= General Mod Toggle.name": "= = Växla Hela Moddet",
-            "config.= General Mod Toggle.description": "Växla aktiveringsstatus för hela moddet.",
-            "config.= General Mod Toggle.values.Enabled": "Aktiverad",
-            "config.= General Mod Toggle.values.Disabled": "Inaktiverad",
+        "config.(V) Mildkewy Food Starter.name": "(V) Mildkewy Food Starter",
+        "config.(V) Mildkewy Food Starter.description": "Växla laddningsstatus för alla sprites från Mildkewy Food Starter.",
+        "config.(V) Mildkewy Food Starter.values.true": "Aktiverad",
+        "config.(V) Mildkewy Food Starter.values.false": "Inaktiverad",
     
-        // SEED SPRITES TOGGLE
-            "config.Seed Sprites Toggle.name": "Växla Frötexturer",
-            "config.Seed Sprites Toggle.description": "Växla laddningsstatus för alla frötexturer.",
-            "config.Seed Sprites Toggle.values.Enabled": "Aktiverad",
-            "config.Seed Sprites Toggle.values.Disabled": "Inaktiverad",
-        
-        // SAPLING SPRITES TOGGLE
-            "config.Sapling Sprites Toggle.name": "Växla Trädsaplingtexturer",
-            "config.Sapling Sprites Toggle.description": "Växla laddningsstatus för alla trädsaplingtexturer.",
-            "config.Sapling Sprites Toggle.values.Enabled": "Aktiverad",
-            "config.Sapling Sprites Toggle.values.Disabled": "Inaktiverad",
+        "config.(W) Tobacco and Hemp.name": "(W) Tobacco and Hemp",
+        "config.(W) Tobacco and Hemp.description": "Växla laddningsstatus för alla sprites från Tobacco and Hemp.",
+        "config.(W) Tobacco and Hemp.values.true": "Aktiverad",
+        "config.(W) Tobacco and Hemp.values.false": "Inaktiverad",
     
-        // BUSH SPRITES TOGGLE
-            "config.Bush Sprites Toggle.name": "Växla Busketexturer",
-            "config.Bush Sprites Toggle.description": "Växla laddningsstatus för alla busketexturer.",
-            "config.Bush Sprites Toggle.values.Enabled": "Aktiverad",
-            "config.Bush Sprites Toggle.values.Disabled": "Inaktiverad",
+        "config.(X) Ridgeside Village.name": "(X) Ridgeside Village",
+        "config.(X) Ridgeside Village.description": "Växla laddningsstatus för alla sprites från Ridgeside Village.",
+        "config.(X) Ridgeside Village.values.true": "Aktiverad",
+        "config.(X) Ridgeside Village.values.false": "Inaktiverad",
     
-        // TRELLIS SPRITES TOGGLE
-            "config.Trellis Sprites Toggle.name": "Växla Spaljetexturer",
-            "config.Trellis Sprites Toggle.description": "Växla laddningsstatus för alla spaljetexturer.",
-            "config.Trellis Sprites Toggle.values.Enabled": "Aktiverad",
-            "config.Trellis Sprites Toggle.values.Disabled": "Inaktiverad",
+        "config.(Y) Adventurer Guild Expanded.name": "(Y) Adventurer Guild Expanded",
+        "config.(Y) Adventurer Guild Expanded.description": "Växla laddningsstatus för alla sprites från Adventurer Guild Expanded.",
+        "config.(Y) Adventurer Guild Expanded.values.true": "Aktiverad",
+        "config.(Y) Adventurer Guild Expanded.values.false": "Inaktiverad",
     
-        // TEA SAPLING SPRITES TOGGLE
-            "config.Tea Sapling Sprites Toggle.name": "Växla Te Saplingtexturer",
-            "config.Tea Sapling Sprites Toggle.description": "Växla laddningsstatus för alla te saplingtexturer.",
-            "config.Tea Sapling Sprites Toggle.values.Enabled": "Aktiverad",
-            "config.Tea Sapling Sprites Toggle.values.Disabled": "Inaktiverad",
-    
-        // MIXED SEED SPRITES TOGGLE
-            "config.Mixed Seed Sprites Toggle.name": "Växla Utsädetexturer",
-            "config.Mixed Seed Sprites Toggle.description": "Växla laddningsstatus för alla utsädetexturer.",
-            "config.Mixed Seed Sprites Toggle.values.Enabled": "Aktiverad",
-            "config.Mixed Seed Sprites Toggle.values.Disabled": "Inaktiverad",
-    
-        // SECTION A - VANILLA
-            "config.$ Toggle All Sprites - Section A.name": "$ Växla Alla Texturer - Avsnitt A",
-            "config.$ Toggle All Sprites - Section A.description": "Växla laddningsstatus för alla sprites från Vanilla.",
-            "config.$ Toggle All Sprites - Section A.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section A.values.Disabled": "Inaktiverad",
-    
-        // SECTION B - STARDEW VALLEY EXPANDED
-            "config.$ Toggle All Sprites - Section B.name": "$ Växla Alla Texturer - Avsnitt B",
-            "config.$ Toggle All Sprites - Section B.description": "Växla laddningsstatus för alla sprites från Stardew Valley Expanded.",
-            "config.$ Toggle All Sprites - Section B.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section B.values.Disabled": "Inaktiverad",
+        "config.(Z) Distant Lands.name": "(Z) Distant Lands",
+        "config.(Z) Distant Lands.description": "Växla laddningsstatus för alla sprites från Distant Lands.",
+        "config.(Z) Distant Lands.values.true": "Aktiverad",
+        "config.(Z) Distant Lands.values.false": "Inaktiverad",
 
-        // SECTION C - EAST SCARP
-            "config.$ Toggle All Sprites - Section C.name": "$ Växla Alla Texturer - Avsnitt C",
-            "config.$ Toggle All Sprites - Section C.description": "Växla laddningsstatus för alla sprites från East Scarp.",
-            "config.$ Toggle All Sprites - Section C.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section C.values.Disabled": "Inaktiverad",
-
-        // SECTION D - VISIT MOUNT VAPIUS
-            "config.$ Toggle All Sprites - Section D.name": "$ Växla Alla Texturer - Avsnitt D",
-            "config.$ Toggle All Sprites - Section D.description": "Växla laddningsstatus för alla sprites från Visit Mount Vapius.",
-            "config.$ Toggle All Sprites - Section D.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section D.values.Disabled": "Inaktiverad",
-
-        // SECTION E - SERENE MEADOW
-            "config.$ Toggle All Sprites - Section E.name": "$ Växla Alla Texturer - Avsnitt E",
-            "config.$ Toggle All Sprites - Section E.description": "Växla laddningsstatus för alla sprites från Serene Meadow.",
-            "config.$ Toggle All Sprites - Section E.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section E.values.Disabled": "Inaktiverad",
-
-        // SECTION F - GROWABLE FORAGE
-            "config.$ Toggle All Sprites - Section F.name": "$ Växla Alla Texturer - Avsnitt F",
-            "config.$ Toggle All Sprites - Section F.description": "Växla laddningsstatus för alla sprites från Growable Forage.",
-            "config.$ Toggle All Sprites - Section F.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section F.values.Disabled": "Inaktiverad",
-
-        // SECTION G - CORNUCOPIA CROPS
-            "config.$ Toggle All Sprites - Section G.name": "$ Växla Alla Texturer - Avsnitt G",
-            "config.$ Toggle All Sprites - Section G.description": "Växla laddningsstatus för alla sprites från Cornucopia Crops.",
-            "config.$ Toggle All Sprites - Section G.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section G.values.Disabled": "Inaktiverad",
-
-        // SECTION H - CORNUCOPIA HERBS
-            "config.$ Toggle All Sprites - Section H.name": "$ Växla Alla Texturer - Avsnitt H",
-            "config.$ Toggle All Sprites - Section H.description": "Växla laddningsstatus för alla sprites från Cornucopia Herbs.",
-            "config.$ Toggle All Sprites - Section H.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section H.values.Disabled": "Inaktiverad",
-
-        // SECTION I - CORNUCOPIA FLOWERS
-            "config.$ Toggle All Sprites - Section I.name": "$ Växla Alla Texturer - Avsnitt I",
-            "config.$ Toggle All Sprites - Section I.description": "Växla laddningsstatus för alla sprites från Cornucopia Flowers.",
-            "config.$ Toggle All Sprites - Section I.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section I.values.Disabled": "Inaktiverad",
-
-        // SECTION J - ILUCIE WINTER CROPS
-            "config.$ Toggle All Sprites - Section J.name": "$ Växla Alla Texturer - Avsnitt J",
-            "config.$ Toggle All Sprites - Section J.description": "Växla laddningsstatus för alla sprites från Ilucie Winter Crops.",
-            "config.$ Toggle All Sprites - Section J.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section J.values.Disabled": "Inaktiverad",
-
-        // SECTION K - FLOWER GARDEN 2
-            "config.$ Toggle All Sprites - Section K.name": "$ Växla Alla Texturer - Avsnitt K",
-            "config.$ Toggle All Sprites - Section K.description": "Växla laddningsstatus för alla sprites från Flower Garden 2.",
-            "config.$ Toggle All Sprites - Section K.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section K.values.Disabled": "Inaktiverad",
-
-        // SECTION L - GRAPES OF FERNGILL
-            "config.$ Toggle All Sprites - Section L.name": "$ Växla Alla Texturer - Avsnitt L",
-            "config.$ Toggle All Sprites - Section L.description": "Växla laddningsstatus för alla sprites från Grapes of Ferngill.",
-            "config.$ Toggle All Sprites - Section L.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section L.values.Disabled": "Inaktiverad",
-
-        // SECTION M - ATELIER GOODS FORAGER
-            "config.$ Toggle All Sprites - Section M.name": "$ Växla Alla Texturer - Avsnitt M",
-            "config.$ Toggle All Sprites - Section M.description": "Växla laddningsstatus för alla sprites från Atelier Goods Forager.",
-            "config.$ Toggle All Sprites - Section M.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section M.values.Disabled": "Inaktiverad",
-
-        // SECTION N - GARDEN VARIETY MIXED SEEDS
-            "config.$ Toggle All Sprites - Section N.name": "$ Växla Alla Texturer - Avsnitt N",
-            "config.$ Toggle All Sprites - Section N.description": "Växla laddningsstatus för alla sprites från Garden Variety Mixed Seeds.",
-            "config.$ Toggle All Sprites - Section N.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section N.values.Disabled": "Inaktiverad",
-
-        // SECTION O - FORAGE OF FERNGILL
-            "config.$ Toggle All Sprites - Section O.name": "$ Växla Alla Texturer - Avsnitt O",
-            "config.$ Toggle All Sprites - Section O.description": "Växla laddningsstatus för alla sprites från Forage of Ferngill.",
-            "config.$ Toggle All Sprites - Section O.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section O.values.Disabled": "Inaktiverad",
-
-        // SECTION P - GRAINS OVERHULL
-            "config.$ Toggle All Sprites - Section P.name": "$ Växla Alla Texturer - Avsnitt P",
-            "config.$ Toggle All Sprites - Section P.description": "Växla laddningsstatus för alla sprites från Grains Overhull.",
-            "config.$ Toggle All Sprites - Section P.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section P.values.Disabled": "Inaktiverad",
-
-        // SECTION Q - CLOUDBERRIES AS FORAGE
-            "config.$ Toggle All Sprites - Section Q.name": "$ Växla Alla Texturer - Avsnitt Q",
-            "config.$ Toggle All Sprites - Section Q.description": "Växla laddningsstatus för alla sprites från Cloudberries as Forage.",
-            "config.$ Toggle All Sprites - Section Q.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section Q.values.Disabled": "Inaktiverad",
-
-        // SECTION R - UNCLE IROH TEA
-            "config.$ Toggle All Sprites - Section R.name": "$ Växla Alla Texturer - Avsnitt R",
-            "config.$ Toggle All Sprites - Section R.description": "Växla laddningsstatus för alla sprites från Uncle Iroh Tea.",
-            "config.$ Toggle All Sprites - Section R.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section R.values.Disabled": "Inaktiverad",
-
-        // SECTION S - POLYAMORY SWEET
-            "config.$ Toggle All Sprites - Section S.name": "$ Växla Alla Texturer - Avsnitt S",
-            "config.$ Toggle All Sprites - Section S.description": "Växla laddningsstatus för alla sprites från Polyamory Sweet.",
-            "config.$ Toggle All Sprites - Section S.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section S.values.Disabled": "Inaktiverad",
-
-        // SECTION T - ORE CROPS
-            "config.$ Toggle All Sprites - Section T.name": "$ Växla Alla Texturer - Avsnitt T",
-            "config.$ Toggle All Sprites - Section T.description": "Växla laddningsstatus för alla sprites från Ore Crops.",
-            "config.$ Toggle All Sprites - Section T.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section T.values.Disabled": "Inaktiverad",
-
-        // SECTION U - TAHLA CROPS
-            "config.$ Toggle All Sprites - Section U.name": "$ Växla Alla Texturer - Avsnitt U",
-            "config.$ Toggle All Sprites - Section U.description": "Växla laddningsstatus för alla sprites från Tahla Crops.",
-            "config.$ Toggle All Sprites - Section U.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section U.values.Disabled": "Inaktiverad",
-        
-        // SECTION V - MILDKEWY FOOD STARTER
-            "config.$ Toggle All Sprites - Section V.name": "$ Växla Alla Texturer - Avsnitt V",
-            "config.$ Toggle All Sprites - Section V.description": "Växla laddningsstatus för alla sprites från Mildkewy Food Starter.",
-            "config.$ Toggle All Sprites - Section V.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section V.values.Disabled": "Inaktiverad",
-        
-        // SECTION W - TOBACCO AND HEMP
-            "config.$ Toggle All Sprites - Section W.name": "$ Växla Alla Texturer - Avsnitt W",
-            "config.$ Toggle All Sprites - Section W.description": "Växla laddningsstatus för alla sprites från Tobacco and Hemp.",
-            "config.$ Toggle All Sprites - Section W.values.Enabled": "Aktiverad",
-            "config.$ Toggle All Sprites - Section W.values.Disabled": "Inaktiverad"
+        "config.(A²) Magical Crops.name": "(A²) Magical Crops",
+        "config.(A²) Magical Crops.description": "Växla laddningsstatus för alla sprites från Magical Crops.",
+        "config.(A²) Magical Crops.values.true": "Aktiverad",
+        "config.(A²) Magical Crops.values.false": "Inaktiverad"
 }
