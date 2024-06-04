@@ -1,7 +1,7 @@
 # GALLERY
 ### REFERENCES
 ![Reference- A](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/f6983b57-22fa-450f-8f52-8d011c64e64f)
-![Reference- B](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/f2aa5307-a67d-43b4-8da1-e14121aac56c)
+![Reference- B](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/54a596da-ca8c-4ef3-9f58-ea4ae8f275df)
 ![Reference- C](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/e8b1e13a-e29e-4bdd-8106-7a4a834dfa97)
 ![Reference- D](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/ad9639e3-5d65-4be5-9346-68f017be857a)
 ![Reference- E](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/b90a8680-91ef-4338-bb3e-ddc960ba9323)
@@ -23,10 +23,13 @@
 ![Comparison - N](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/d7921ded-c88b-435b-b815-956710a95b02)
 ![Comparison - O](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/4f884ec1-32ca-46aa-8bb9-14c4531aa8ca)
 ![Comparison - P](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/f6de0bc3-2af7-4f8b-bd6c-6a994f5fcc2a)
-![Comparison - Q](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/2c25976a-6335-47d2-96b0-3052469d6eb0)
+![Comparison - Q](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/0e224887-3332-4323-a04d-d9c1d9bee700)
 ![Comparison - R](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/815feed1-fd7a-496f-be14-a8ab95ae4de6)
 ![Comparison - S](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/83894335-e0c0-446d-9218-dec4ff3802ff)
 ![Comparison - T](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/859a8b3d-1094-4c12-91c3-0a704561c54f)
 ![Comparison - U](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/79b57a8f-71d8-4491-8448-b8c526c379a6)
 ![Comparison - V](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/8427c086-fa4f-454f-ba2d-d85904540a43)
 ![Comparison - W](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/a7836d46-9f14-4d9e-8c81-3c1c03bef08e)
+![Comparison - Y](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/f6a56105-d09e-458b-9ba1-7503a099f79b)
+![Comparison - Z](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/fe34d531-e4f0-4342-bd1f-cd9772c976d0)
+![Comparison - A^2](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/40a90d13-955d-4cb0-a6ef-7cfc36503a9b)
