@@ -1,4 +1,4 @@
-![Title-Page](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/722c294d-a7e3-4022-be91-a65bfbedac15)
+![Title-Page](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/6b7c343a-e51c-4e7c-bc05-3a76e0532cd8)
 
 
 ![d-information](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/9ee42555-8ae8-46af-9c4b-27662a3cd7f5)
@@ -174,7 +174,7 @@ Additionally Supported Languages:
 ![d-additional](https://github.com/7eventy7/Standardized-Seed-Sprites/assets/75962770/f27f3f5c-323b-47af-ab5f-e82ed3ac1e61)
 
 ### Other Mods That Pair Well:
-- [Bonster's Crops Restyled](https://www.nexusmods.com/stardewvalley/mods/)
+- [Bonster's Crops Restyled](https://www.nexusmods.com/stardewvalley/mods/24864)
 - [Passable Crops](https://www.nexusmods.com/stardewvalley/mods/15223)
 
 
